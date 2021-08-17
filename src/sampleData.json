@@ -1,0 +1,2972 @@
+{
+    "_embedded": {
+        "events": [
+            {
+                "name": "San Francisco 49ers - Preseason Game 2 v Las Vegas Raiders",
+                "type": "event",
+                "id": "G5vYZptfVi3ao",
+                "test": false,
+                "url": "https://www.ticketmaster.com/san-francisco-49ers-preseason-game-2-santa-clara-california-08-29-2021/event/1C005A9534B12251",
+                "locale": "en-us",
+                "images": [
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/b7d/d7460515-712c-4e09-b404-69c1b86e7b7d_1325511_EVENT_DETAIL_PAGE_16_9.jpg",
+                        "width": 205,
+                        "height": 115,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/b7d/d7460515-712c-4e09-b404-69c1b86e7b7d_1325511_TABLET_LANDSCAPE_3_2.jpg",
+                        "width": 1024,
+                        "height": 683,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/b7d/d7460515-712c-4e09-b404-69c1b86e7b7d_1325511_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                        "width": 2048,
+                        "height": 1152,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/b7d/d7460515-712c-4e09-b404-69c1b86e7b7d_1325511_RECOMENDATION_16_9.jpg",
+                        "width": 100,
+                        "height": 56,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/b7d/d7460515-712c-4e09-b404-69c1b86e7b7d_1325511_RETINA_PORTRAIT_3_2.jpg",
+                        "width": 640,
+                        "height": 427,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/b7d/d7460515-712c-4e09-b404-69c1b86e7b7d_1325511_RETINA_LANDSCAPE_16_9.jpg",
+                        "width": 1136,
+                        "height": 639,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/b7d/d7460515-712c-4e09-b404-69c1b86e7b7d_1325511_ARTIST_PAGE_3_2.jpg",
+                        "width": 305,
+                        "height": 203,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/b7d/d7460515-712c-4e09-b404-69c1b86e7b7d_1325511_TABLET_LANDSCAPE_16_9.jpg",
+                        "width": 1024,
+                        "height": 576,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "4_3",
+                        "url": "https://s1.ticketm.net/dam/a/b7d/d7460515-712c-4e09-b404-69c1b86e7b7d_1325511_CUSTOM.jpg",
+                        "width": 305,
+                        "height": 225,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/b7d/d7460515-712c-4e09-b404-69c1b86e7b7d_1325511_RETINA_PORTRAIT_16_9.jpg",
+                        "width": 640,
+                        "height": 360,
+                        "fallback": false
+                    }
+                ],
+                "sales": {
+                    "public": {
+                        "startDateTime": "2021-05-12T23:45:00Z",
+                        "startTBD": false,
+                        "startTBA": false,
+                        "endDateTime": "2021-08-29T21:00:00Z"
+                    },
+                    "presales": [
+                        {
+                            "startDateTime": "2021-05-12T23:45:00Z",
+                            "endDateTime": "2021-05-21T00:00:00Z",
+                            "name": "2021 Exclusive 49ers Faithful Onsale"
+                        }
+                    ]
+                },
+                "dates": {
+                    "start": {
+                        "localDate": "2021-08-29",
+                        "localTime": "13:00:00",
+                        "dateTime": "2021-08-29T20:00:00Z",
+                        "dateTBD": false,
+                        "dateTBA": false,
+                        "timeTBA": false,
+                        "noSpecificTime": false
+                    },
+                    "timezone": "America/Los_Angeles",
+                    "status": {
+                        "code": "onsale"
+                    },
+                    "spanMultipleDays": false
+                },
+                "classifications": [
+                    {
+                        "primary": true,
+                        "segment": {
+                            "id": "KZFzniwnSyZfZ7v7nE",
+                            "name": "Sports"
+                        },
+                        "genre": {
+                            "id": "KnvZfZ7vAdE",
+                            "name": "Football"
+                        },
+                        "subGenre": {
+                            "id": "KZazBEonSMnZfZ7vFE1",
+                            "name": "NFL"
+                        },
+                        "type": {
+                            "id": "KZAyXgnZfZ7v7l1",
+                            "name": "Group"
+                        },
+                        "subType": {
+                            "id": "KZFzBErXgnZfZ7vA7d",
+                            "name": "Team"
+                        },
+                        "family": false
+                    }
+                ],
+                "promoter": {
+                    "id": "704",
+                    "name": "NFL EXHIBITION & PRESEASON",
+                    "description": "NFL EXHIBITION & PRESEASON / NTL / USA"
+                },
+                "promoters": [
+                    {
+                        "id": "704",
+                        "name": "NFL EXHIBITION & PRESEASON",
+                        "description": "NFL EXHIBITION & PRESEASON / NTL / USA"
+                    }
+                ],
+                "priceRanges": [
+                    {
+                        "type": "standard",
+                        "currency": "USD",
+                        "min": 99.0,
+                        "max": 1500.0
+                    }
+                ],
+                "products": [
+                    {
+                        "name": "Parking - San Francisco 49ers v Las Vegas Raiders",
+                        "id": "G5vYZpc_iRvUy",
+                        "url": "https://www.ticketmaster.com/parking-san-francisco-49ers-v-las-santa-clara-california-08-29-2021/event/1C005AD66CBC1DB9",
+                        "type": "Parking",
+                        "classifications": [
+                            {
+                                "primary": true,
+                                "segment": {
+                                    "id": "KZFzniwnSyZfZ7v7nE",
+                                    "name": "Sports"
+                                },
+                                "genre": {
+                                    "id": "KnvZfZ7vA7A",
+                                    "name": "Miscellaneous"
+                                },
+                                "subGenre": {
+                                    "id": "KZazBEonSMnZfZ7vFIt",
+                                    "name": "Miscellaneous"
+                                },
+                                "type": {
+                                    "id": "KZAyXgnZfZ7v7nI",
+                                    "name": "Undefined"
+                                },
+                                "subType": {
+                                    "id": "KZFzBErXgnZfZ7v7lJ",
+                                    "name": "Undefined"
+                                },
+                                "family": false
+                            }
+                        ]
+                    }
+                ],
+                "seatmap": {
+                    "staticUrl": "https://maps.ticketmaster.com/maps/geometry/3/event/1C005A9534B12251/staticImage?type=png&systemId=HOST"
+                },
+                "accessibility": {
+                    "info": "Levi's® Stadium accessible seating is in a flat area that can accommodate a wheelchair and a fixed seat for a companion.  If the patron does not require a wheelchair space, a folding chair can be provided in that spot.  Levi's® Stadium has a limited number of accessible spaces available and they are solely available for the purpose of accommodating patrons with accessible needs.",
+                    "ticketLimit": 4
+                },
+                "ticketLimit": {
+                    "info": "There is an overall 8 ticket limit."
+                },
+                "ageRestrictions": {
+                    "legalAgeEnforced": false
+                },
+                "_links": {
+                    "self": {
+                        "href": "/discovery/v2/events/G5vYZptfVi3ao?locale=en-us"
+                    },
+                    "attractions": [
+                        {
+                            "href": "/discovery/v2/attractions/K8vZ9171oMV?locale=en-us"
+                        },
+                        {
+                            "href": "/discovery/v2/attractions/K8vZ9171oVV?locale=en-us"
+                        }
+                    ],
+                    "venues": [
+                        {
+                            "href": "/discovery/v2/venues/KovZpZAJaFkA?locale=en-us"
+                        }
+                    ]
+                },
+                "_embedded": {
+                    "venues": [
+                        {
+                            "name": "Levi's® Stadium",
+                            "type": "venue",
+                            "id": "KovZpZAJaFkA",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/levis-stadium-tickets-santa-clara/venue/229947",
+                            "locale": "en-us",
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dbimages/15991v.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                }
+                            ],
+                            "postalCode": "95054",
+                            "timezone": "America/Los_Angeles",
+                            "city": {
+                                "name": "Santa Clara"
+                            },
+                            "state": {
+                                "name": "California",
+                                "stateCode": "CA"
+                            },
+                            "country": {
+                                "name": "United States Of America",
+                                "countryCode": "US"
+                            },
+                            "address": {
+                                "line1": "4900 Marie P. DeBartolo Way"
+                            },
+                            "location": {
+                                "longitude": "-121.97034311",
+                                "latitude": "37.40367671"
+                            },
+                            "markets": [
+                                {
+                                    "name": "N. California/N. Nevada",
+                                    "id": "41"
+                                }
+                            ],
+                            "dmas": [
+                                {
+                                    "id": 250
+                                },
+                                {
+                                    "id": 273
+                                },
+                                {
+                                    "id": 282
+                                },
+                                {
+                                    "id": 341
+                                },
+                                {
+                                    "id": 368
+                                },
+                                {
+                                    "id": 374
+                                },
+                                {
+                                    "id": 382
+                                }
+                            ],
+                            "boxOfficeInfo": {
+                                "phoneNumberDetail": "415-GO-49ERS (415-464-9377)",
+                                "openHoursDetail": "9AM to 5PM Monday through Friday, 10AM to 5PM Saturday through Sunday",
+                                "acceptedPaymentDetail": "Visa, American Express, Mastercard",
+                                "willCallDetail": "Will Call tickets may be picked up at the Visa Box Office at Levi’s® Stadium. The Will Call windows open three (3) hours prior to the event. Will call tickets can be claimed only by the person whose name appears on the Will Call envelope. Government issued photo identification is required. ****** Bag Policy – All Events ****** • In compliance with the NFL’s Bag Policy, Levi’s® Stadium prohibits all bags, backpacks and other carriers from being brought into the stadium with the following exceptions: • NFL approved clear plastic bags (12” x 6” x 12”) • One gallon clear plastic zip lock type bags • Small Clutch Bag (the size of an adult hand) (4.5” x 6.5”) All approved bags are subject to inspection upon entry and are subject to additional inspections within the stadium. Guests with oversized bags or other prohibited items must check these bags or items at bag check sites located in front of Intel Gate A and Dignity Health Gate C, Toyota Gate F. These sites close one hour after the completion of the event."
+                            },
+                            "parkingDetail": "Levi’s® Stadium parking is available in various lots surrounding the building. Please refer to your parking pass (if available) for information regarding your assigned lot, or to staff and signage on the roadways for cash lots and further instruction. Public transportation is strongly recommended. Visit www.levisstadium.com/parking for directions and details.",
+                            "accessibleSeatingDetail": "Accessible seating for patrons requiring wheelchair access is available with up to 3 companions. FOR ALL OTHER ACCESSIBLE AND LIMITED MOBILITY CONCERNS, PLEASE CALL (415) 467-9377",
+                            "generalInfo": {
+                                "generalRule": "ALL INDIVIDUALS AND THEIR BELONGINGS ARE SUBJECT TO SEARCH. THE FOLLOWING INFORMATION IS SUBJECT TO CHANGE WITHOUT NOTICE. You and your belongings may be searched upon entry into the Stadium. The 49ers strongly encourage fans to not bring any type of bags. Fans will be able to carry the following style and size bag, package, or container at stadium plaza areas, stadium gates, or when approaching queue lines of fans awaiting entry into the stadium: • Bags that are clear plastic, vinyl or PVC and do not exceed 12” x 6” x 12.” (Official NFL team logo clear plastic tote bags are available through club merchandise outlets or at nflshop.com), or • One-gallon clear plastic freezer bag (Ziploc bag or similar). • Small clutch bags, approximately the size of a hand, with or without a handle or strap, may be carried into the stadium along with one of the clear bag options. • An exception will be made for medically necessary items after proper inspection at a gate designated for this purpose. Prohibited items include, but are not limited to: purses larger than a clutch bag, coolers, briefcases, backpacks, fanny packs, cinch bags, luggage of any kind, seat cushions, computer bags and camera bags or any bag larger than the permissible size. By tendering the ticket and entering the Stadium, you consent to such searches and waive any related claims that you might have against the NFL, its member clubs, their affiliates and stadium landlord, or their agents. If you elect not to consent to the searches, you will be denied entry into the Stadium. PLEASE ARRIVE EARLY TO AVOID LAST MINUTE GATE PRESSURE.",
+                                "childRule": "CHILDREN UNDER THE AGE OF TWO (2) ARE ADMITTED FREE PROVIDED THEY SIT ON AN ADULT'S LAP. CHILDREN, AGED TWO (2) AND OVER MUST HAVE A VALID TICKET FOR ADMISSION. For additional Stadium information including permitted and prohibited items please visit http://www.levisstadium.com/stadium-info/about-levis-stadium/ Miscellaneous For additional Stadium information including permitted and prohibited items please call 415-656-4949 or visit www.49ers.com/stadium"
+                            },
+                            "upcomingEvents": {
+                                "_total": 9,
+                                "ticketmaster": 9
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/venues/KovZpZAJaFkA?locale=en-us"
+                                }
+                            }
+                        }
+                    ],
+                    "attractions": [
+                        {
+                            "name": "San Francisco 49ers",
+                            "type": "attraction",
+                            "id": "K8vZ9171oMV",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/san-francisco-49ers-tickets/artist/806015",
+                            "locale": "en-us",
+                            "externalLinks": {
+                                "twitter": [
+                                    {
+                                        "url": "https://twitter.com/49ers"
+                                    }
+                                ],
+                                "facebook": [
+                                    {
+                                        "url": "https://www.facebook.com/SANFRANCISCO49ERS/"
+                                    }
+                                ],
+                                "wiki": [
+                                    {
+                                        "url": "https://en.wikipedia.org/wiki/San_Francisco_49ers"
+                                    }
+                                ],
+                                "instagram": [
+                                    {
+                                        "url": "https://www.instagram.com/49ers/"
+                                    }
+                                ],
+                                "homepage": [
+                                    {
+                                        "url": "https://www.49ers.com/"
+                                    }
+                                ]
+                            },
+                            "aliases": [
+                                "niners",
+                                "sfo 49ers"
+                            ],
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/b7d/d7460515-712c-4e09-b404-69c1b86e7b7d_1325511_EVENT_DETAIL_PAGE_16_9.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/b7d/d7460515-712c-4e09-b404-69c1b86e7b7d_1325511_TABLET_LANDSCAPE_3_2.jpg",
+                                    "width": 1024,
+                                    "height": 683,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/b7d/d7460515-712c-4e09-b404-69c1b86e7b7d_1325511_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                                    "width": 2048,
+                                    "height": 1152,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/b7d/d7460515-712c-4e09-b404-69c1b86e7b7d_1325511_RECOMENDATION_16_9.jpg",
+                                    "width": 100,
+                                    "height": 56,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/b7d/d7460515-712c-4e09-b404-69c1b86e7b7d_1325511_RETINA_PORTRAIT_3_2.jpg",
+                                    "width": 640,
+                                    "height": 427,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/b7d/d7460515-712c-4e09-b404-69c1b86e7b7d_1325511_RETINA_LANDSCAPE_16_9.jpg",
+                                    "width": 1136,
+                                    "height": 639,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/b7d/d7460515-712c-4e09-b404-69c1b86e7b7d_1325511_ARTIST_PAGE_3_2.jpg",
+                                    "width": 305,
+                                    "height": 203,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/b7d/d7460515-712c-4e09-b404-69c1b86e7b7d_1325511_TABLET_LANDSCAPE_16_9.jpg",
+                                    "width": 1024,
+                                    "height": 576,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "4_3",
+                                    "url": "https://s1.ticketm.net/dam/a/b7d/d7460515-712c-4e09-b404-69c1b86e7b7d_1325511_CUSTOM.jpg",
+                                    "width": 305,
+                                    "height": 225,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/b7d/d7460515-712c-4e09-b404-69c1b86e7b7d_1325511_RETINA_PORTRAIT_16_9.jpg",
+                                    "width": 640,
+                                    "height": 360,
+                                    "fallback": false
+                                }
+                            ],
+                            "classifications": [
+                                {
+                                    "primary": true,
+                                    "segment": {
+                                        "id": "KZFzniwnSyZfZ7v7nE",
+                                        "name": "Sports"
+                                    },
+                                    "genre": {
+                                        "id": "KnvZfZ7vAdE",
+                                        "name": "Football"
+                                    },
+                                    "subGenre": {
+                                        "id": "KZazBEonSMnZfZ7vFE1",
+                                        "name": "NFL"
+                                    },
+                                    "type": {
+                                        "id": "KZAyXgnZfZ7v7l1",
+                                        "name": "Group"
+                                    },
+                                    "subType": {
+                                        "id": "KZFzBErXgnZfZ7vA7d",
+                                        "name": "Team"
+                                    },
+                                    "family": false
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "_total": 20,
+                                "ticketmaster": 20
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/attractions/K8vZ9171oMV?locale=en-us"
+                                }
+                            }
+                        },
+                        {
+                            "name": "Las Vegas Raiders",
+                            "type": "attraction",
+                            "id": "K8vZ9171oVV",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/las-vegas-raiders-tickets/artist/805994",
+                            "locale": "en-us",
+                            "externalLinks": {
+                                "twitter": [
+                                    {
+                                        "url": "https://www.twitter.com/raiders"
+                                    }
+                                ],
+                                "facebook": [
+                                    {
+                                        "url": "https://www.facebook.com/raiders"
+                                    }
+                                ],
+                                "wiki": [
+                                    {
+                                        "url": "https://en.wikipedia.org/wiki/Las_Vegas_Raiders"
+                                    }
+                                ],
+                                "instagram": [
+                                    {
+                                        "url": "https://www.instagram.com/raiders"
+                                    }
+                                ],
+                                "homepage": [
+                                    {
+                                        "url": "https://www.raiders.com/"
+                                    }
+                                ]
+                            },
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_EVENT_DETAIL_PAGE_16_9.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_ARTIST_PAGE_3_2.jpg",
+                                    "width": 305,
+                                    "height": 203,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_RETINA_LANDSCAPE_16_9.jpg",
+                                    "width": 1136,
+                                    "height": 639,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_RETINA_PORTRAIT_3_2.jpg",
+                                    "width": 640,
+                                    "height": 427,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                                    "width": 2048,
+                                    "height": 1152,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_RETINA_PORTRAIT_16_9.jpg",
+                                    "width": 640,
+                                    "height": 360,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_RECOMENDATION_16_9.jpg",
+                                    "width": 100,
+                                    "height": 56,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_TABLET_LANDSCAPE_3_2.jpg",
+                                    "width": 1024,
+                                    "height": 683,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_TABLET_LANDSCAPE_16_9.jpg",
+                                    "width": 1024,
+                                    "height": 576,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "4_3",
+                                    "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_CUSTOM.jpg",
+                                    "width": 305,
+                                    "height": 225,
+                                    "fallback": false
+                                }
+                            ],
+                            "classifications": [
+                                {
+                                    "primary": true,
+                                    "segment": {
+                                        "id": "KZFzniwnSyZfZ7v7nE",
+                                        "name": "Sports"
+                                    },
+                                    "genre": {
+                                        "id": "KnvZfZ7vAdE",
+                                        "name": "Football"
+                                    },
+                                    "subGenre": {
+                                        "id": "KZazBEonSMnZfZ7vFE1",
+                                        "name": "NFL"
+                                    },
+                                    "type": {
+                                        "id": "KZAyXgnZfZ7v7l1",
+                                        "name": "Group"
+                                    },
+                                    "subType": {
+                                        "id": "KZFzBErXgnZfZ7vA7d",
+                                        "name": "Team"
+                                    },
+                                    "family": false
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "_total": 20,
+                                "ticketmaster": 20
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/attractions/K8vZ9171oVV?locale=en-us"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Las Vegas Raiders vs. Baltimore Ravens",
+                "type": "event",
+                "id": "G5vjZpNlLC7Ix",
+                "test": false,
+                "url": "https://www.ticketmaster.com/las-vegas-raiders-vs-baltimore-ravens-las-vegas-nevada-09-13-2021/event/17005A3ADF384A22",
+                "locale": "en-us",
+                "images": [
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_EVENT_DETAIL_PAGE_16_9.jpg",
+                        "width": 205,
+                        "height": 115,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_ARTIST_PAGE_3_2.jpg",
+                        "width": 305,
+                        "height": 203,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_RETINA_LANDSCAPE_16_9.jpg",
+                        "width": 1136,
+                        "height": 639,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_RETINA_PORTRAIT_3_2.jpg",
+                        "width": 640,
+                        "height": 427,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                        "width": 2048,
+                        "height": 1152,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_RETINA_PORTRAIT_16_9.jpg",
+                        "width": 640,
+                        "height": 360,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_RECOMENDATION_16_9.jpg",
+                        "width": 100,
+                        "height": 56,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_TABLET_LANDSCAPE_3_2.jpg",
+                        "width": 1024,
+                        "height": 683,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_TABLET_LANDSCAPE_16_9.jpg",
+                        "width": 1024,
+                        "height": 576,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "4_3",
+                        "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_CUSTOM.jpg",
+                        "width": 305,
+                        "height": 225,
+                        "fallback": false
+                    }
+                ],
+                "sales": {
+                    "public": {
+                        "startDateTime": "2021-05-12T12:30:00Z",
+                        "startTBD": false,
+                        "startTBA": false,
+                        "endDateTime": "2021-09-14T01:15:00Z"
+                    }
+                },
+                "dates": {
+                    "start": {
+                        "localDate": "2021-09-13",
+                        "localTime": "17:15:00",
+                        "dateTime": "2021-09-14T00:15:00Z",
+                        "dateTBD": false,
+                        "dateTBA": false,
+                        "timeTBA": false,
+                        "noSpecificTime": false
+                    },
+                    "timezone": "America/Los_Angeles",
+                    "status": {
+                        "code": "onsale"
+                    },
+                    "spanMultipleDays": false
+                },
+                "classifications": [
+                    {
+                        "primary": true,
+                        "segment": {
+                            "id": "KZFzniwnSyZfZ7v7nE",
+                            "name": "Sports"
+                        },
+                        "genre": {
+                            "id": "KnvZfZ7vAdE",
+                            "name": "Football"
+                        },
+                        "subGenre": {
+                            "id": "KZazBEonSMnZfZ7vFE1",
+                            "name": "NFL"
+                        },
+                        "type": {
+                            "id": "KZAyXgnZfZ7v7l1",
+                            "name": "Group"
+                        },
+                        "subType": {
+                            "id": "KZFzBErXgnZfZ7vA7d",
+                            "name": "Team"
+                        },
+                        "family": false
+                    }
+                ],
+                "promoter": {
+                    "id": "705",
+                    "name": "NFL REGULAR SEASON",
+                    "description": "NFL REGULAR SEASON / NTL / USA"
+                },
+                "promoters": [
+                    {
+                        "id": "705",
+                        "name": "NFL REGULAR SEASON",
+                        "description": "NFL REGULAR SEASON / NTL / USA"
+                    }
+                ],
+                "pleaseNote": "Allegiant Stadium takes the health and safety of its guests, employees, and staff very seriously. In response to rising COVID-19 cases, and in accordance with the Centers for Disease Control and Prevention (CDC) and State of Nevada Emergency Directive 047, all individuals, regardless of vaccination status, must wear a face mask while inside the stadium. The State of Nevada and CDC do not currently require proof of vaccination to attend events. Allegiant Stadium's COVID-19 protocols are subject to change as additional information is discovered or provided by the State of Nevada and the CDC. For Suite and Loge Seat opportunities please email allegiantstadiumsales@raiders.com.",
+                "priceRanges": [
+                    {
+                        "type": "standard",
+                        "currency": "USD",
+                        "min": 70.0,
+                        "max": 260.0
+                    }
+                ],
+                "seatmap": {
+                    "staticUrl": "https://maps.ticketmaster.com/maps/geometry/3/event/17005A3ADF384A22/staticImage?type=png&systemId=HOST"
+                },
+                "accessibility": {
+                    "ticketLimit": 4
+                },
+                "ageRestrictions": {
+                    "legalAgeEnforced": false
+                },
+                "_links": {
+                    "self": {
+                        "href": "/discovery/v2/events/G5vjZpNlLC7Ix?locale=en-us"
+                    },
+                    "attractions": [
+                        {
+                            "href": "/discovery/v2/attractions/K8vZ9171oVV?locale=en-us"
+                        },
+                        {
+                            "href": "/discovery/v2/attractions/K8vZ91719eV?locale=en-us"
+                        }
+                    ],
+                    "venues": [
+                        {
+                            "href": "/discovery/v2/venues/KovZ917Ax7n?locale=en-us"
+                        }
+                    ]
+                },
+                "_embedded": {
+                    "venues": [
+                        {
+                            "name": "Allegiant Stadium",
+                            "type": "venue",
+                            "id": "KovZ917Ax7n",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/allegiant-stadium-tickets-las-vegas/venue/189482",
+                            "locale": "en-us",
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dbimages/22052v.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                }
+                            ],
+                            "postalCode": "89118",
+                            "timezone": "America/Los_Angeles",
+                            "city": {
+                                "name": "Las Vegas "
+                            },
+                            "state": {
+                                "name": "Nevada",
+                                "stateCode": "NV"
+                            },
+                            "country": {
+                                "name": "United States Of America",
+                                "countryCode": "US"
+                            },
+                            "address": {
+                                "line1": "3333 Al Davis Way"
+                            },
+                            "location": {
+                                "longitude": "-115.628831",
+                                "latitude": "36.256861"
+                            },
+                            "markets": [
+                                {
+                                    "name": "Las Vegas",
+                                    "id": "14"
+                                }
+                            ],
+                            "dmas": [
+                                {
+                                    "id": 319
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "_total": 18,
+                                "ticketmaster": 18
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/venues/KovZ917Ax7n?locale=en-us"
+                                }
+                            }
+                        }
+                    ],
+                    "attractions": [
+                        {
+                            "name": "Las Vegas Raiders",
+                            "type": "attraction",
+                            "id": "K8vZ9171oVV",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/las-vegas-raiders-tickets/artist/805994",
+                            "locale": "en-us",
+                            "externalLinks": {
+                                "twitter": [
+                                    {
+                                        "url": "https://www.twitter.com/raiders"
+                                    }
+                                ],
+                                "facebook": [
+                                    {
+                                        "url": "https://www.facebook.com/raiders"
+                                    }
+                                ],
+                                "wiki": [
+                                    {
+                                        "url": "https://en.wikipedia.org/wiki/Las_Vegas_Raiders"
+                                    }
+                                ],
+                                "instagram": [
+                                    {
+                                        "url": "https://www.instagram.com/raiders"
+                                    }
+                                ],
+                                "homepage": [
+                                    {
+                                        "url": "https://www.raiders.com/"
+                                    }
+                                ]
+                            },
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_EVENT_DETAIL_PAGE_16_9.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_ARTIST_PAGE_3_2.jpg",
+                                    "width": 305,
+                                    "height": 203,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_RETINA_LANDSCAPE_16_9.jpg",
+                                    "width": 1136,
+                                    "height": 639,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_RETINA_PORTRAIT_3_2.jpg",
+                                    "width": 640,
+                                    "height": 427,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                                    "width": 2048,
+                                    "height": 1152,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_RETINA_PORTRAIT_16_9.jpg",
+                                    "width": 640,
+                                    "height": 360,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_RECOMENDATION_16_9.jpg",
+                                    "width": 100,
+                                    "height": 56,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_TABLET_LANDSCAPE_3_2.jpg",
+                                    "width": 1024,
+                                    "height": 683,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_TABLET_LANDSCAPE_16_9.jpg",
+                                    "width": 1024,
+                                    "height": 576,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "4_3",
+                                    "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_CUSTOM.jpg",
+                                    "width": 305,
+                                    "height": 225,
+                                    "fallback": false
+                                }
+                            ],
+                            "classifications": [
+                                {
+                                    "primary": true,
+                                    "segment": {
+                                        "id": "KZFzniwnSyZfZ7v7nE",
+                                        "name": "Sports"
+                                    },
+                                    "genre": {
+                                        "id": "KnvZfZ7vAdE",
+                                        "name": "Football"
+                                    },
+                                    "subGenre": {
+                                        "id": "KZazBEonSMnZfZ7vFE1",
+                                        "name": "NFL"
+                                    },
+                                    "type": {
+                                        "id": "KZAyXgnZfZ7v7l1",
+                                        "name": "Group"
+                                    },
+                                    "subType": {
+                                        "id": "KZFzBErXgnZfZ7vA7d",
+                                        "name": "Team"
+                                    },
+                                    "family": false
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "_total": 20,
+                                "ticketmaster": 20
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/attractions/K8vZ9171oVV?locale=en-us"
+                                }
+                            }
+                        },
+                        {
+                            "name": "Baltimore Ravens",
+                            "type": "attraction",
+                            "id": "K8vZ91719eV",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/baltimore-ravens-tickets/artist/805901",
+                            "locale": "en-us",
+                            "externalLinks": {
+                                "twitter": [
+                                    {
+                                        "url": "https://twitter.com/Ravens"
+                                    }
+                                ],
+                                "facebook": [
+                                    {
+                                        "url": "https://www.facebook.com/baltimoreravens/"
+                                    }
+                                ],
+                                "wiki": [
+                                    {
+                                        "url": "https://en.wikipedia.org/wiki/Baltimore_Ravens"
+                                    }
+                                ],
+                                "instagram": [
+                                    {
+                                        "url": "https://www.instagram.com/ravens/"
+                                    }
+                                ],
+                                "homepage": [
+                                    {
+                                        "url": "https://www.baltimoreravens.com/"
+                                    }
+                                ]
+                            },
+                            "images": [
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/917/44decbb0-0df0-43b3-a8ee-0814e49a4917_1324971_ARTIST_PAGE_3_2.jpg",
+                                    "width": 305,
+                                    "height": 203,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/917/44decbb0-0df0-43b3-a8ee-0814e49a4917_1324971_TABLET_LANDSCAPE_3_2.jpg",
+                                    "width": 1024,
+                                    "height": 683,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/917/44decbb0-0df0-43b3-a8ee-0814e49a4917_1324971_RETINA_LANDSCAPE_16_9.jpg",
+                                    "width": 1136,
+                                    "height": 639,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/917/44decbb0-0df0-43b3-a8ee-0814e49a4917_1324971_RETINA_PORTRAIT_16_9.jpg",
+                                    "width": 640,
+                                    "height": 360,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/917/44decbb0-0df0-43b3-a8ee-0814e49a4917_1324971_EVENT_DETAIL_PAGE_16_9.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/917/44decbb0-0df0-43b3-a8ee-0814e49a4917_1324971_TABLET_LANDSCAPE_16_9.jpg",
+                                    "width": 1024,
+                                    "height": 576,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/917/44decbb0-0df0-43b3-a8ee-0814e49a4917_1324971_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                                    "width": 2048,
+                                    "height": 1152,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "4_3",
+                                    "url": "https://s1.ticketm.net/dam/a/917/44decbb0-0df0-43b3-a8ee-0814e49a4917_1324971_CUSTOM.jpg",
+                                    "width": 305,
+                                    "height": 225,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/917/44decbb0-0df0-43b3-a8ee-0814e49a4917_1324971_RETINA_PORTRAIT_3_2.jpg",
+                                    "width": 640,
+                                    "height": 427,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/917/44decbb0-0df0-43b3-a8ee-0814e49a4917_1324971_RECOMENDATION_16_9.jpg",
+                                    "width": 100,
+                                    "height": 56,
+                                    "fallback": false
+                                }
+                            ],
+                            "classifications": [
+                                {
+                                    "primary": true,
+                                    "segment": {
+                                        "id": "KZFzniwnSyZfZ7v7nE",
+                                        "name": "Sports"
+                                    },
+                                    "genre": {
+                                        "id": "KnvZfZ7vAdE",
+                                        "name": "Football"
+                                    },
+                                    "subGenre": {
+                                        "id": "KZazBEonSMnZfZ7vFE1",
+                                        "name": "NFL"
+                                    },
+                                    "type": {
+                                        "id": "KZAyXgnZfZ7v7l1",
+                                        "name": "Group"
+                                    },
+                                    "subType": {
+                                        "id": "KZFzBErXgnZfZ7vA7d",
+                                        "name": "Team"
+                                    },
+                                    "family": false
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "_total": 23,
+                                "ticketmaster": 23
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/attractions/K8vZ91719eV?locale=en-us"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Preseason - Chicago Bears v. Buffalo Bills",
+                "type": "event",
+                "id": "vvG18ZpJKJy8nL",
+                "test": false,
+                "url": "https://www.ticketmaster.com/preseason-chicago-bears-v-buffalo-bills-chicago-illinois-08-21-2021/event/04005A64E6E50A9F",
+                "locale": "en-us",
+                "images": [
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/0c4/725d27e6-8984-456e-8461-13e1b71bc0c4_1325051_EVENT_DETAIL_PAGE_16_9.jpg",
+                        "width": 205,
+                        "height": 115,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/0c4/725d27e6-8984-456e-8461-13e1b71bc0c4_1325051_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                        "width": 2048,
+                        "height": 1152,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/0c4/725d27e6-8984-456e-8461-13e1b71bc0c4_1325051_ARTIST_PAGE_3_2.jpg",
+                        "width": 305,
+                        "height": 203,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/0c4/725d27e6-8984-456e-8461-13e1b71bc0c4_1325051_RETINA_PORTRAIT_16_9.jpg",
+                        "width": 640,
+                        "height": 360,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/0c4/725d27e6-8984-456e-8461-13e1b71bc0c4_1325051_TABLET_LANDSCAPE_3_2.jpg",
+                        "width": 1024,
+                        "height": 683,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/0c4/725d27e6-8984-456e-8461-13e1b71bc0c4_1325051_RETINA_PORTRAIT_3_2.jpg",
+                        "width": 640,
+                        "height": 427,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/0c4/725d27e6-8984-456e-8461-13e1b71bc0c4_1325051_RECOMENDATION_16_9.jpg",
+                        "width": 100,
+                        "height": 56,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/0c4/725d27e6-8984-456e-8461-13e1b71bc0c4_1325051_TABLET_LANDSCAPE_16_9.jpg",
+                        "width": 1024,
+                        "height": 576,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "4_3",
+                        "url": "https://s1.ticketm.net/dam/a/0c4/725d27e6-8984-456e-8461-13e1b71bc0c4_1325051_CUSTOM.jpg",
+                        "width": 305,
+                        "height": 225,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/0c4/725d27e6-8984-456e-8461-13e1b71bc0c4_1325051_RETINA_LANDSCAPE_16_9.jpg",
+                        "width": 1136,
+                        "height": 639,
+                        "fallback": false
+                    }
+                ],
+                "sales": {
+                    "public": {
+                        "startDateTime": "2021-05-13T01:30:00Z",
+                        "startTBD": false,
+                        "startTBA": false,
+                        "endDateTime": "2021-08-21T18:00:00Z"
+                    },
+                    "presales": [
+                        {
+                            "startDateTime": "2021-05-13T00:00:00Z",
+                            "endDateTime": "2021-05-13T01:00:00Z",
+                            "name": "Bears Season Ticket Holder Presale"
+                        },
+                        {
+                            "startDateTime": "2021-05-01T15:00:00Z",
+                            "endDateTime": "2021-05-12T04:59:00Z",
+                            "name": "Resale Onsale"
+                        }
+                    ]
+                },
+                "dates": {
+                    "start": {
+                        "localDate": "2021-08-21",
+                        "localTime": "12:00:00",
+                        "dateTime": "2021-08-21T17:00:00Z",
+                        "dateTBD": false,
+                        "dateTBA": false,
+                        "timeTBA": false,
+                        "noSpecificTime": false
+                    },
+                    "timezone": "America/Chicago",
+                    "status": {
+                        "code": "onsale"
+                    },
+                    "spanMultipleDays": false
+                },
+                "classifications": [
+                    {
+                        "primary": true,
+                        "segment": {
+                            "id": "KZFzniwnSyZfZ7v7nE",
+                            "name": "Sports"
+                        },
+                        "genre": {
+                            "id": "KnvZfZ7vAdE",
+                            "name": "Football"
+                        },
+                        "subGenre": {
+                            "id": "KZazBEonSMnZfZ7vFE1",
+                            "name": "NFL"
+                        },
+                        "type": {
+                            "id": "KZAyXgnZfZ7v7l1",
+                            "name": "Group"
+                        },
+                        "subType": {
+                            "id": "KZFzBErXgnZfZ7vA7d",
+                            "name": "Team"
+                        },
+                        "family": false
+                    }
+                ],
+                "promoter": {
+                    "id": "704",
+                    "name": "NFL EXHIBITION & PRESEASON",
+                    "description": "NFL EXHIBITION & PRESEASON / NTL / USA"
+                },
+                "promoters": [
+                    {
+                        "id": "704",
+                        "name": "NFL EXHIBITION & PRESEASON",
+                        "description": "NFL EXHIBITION & PRESEASON / NTL / USA"
+                    }
+                ],
+                "info": "PUBLIC TICKET ONSALE 8:30 PM CT ON MAY 12, 2021. ANY SEATS DISPLAYED PRIOR TO THAT TIME ARE VERIFIED RESALE ONLY. THE DATE AND TIME OF THE GAME ARE SUBJECT TO CHANGE BY THE NFL, IN ACCORDANCE WITH ITS SCHEDULING POLICIES OR AS A RESULT OF OTHER ACTIONS OR EVENTS BEYOND THE NFL'S CONTROL. NO REFUND WILL BE PROVIDED IF TICKET HOLDER CANNOT ATTEND. IN THE EVENT A GAME IS CANCELLED BY THE NFL, OR IS PLAYED UNDER CONDITIONS THAT PROHIBIT FANS FROM ATTENDING AUTOMATIC REFUNDS FOR ALL PRIMARY AND VERIFIED RESALE TICKET PURCHASES THROUGH TICKETMASTER WILL BE PROVIDED WITHIN 30 DAYS OF CANCELLATION.",
+                "pleaseNote": "This event is Mobile Only. A smartphone must be used to render tickets for entry at stadium gates. NO REFUNDS; NO EXCHANGES",
+                "priceRanges": [
+                    {
+                        "type": "standard",
+                        "currency": "USD",
+                        "min": 45.0,
+                        "max": 330.0
+                    }
+                ],
+                "seatmap": {
+                    "staticUrl": "https://maps.ticketmaster.com/maps/geometry/3/event/04005A64E6E50A9F/staticImage?type=png&systemId=HOST"
+                },
+                "accessibility": {
+                    "info": "Wheelchair seating is available for each home game through Ticketmaster. Should the wheelchair seating allocation through Ticketmaster become exhausted, fans with disabilities are encouraged to proceed with the purchase of conventional seating - if available - then call the Bears Ticket Office at 847.615.BEAR(2327) to arrange an exchange.",
+                    "ticketLimit": 4
+                },
+                "ticketLimit": {
+                    "info": "There is a twenty (20) ticket limit."
+                },
+                "ageRestrictions": {
+                    "legalAgeEnforced": false
+                },
+                "_links": {
+                    "self": {
+                        "href": "/discovery/v2/events/vvG18ZpJKJy8nL?locale=en-us"
+                    },
+                    "attractions": [
+                        {
+                            "href": "/discovery/v2/attractions/K8vZ9171ou7?locale=en-us"
+                        },
+                        {
+                            "href": "/discovery/v2/attractions/K8vZ9171oGf?locale=en-us"
+                        }
+                    ],
+                    "venues": [
+                        {
+                            "href": "/discovery/v2/venues/KovZpZAF6tIA?locale=en-us"
+                        }
+                    ]
+                },
+                "_embedded": {
+                    "venues": [
+                        {
+                            "name": "Soldier Field",
+                            "type": "venue",
+                            "id": "KovZpZAF6tIA",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/soldier-field-tickets-chicago/venue/32827",
+                            "locale": "en-us",
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dbimages/7047v.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_1",
+                                    "url": "https://s1.ticketm.net/dam/v/b06/12fabbf7-94ac-4cb9-af52-77974b522b06_380371_SOURCE.jpg",
+                                    "width": 1500,
+                                    "height": 500,
+                                    "fallback": false
+                                }
+                            ],
+                            "postalCode": "60605",
+                            "timezone": "America/Chicago",
+                            "city": {
+                                "name": "Chicago"
+                            },
+                            "state": {
+                                "name": "Illinois",
+                                "stateCode": "IL"
+                            },
+                            "country": {
+                                "name": "United States Of America",
+                                "countryCode": "US"
+                            },
+                            "address": {
+                                "line1": "1410 S. Museum Campus Drive"
+                            },
+                            "location": {
+                                "longitude": "-87.61682143",
+                                "latitude": "41.86205404"
+                            },
+                            "markets": [
+                                {
+                                    "name": "Chicagoland and Northern Il",
+                                    "id": "3"
+                                },
+                                {
+                                    "name": "Central Illinois",
+                                    "id": "54"
+                                }
+                            ],
+                            "dmas": [
+                                {
+                                    "id": 242
+                                },
+                                {
+                                    "id": 249
+                                },
+                                {
+                                    "id": 357
+                                },
+                                {
+                                    "id": 373
+                                }
+                            ],
+                            "social": {
+                                "twitter": {
+                                    "handle": "@SoldierField"
+                                }
+                            },
+                            "boxOfficeInfo": {
+                                "phoneNumberDetail": "For non Bears events please call (312) 235-7000",
+                                "openHoursDetail": "Chicago Bears ticket office is available by phone Monday-Friday 8am-5pm CST. The Soldier Field Box Office is open only on game days, their phone number is (312) 235-7000.",
+                                "acceptedPaymentDetail": "The Box Office accepts cash only for Chicago Bears games. Soldier Field games accept Visa, Mastercard, American Express, Cash.",
+                                "willCallDetail": "Chicago Bears events: Tickets may be picked up at the Will Call Window outside of Gate 10, 2 hours before the event. Gate 10 is located on the southeast side of Soldier Field. Customers must have the actual credit card, picture ID and the confirmation number to receive their tickets. Soldier Field events: Will Call is available on the day of the event only. Government issued photo i.d. and the credit card used for the purchase will be required to claim tickets. Typically will call opens 90 minutes to an hour before the scheduled event."
+                            },
+                            "parkingDetail": "Chicago Bears Parking Information: All of the spaces in the on-site parking lots near Soldier Field are pre-sold for the entire season to Bears season ticket holders. If you do not have a pre-paid coupon, here are some options for you: If you prefer to tailgate before the Bears games, you can park in the 31st Street McCormick Place Lot. It costs $16 and there are shuttle buses to bring you to the 18th Street Shuttle Turnaround, directly across from the stadium. You can also walk to the stadium from the 31st Street Lot. If you don't want to tailgate, we recommend you park in the East Monroe Street / Millennium Park garages, located at Columbus Drive and Monroe Street. It costs $13 and you can then take the free shuttle directly to the 18th Street Shuttle Turnaround. The shuttle bus takes about 10 minutes because it travels on a specially designed bus way which keeps it out of most Soldier Field traffic. There are over 40 buses continuously shuttling fans beginning five hours prior to kickoff. Lastly, we recommend taking public transportation. The Transportation Center, located northeast of the stadium (at the corner of McFetridge and Museum Campus Drive) is where the CTA, Metra shuttle, and PACE bus services will be available for fans drop-off and pick-up. The CTA's train service for the Red, Orange or Green Lines are available at the Roosevelt Road and State Street Station. For schedule and route information, please contact: RTA (312) 836-7000 or rtachicago.com CTA (888) YOUR-CTA or transitchicago.com",
+                            "accessibleSeatingDetail": "Accessible Seating Information for Chicago Bears games: For Chicago Bears accessible seating please purchase the best available seating and contact the Chicago Bears at 847-615-2327 for an exchange after purchase is complete. Accessible Seating Information for Other Soldier Field events: Accessible seating is available through Ticketmaster. Do NOT contact the Chicago Bears for accessible seating information on non-Bears events at Soldier Field",
+                            "generalInfo": {
+                                "generalRule": "Cameras and recording devices are N O T permitted. No umbrellas, cans, or bottles can be brought into the stadium. Chicago Bears: The Smoke Free Act prohibits smoking in all public venues. In order to be compliant with the Smoke-Free Illinois Act, smoking will be prohibited at all Chicago Bears events at Soldier Field. There will be no designated smoking areas inside or outside of the stadium, and re-entry is prohibited. The smoking policy will be strictly enforced. Violaters are subject to ejection from the stadium; repeated violations can resultin the result in the forfeiting of ticket privileges. Ushers and security officers will be enforcing the new smoke-free policy. First-time violaters of the smoking policy will be asked to exchange their ticket for a \"Smoking Card\". Any patron refusing to exchange thier ticket will be ejected from the stadium. If a patron is then smoking in the stadium for a second time, he or she will be ejected.",
+                                "childRule": "Our policy is that if your child can walk under the turnstiles (approximately 32 inches) then you should go to Gate 10 on the south east side of Soldier Field on gameday to receive a complimentary lap pass for that day's game for the child. The child will have to sit on a ticketed patron’s lap for the game. The entire party will then be admitted to the stadium at Gate 10. Strollers are not permitted in the stadium."
+                            },
+                            "upcomingEvents": {
+                                "_total": 18,
+                                "tmr": 1,
+                                "ticketmaster": 17
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/venues/KovZpZAF6tIA?locale=en-us"
+                                }
+                            }
+                        }
+                    ],
+                    "attractions": [
+                        {
+                            "name": "Chicago Bears",
+                            "type": "attraction",
+                            "id": "K8vZ9171ou7",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/chicago-bears-tickets/artist/805912",
+                            "locale": "en-us",
+                            "externalLinks": {
+                                "twitter": [
+                                    {
+                                        "url": "https://twitter.com/ChicagoBears"
+                                    }
+                                ],
+                                "facebook": [
+                                    {
+                                        "url": "https://www.facebook.com/ChicagoBears/"
+                                    }
+                                ],
+                                "wiki": [
+                                    {
+                                        "url": "https://en.wikipedia.org/wiki/Chicago_Bears"
+                                    }
+                                ],
+                                "instagram": [
+                                    {
+                                        "url": "https://www.instagram.com/chicagobears/"
+                                    }
+                                ],
+                                "homepage": [
+                                    {
+                                        "url": "https://www.chicagobears.com/"
+                                    }
+                                ]
+                            },
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/0c4/725d27e6-8984-456e-8461-13e1b71bc0c4_1325051_EVENT_DETAIL_PAGE_16_9.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/0c4/725d27e6-8984-456e-8461-13e1b71bc0c4_1325051_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                                    "width": 2048,
+                                    "height": 1152,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/0c4/725d27e6-8984-456e-8461-13e1b71bc0c4_1325051_ARTIST_PAGE_3_2.jpg",
+                                    "width": 305,
+                                    "height": 203,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/0c4/725d27e6-8984-456e-8461-13e1b71bc0c4_1325051_RETINA_PORTRAIT_16_9.jpg",
+                                    "width": 640,
+                                    "height": 360,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/0c4/725d27e6-8984-456e-8461-13e1b71bc0c4_1325051_TABLET_LANDSCAPE_3_2.jpg",
+                                    "width": 1024,
+                                    "height": 683,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/0c4/725d27e6-8984-456e-8461-13e1b71bc0c4_1325051_RETINA_PORTRAIT_3_2.jpg",
+                                    "width": 640,
+                                    "height": 427,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/0c4/725d27e6-8984-456e-8461-13e1b71bc0c4_1325051_RECOMENDATION_16_9.jpg",
+                                    "width": 100,
+                                    "height": 56,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/0c4/725d27e6-8984-456e-8461-13e1b71bc0c4_1325051_TABLET_LANDSCAPE_16_9.jpg",
+                                    "width": 1024,
+                                    "height": 576,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "4_3",
+                                    "url": "https://s1.ticketm.net/dam/a/0c4/725d27e6-8984-456e-8461-13e1b71bc0c4_1325051_CUSTOM.jpg",
+                                    "width": 305,
+                                    "height": 225,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/0c4/725d27e6-8984-456e-8461-13e1b71bc0c4_1325051_RETINA_LANDSCAPE_16_9.jpg",
+                                    "width": 1136,
+                                    "height": 639,
+                                    "fallback": false
+                                }
+                            ],
+                            "classifications": [
+                                {
+                                    "primary": true,
+                                    "segment": {
+                                        "id": "KZFzniwnSyZfZ7v7nE",
+                                        "name": "Sports"
+                                    },
+                                    "genre": {
+                                        "id": "KnvZfZ7vAdE",
+                                        "name": "Football"
+                                    },
+                                    "subGenre": {
+                                        "id": "KZazBEonSMnZfZ7vFE1",
+                                        "name": "NFL"
+                                    },
+                                    "type": {
+                                        "id": "KZAyXgnZfZ7v7l1",
+                                        "name": "Group"
+                                    },
+                                    "subType": {
+                                        "id": "KZFzBErXgnZfZ7vA7d",
+                                        "name": "Team"
+                                    },
+                                    "family": false
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "_total": 20,
+                                "ticketmaster": 20
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/attractions/K8vZ9171ou7?locale=en-us"
+                                }
+                            }
+                        },
+                        {
+                            "name": "Buffalo Bills",
+                            "type": "attraction",
+                            "id": "K8vZ9171oGf",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/buffalo-bills-tickets/artist/805905",
+                            "locale": "en-us",
+                            "externalLinks": {
+                                "twitter": [
+                                    {
+                                        "url": "https://twitter.com/buffalobills"
+                                    }
+                                ],
+                                "facebook": [
+                                    {
+                                        "url": "https://www.facebook.com/BuffaloBills/"
+                                    }
+                                ],
+                                "wiki": [
+                                    {
+                                        "url": "https://en.wikipedia.org/wiki/Buffalo_Bills"
+                                    }
+                                ],
+                                "instagram": [
+                                    {
+                                        "url": "https://www.instagram.com/buffalobills/"
+                                    }
+                                ],
+                                "homepage": [
+                                    {
+                                        "url": "https://www.buffalobills.com/"
+                                    }
+                                ]
+                            },
+                            "images": [
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/b37/f62cde9b-e0b9-4791-8d0b-929f42b7bb37_1325001_RETINA_PORTRAIT_3_2.jpg",
+                                    "width": 640,
+                                    "height": 427,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/b37/f62cde9b-e0b9-4791-8d0b-929f42b7bb37_1325001_TABLET_LANDSCAPE_16_9.jpg",
+                                    "width": 1024,
+                                    "height": 576,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/b37/f62cde9b-e0b9-4791-8d0b-929f42b7bb37_1325001_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                                    "width": 2048,
+                                    "height": 1152,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/b37/f62cde9b-e0b9-4791-8d0b-929f42b7bb37_1325001_TABLET_LANDSCAPE_3_2.jpg",
+                                    "width": 1024,
+                                    "height": 683,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/b37/f62cde9b-e0b9-4791-8d0b-929f42b7bb37_1325001_EVENT_DETAIL_PAGE_16_9.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/b37/f62cde9b-e0b9-4791-8d0b-929f42b7bb37_1325001_RETINA_LANDSCAPE_16_9.jpg",
+                                    "width": 1136,
+                                    "height": 639,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/b37/f62cde9b-e0b9-4791-8d0b-929f42b7bb37_1325001_ARTIST_PAGE_3_2.jpg",
+                                    "width": 305,
+                                    "height": 203,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/b37/f62cde9b-e0b9-4791-8d0b-929f42b7bb37_1325001_RECOMENDATION_16_9.jpg",
+                                    "width": 100,
+                                    "height": 56,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "4_3",
+                                    "url": "https://s1.ticketm.net/dam/a/b37/f62cde9b-e0b9-4791-8d0b-929f42b7bb37_1325001_CUSTOM.jpg",
+                                    "width": 305,
+                                    "height": 225,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/b37/f62cde9b-e0b9-4791-8d0b-929f42b7bb37_1325001_RETINA_PORTRAIT_16_9.jpg",
+                                    "width": 640,
+                                    "height": 360,
+                                    "fallback": false
+                                }
+                            ],
+                            "classifications": [
+                                {
+                                    "primary": true,
+                                    "segment": {
+                                        "id": "KZFzniwnSyZfZ7v7nE",
+                                        "name": "Sports"
+                                    },
+                                    "genre": {
+                                        "id": "KnvZfZ7vAdE",
+                                        "name": "Football"
+                                    },
+                                    "subGenre": {
+                                        "id": "KZazBEonSMnZfZ7vFE1",
+                                        "name": "NFL"
+                                    },
+                                    "type": {
+                                        "id": "KZAyXgnZfZ7v7l1",
+                                        "name": "Group"
+                                    },
+                                    "subType": {
+                                        "id": "KZFzBErXgnZfZ7vA7d",
+                                        "name": "Team"
+                                    },
+                                    "family": false
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "_total": 21,
+                                "ticketmaster": 21
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/attractions/K8vZ9171oGf?locale=en-us"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Los Angeles Chargers vs. San Francisco 49ers",
+                "type": "event",
+                "id": "vvG1IZpn2ATsXk",
+                "test": false,
+                "url": "https://www.ticketmaster.com/los-angeles-chargers-vs-san-francisco-inglewood-california-08-22-2021/event/0A005AA3C5FF1F86",
+                "locale": "en-us",
+                "images": [
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/bd0/e2cf0fbc-7e18-45ee-b651-60f99f94dbd0_1325431_RETINA_LANDSCAPE_16_9.jpg",
+                        "width": 1136,
+                        "height": 639,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/bd0/e2cf0fbc-7e18-45ee-b651-60f99f94dbd0_1325431_ARTIST_PAGE_3_2.jpg",
+                        "width": 305,
+                        "height": 203,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/bd0/e2cf0fbc-7e18-45ee-b651-60f99f94dbd0_1325431_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                        "width": 2048,
+                        "height": 1152,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/bd0/e2cf0fbc-7e18-45ee-b651-60f99f94dbd0_1325431_EVENT_DETAIL_PAGE_16_9.jpg",
+                        "width": 205,
+                        "height": 115,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/bd0/e2cf0fbc-7e18-45ee-b651-60f99f94dbd0_1325431_RETINA_PORTRAIT_3_2.jpg",
+                        "width": 640,
+                        "height": 427,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/bd0/e2cf0fbc-7e18-45ee-b651-60f99f94dbd0_1325431_TABLET_LANDSCAPE_16_9.jpg",
+                        "width": 1024,
+                        "height": 576,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/bd0/e2cf0fbc-7e18-45ee-b651-60f99f94dbd0_1325431_TABLET_LANDSCAPE_3_2.jpg",
+                        "width": 1024,
+                        "height": 683,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "4_3",
+                        "url": "https://s1.ticketm.net/dam/a/bd0/e2cf0fbc-7e18-45ee-b651-60f99f94dbd0_1325431_CUSTOM.jpg",
+                        "width": 305,
+                        "height": 225,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/bd0/e2cf0fbc-7e18-45ee-b651-60f99f94dbd0_1325431_RECOMENDATION_16_9.jpg",
+                        "width": 100,
+                        "height": 56,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/bd0/e2cf0fbc-7e18-45ee-b651-60f99f94dbd0_1325431_RETINA_PORTRAIT_16_9.jpg",
+                        "width": 640,
+                        "height": 360,
+                        "fallback": false
+                    }
+                ],
+                "sales": {
+                    "public": {
+                        "startDateTime": "2021-05-13T03:00:00Z",
+                        "startTBD": false,
+                        "startTBA": false,
+                        "endDateTime": "2021-08-23T00:30:00Z"
+                    },
+                    "presales": [
+                        {
+                            "startDateTime": "2021-05-12T23:45:00Z",
+                            "endDateTime": "2021-05-13T02:00:00Z",
+                            "name": "Season Ticket Member Presale"
+                        },
+                        {
+                            "startDateTime": "2021-05-13T02:00:00Z",
+                            "endDateTime": "2021-05-13T03:00:00Z",
+                            "name": "Newsletter Members Tickets"
+                        },
+                        {
+                            "startDateTime": "2021-05-13T03:00:00Z",
+                            "endDateTime": "2021-08-22T23:30:00Z",
+                            "name": "Los Angeles Chargers Onsale"
+                        }
+                    ]
+                },
+                "dates": {
+                    "start": {
+                        "localDate": "2021-08-22",
+                        "localTime": "16:30:00",
+                        "dateTime": "2021-08-22T23:30:00Z",
+                        "dateTBD": false,
+                        "dateTBA": false,
+                        "timeTBA": false,
+                        "noSpecificTime": false
+                    },
+                    "timezone": "America/Los_Angeles",
+                    "status": {
+                        "code": "onsale"
+                    },
+                    "spanMultipleDays": false
+                },
+                "classifications": [
+                    {
+                        "primary": true,
+                        "segment": {
+                            "id": "KZFzniwnSyZfZ7v7nE",
+                            "name": "Sports"
+                        },
+                        "genre": {
+                            "id": "KnvZfZ7vAdE",
+                            "name": "Football"
+                        },
+                        "subGenre": {
+                            "id": "KZazBEonSMnZfZ7vFE1",
+                            "name": "NFL"
+                        },
+                        "type": {
+                            "id": "KZAyXgnZfZ7v7l1",
+                            "name": "Group"
+                        },
+                        "subType": {
+                            "id": "KZFzBErXgnZfZ7vA7d",
+                            "name": "Team"
+                        },
+                        "family": false
+                    }
+                ],
+                "promoter": {
+                    "id": "704",
+                    "name": "NFL EXHIBITION & PRESEASON",
+                    "description": "NFL EXHIBITION & PRESEASON / NTL / USA"
+                },
+                "promoters": [
+                    {
+                        "id": "704",
+                        "name": "NFL EXHIBITION & PRESEASON",
+                        "description": "NFL EXHIBITION & PRESEASON / NTL / USA"
+                    }
+                ],
+                "priceRanges": [
+                    {
+                        "type": "standard",
+                        "currency": "USD",
+                        "min": 29.0,
+                        "max": 215.0
+                    }
+                ],
+                "products": [
+                    {
+                        "name": "PARKWHIZ SOFI STADIUM",
+                        "id": "vvG1IZpmJzBwmm",
+                        "url": "https://www.ticketmaster.com/parkwhiz-sofi-stadium-inglewood-california-08-22-2021/event/0A005AE9B8EB2BAE",
+                        "type": "Upsell",
+                        "classifications": [
+                            {
+                                "primary": true,
+                                "segment": {
+                                    "id": "KZFzniwnSyZfZ7v7n1",
+                                    "name": "Miscellaneous"
+                                },
+                                "genre": {
+                                    "id": "KnvZfZ7v7ll",
+                                    "name": "Undefined"
+                                },
+                                "subGenre": {
+                                    "id": "KZazBEonSMnZfZ7vAv1",
+                                    "name": "Undefined"
+                                },
+                                "type": {
+                                    "id": "KZAyXgnZfZ7vAva",
+                                    "name": "Parking"
+                                },
+                                "subType": {
+                                    "id": "KZFzBErXgnZfZ7vAFe",
+                                    "name": "Parking"
+                                },
+                                "family": false
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Parking - Los Angeles Chargers vs San Francisco 49ers",
+                        "id": "vvG1IZpmU14-Ss",
+                        "url": "https://www.ticketmaster.com/parking-los-angeles-chargers-vs-san-inglewood-california-08-22-2021/event/0A005AED8A561CF1",
+                        "type": "Parking",
+                        "classifications": [
+                            {
+                                "primary": true,
+                                "segment": {
+                                    "id": "KZFzniwnSyZfZ7v7nE",
+                                    "name": "Sports"
+                                },
+                                "genre": {
+                                    "id": "KnvZfZ7vA7A",
+                                    "name": "Miscellaneous"
+                                },
+                                "subGenre": {
+                                    "id": "KZazBEonSMnZfZ7vFIt",
+                                    "name": "Miscellaneous"
+                                },
+                                "type": {
+                                    "id": "KZAyXgnZfZ7v7nI",
+                                    "name": "Undefined"
+                                },
+                                "subType": {
+                                    "id": "KZFzBErXgnZfZ7v7lJ",
+                                    "name": "Undefined"
+                                },
+                                "family": false
+                            }
+                        ]
+                    }
+                ],
+                "seatmap": {
+                    "staticUrl": "https://maps.ticketmaster.com/maps/geometry/3/event/0A005AA3C5FF1F86/staticImage?type=png&systemId=HOST"
+                },
+                "accessibility": {
+                    "ticketLimit": 4
+                },
+                "ticketLimit": {
+                    "info": "This event has a ticket limit of 8."
+                },
+                "ageRestrictions": {
+                    "legalAgeEnforced": false
+                },
+                "_links": {
+                    "self": {
+                        "href": "/discovery/v2/events/vvG1IZpn2ATsXk?locale=en-us"
+                    },
+                    "attractions": [
+                        {
+                            "href": "/discovery/v2/attractions/K8vZ9171og0?locale=en-us"
+                        },
+                        {
+                            "href": "/discovery/v2/attractions/K8vZ9171oMV?locale=en-us"
+                        }
+                    ],
+                    "venues": [
+                        {
+                            "href": "/discovery/v2/venues/KovZ917ACh0?locale=en-us"
+                        }
+                    ]
+                },
+                "_embedded": {
+                    "venues": [
+                        {
+                            "name": "SoFi Stadium",
+                            "type": "venue",
+                            "id": "KovZ917ACh0",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/sofi-stadium-tickets-inglewood/venue/82789",
+                            "locale": "en-us",
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dbimages/21790v.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                }
+                            ],
+                            "postalCode": "90301",
+                            "timezone": "America/Los_Angeles",
+                            "city": {
+                                "name": "Inglewood"
+                            },
+                            "state": {
+                                "name": "California",
+                                "stateCode": "CA"
+                            },
+                            "country": {
+                                "name": "United States Of America",
+                                "countryCode": "US"
+                            },
+                            "address": {
+                                "line1": "1001 S. Stadium Dr"
+                            },
+                            "location": {
+                                "longitude": "-118.343767",
+                                "latitude": "33.950529"
+                            },
+                            "markets": [
+                                {
+                                    "name": "Los Angeles",
+                                    "id": "27"
+                                }
+                            ],
+                            "dmas": [
+                                {
+                                    "id": 223
+                                },
+                                {
+                                    "id": 324
+                                },
+                                {
+                                    "id": 354
+                                },
+                                {
+                                    "id": 383
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "_total": 24,
+                                "ticketmaster": 24
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/venues/KovZ917ACh0?locale=en-us"
+                                }
+                            }
+                        }
+                    ],
+                    "attractions": [
+                        {
+                            "name": "Los Angeles Chargers",
+                            "type": "attraction",
+                            "id": "K8vZ9171og0",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/los-angeles-chargers-tickets/artist/806013",
+                            "locale": "en-us",
+                            "externalLinks": {
+                                "twitter": [
+                                    {
+                                        "url": "https://twitter.com/Chargers"
+                                    }
+                                ],
+                                "facebook": [
+                                    {
+                                        "url": "https://www.facebook.com/chargers/"
+                                    }
+                                ],
+                                "wiki": [
+                                    {
+                                        "url": "https://en.wikipedia.org/wiki/Los_Angeles_Chargers"
+                                    }
+                                ],
+                                "instagram": [
+                                    {
+                                        "url": "https://www.instagram.com/chargers/"
+                                    }
+                                ],
+                                "homepage": [
+                                    {
+                                        "url": "https://www.chargers.com/"
+                                    }
+                                ]
+                            },
+                            "aliases": [
+                                "la chargers",
+                                "l.a. chargers",
+                                "la charger",
+                                "l.a. charger"
+                            ],
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/bd0/e2cf0fbc-7e18-45ee-b651-60f99f94dbd0_1325431_RETINA_LANDSCAPE_16_9.jpg",
+                                    "width": 1136,
+                                    "height": 639,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/bd0/e2cf0fbc-7e18-45ee-b651-60f99f94dbd0_1325431_ARTIST_PAGE_3_2.jpg",
+                                    "width": 305,
+                                    "height": 203,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/bd0/e2cf0fbc-7e18-45ee-b651-60f99f94dbd0_1325431_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                                    "width": 2048,
+                                    "height": 1152,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/bd0/e2cf0fbc-7e18-45ee-b651-60f99f94dbd0_1325431_EVENT_DETAIL_PAGE_16_9.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/bd0/e2cf0fbc-7e18-45ee-b651-60f99f94dbd0_1325431_RETINA_PORTRAIT_3_2.jpg",
+                                    "width": 640,
+                                    "height": 427,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/bd0/e2cf0fbc-7e18-45ee-b651-60f99f94dbd0_1325431_TABLET_LANDSCAPE_16_9.jpg",
+                                    "width": 1024,
+                                    "height": 576,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/bd0/e2cf0fbc-7e18-45ee-b651-60f99f94dbd0_1325431_TABLET_LANDSCAPE_3_2.jpg",
+                                    "width": 1024,
+                                    "height": 683,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "4_3",
+                                    "url": "https://s1.ticketm.net/dam/a/bd0/e2cf0fbc-7e18-45ee-b651-60f99f94dbd0_1325431_CUSTOM.jpg",
+                                    "width": 305,
+                                    "height": 225,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/bd0/e2cf0fbc-7e18-45ee-b651-60f99f94dbd0_1325431_RECOMENDATION_16_9.jpg",
+                                    "width": 100,
+                                    "height": 56,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/bd0/e2cf0fbc-7e18-45ee-b651-60f99f94dbd0_1325431_RETINA_PORTRAIT_16_9.jpg",
+                                    "width": 640,
+                                    "height": 360,
+                                    "fallback": false
+                                }
+                            ],
+                            "classifications": [
+                                {
+                                    "primary": true,
+                                    "segment": {
+                                        "id": "KZFzniwnSyZfZ7v7nE",
+                                        "name": "Sports"
+                                    },
+                                    "genre": {
+                                        "id": "KnvZfZ7vAdE",
+                                        "name": "Football"
+                                    },
+                                    "subGenre": {
+                                        "id": "KZazBEonSMnZfZ7vFE1",
+                                        "name": "NFL"
+                                    },
+                                    "type": {
+                                        "id": "KZAyXgnZfZ7v7l1",
+                                        "name": "Group"
+                                    },
+                                    "subType": {
+                                        "id": "KZFzBErXgnZfZ7vA7d",
+                                        "name": "Team"
+                                    },
+                                    "family": false
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "_total": 20,
+                                "ticketmaster": 20
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/attractions/K8vZ9171og0?locale=en-us"
+                                }
+                            }
+                        },
+                        {
+                            "name": "San Francisco 49ers",
+                            "type": "attraction",
+                            "id": "K8vZ9171oMV",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/san-francisco-49ers-tickets/artist/806015",
+                            "locale": "en-us",
+                            "externalLinks": {
+                                "twitter": [
+                                    {
+                                        "url": "https://twitter.com/49ers"
+                                    }
+                                ],
+                                "facebook": [
+                                    {
+                                        "url": "https://www.facebook.com/SANFRANCISCO49ERS/"
+                                    }
+                                ],
+                                "wiki": [
+                                    {
+                                        "url": "https://en.wikipedia.org/wiki/San_Francisco_49ers"
+                                    }
+                                ],
+                                "instagram": [
+                                    {
+                                        "url": "https://www.instagram.com/49ers/"
+                                    }
+                                ],
+                                "homepage": [
+                                    {
+                                        "url": "https://www.49ers.com/"
+                                    }
+                                ]
+                            },
+                            "aliases": [
+                                "niners",
+                                "sfo 49ers"
+                            ],
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/b7d/d7460515-712c-4e09-b404-69c1b86e7b7d_1325511_EVENT_DETAIL_PAGE_16_9.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/b7d/d7460515-712c-4e09-b404-69c1b86e7b7d_1325511_TABLET_LANDSCAPE_3_2.jpg",
+                                    "width": 1024,
+                                    "height": 683,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/b7d/d7460515-712c-4e09-b404-69c1b86e7b7d_1325511_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                                    "width": 2048,
+                                    "height": 1152,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/b7d/d7460515-712c-4e09-b404-69c1b86e7b7d_1325511_RECOMENDATION_16_9.jpg",
+                                    "width": 100,
+                                    "height": 56,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/b7d/d7460515-712c-4e09-b404-69c1b86e7b7d_1325511_RETINA_PORTRAIT_3_2.jpg",
+                                    "width": 640,
+                                    "height": 427,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/b7d/d7460515-712c-4e09-b404-69c1b86e7b7d_1325511_RETINA_LANDSCAPE_16_9.jpg",
+                                    "width": 1136,
+                                    "height": 639,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/b7d/d7460515-712c-4e09-b404-69c1b86e7b7d_1325511_ARTIST_PAGE_3_2.jpg",
+                                    "width": 305,
+                                    "height": 203,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/b7d/d7460515-712c-4e09-b404-69c1b86e7b7d_1325511_TABLET_LANDSCAPE_16_9.jpg",
+                                    "width": 1024,
+                                    "height": 576,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "4_3",
+                                    "url": "https://s1.ticketm.net/dam/a/b7d/d7460515-712c-4e09-b404-69c1b86e7b7d_1325511_CUSTOM.jpg",
+                                    "width": 305,
+                                    "height": 225,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/b7d/d7460515-712c-4e09-b404-69c1b86e7b7d_1325511_RETINA_PORTRAIT_16_9.jpg",
+                                    "width": 640,
+                                    "height": 360,
+                                    "fallback": false
+                                }
+                            ],
+                            "classifications": [
+                                {
+                                    "primary": true,
+                                    "segment": {
+                                        "id": "KZFzniwnSyZfZ7v7nE",
+                                        "name": "Sports"
+                                    },
+                                    "genre": {
+                                        "id": "KnvZfZ7vAdE",
+                                        "name": "Football"
+                                    },
+                                    "subGenre": {
+                                        "id": "KZazBEonSMnZfZ7vFE1",
+                                        "name": "NFL"
+                                    },
+                                    "type": {
+                                        "id": "KZAyXgnZfZ7v7l1",
+                                        "name": "Group"
+                                    },
+                                    "subType": {
+                                        "id": "KZFzBErXgnZfZ7vA7d",
+                                        "name": "Team"
+                                    },
+                                    "family": false
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "_total": 20,
+                                "ticketmaster": 20
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/attractions/K8vZ9171oMV?locale=en-us"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Los Angeles Rams vs. Las Vegas Raiders",
+                "type": "event",
+                "id": "vvG1IZptnOTvkZ",
+                "test": false,
+                "url": "https://www.ticketmaster.com/los-angeles-rams-vs-las-vegas-inglewood-california-08-21-2021/event/0A005A9AA0FC1180",
+                "locale": "en-us",
+                "images": [
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/d08/ad826f06-02db-453d-8465-43e05cc1ad08_1325451_EVENT_DETAIL_PAGE_16_9.jpg",
+                        "width": 205,
+                        "height": 115,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/d08/ad826f06-02db-453d-8465-43e05cc1ad08_1325451_RETINA_PORTRAIT_3_2.jpg",
+                        "width": 640,
+                        "height": 427,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/d08/ad826f06-02db-453d-8465-43e05cc1ad08_1325451_TABLET_LANDSCAPE_16_9.jpg",
+                        "width": 1024,
+                        "height": 576,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/d08/ad826f06-02db-453d-8465-43e05cc1ad08_1325451_RETINA_LANDSCAPE_16_9.jpg",
+                        "width": 1136,
+                        "height": 639,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/d08/ad826f06-02db-453d-8465-43e05cc1ad08_1325451_RETINA_PORTRAIT_16_9.jpg",
+                        "width": 640,
+                        "height": 360,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "4_3",
+                        "url": "https://s1.ticketm.net/dam/a/d08/ad826f06-02db-453d-8465-43e05cc1ad08_1325451_CUSTOM.jpg",
+                        "width": 305,
+                        "height": 225,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/d08/ad826f06-02db-453d-8465-43e05cc1ad08_1325451_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                        "width": 2048,
+                        "height": 1152,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/d08/ad826f06-02db-453d-8465-43e05cc1ad08_1325451_TABLET_LANDSCAPE_3_2.jpg",
+                        "width": 1024,
+                        "height": 683,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "3_2",
+                        "url": "https://s1.ticketm.net/dam/a/d08/ad826f06-02db-453d-8465-43e05cc1ad08_1325451_ARTIST_PAGE_3_2.jpg",
+                        "width": 305,
+                        "height": 203,
+                        "fallback": false
+                    },
+                    {
+                        "ratio": "16_9",
+                        "url": "https://s1.ticketm.net/dam/a/d08/ad826f06-02db-453d-8465-43e05cc1ad08_1325451_RECOMENDATION_16_9.jpg",
+                        "width": 100,
+                        "height": 56,
+                        "fallback": false
+                    }
+                ],
+                "sales": {
+                    "public": {
+                        "startDateTime": "2021-05-12T23:45:00Z",
+                        "startTBD": false,
+                        "startTBA": false,
+                        "endDateTime": "2021-08-22T02:00:00Z"
+                    }
+                },
+                "dates": {
+                    "start": {
+                        "localDate": "2021-08-21",
+                        "localTime": "19:00:00",
+                        "dateTime": "2021-08-22T02:00:00Z",
+                        "dateTBD": false,
+                        "dateTBA": false,
+                        "timeTBA": false,
+                        "noSpecificTime": false
+                    },
+                    "timezone": "America/Los_Angeles",
+                    "status": {
+                        "code": "onsale"
+                    },
+                    "spanMultipleDays": false
+                },
+                "classifications": [
+                    {
+                        "primary": true,
+                        "segment": {
+                            "id": "KZFzniwnSyZfZ7v7nE",
+                            "name": "Sports"
+                        },
+                        "genre": {
+                            "id": "KnvZfZ7vAdE",
+                            "name": "Football"
+                        },
+                        "subGenre": {
+                            "id": "KZazBEonSMnZfZ7vFE1",
+                            "name": "NFL"
+                        },
+                        "type": {
+                            "id": "KZAyXgnZfZ7v7l1",
+                            "name": "Group"
+                        },
+                        "subType": {
+                            "id": "KZFzBErXgnZfZ7vA7d",
+                            "name": "Team"
+                        },
+                        "family": false
+                    }
+                ],
+                "promoter": {
+                    "id": "704",
+                    "name": "NFL EXHIBITION & PRESEASON",
+                    "description": "NFL EXHIBITION & PRESEASON / NTL / USA"
+                },
+                "promoters": [
+                    {
+                        "id": "704",
+                        "name": "NFL EXHIBITION & PRESEASON",
+                        "description": "NFL EXHIBITION & PRESEASON / NTL / USA"
+                    }
+                ],
+                "priceRanges": [
+                    {
+                        "type": "standard",
+                        "currency": "USD",
+                        "min": 80.0,
+                        "max": 1100.0
+                    }
+                ],
+                "products": [
+                    {
+                        "name": "Parking - Los Angeles Rams vs Las Vegas Raiders",
+                        "id": "vvG1IZpmJfX3FO",
+                        "url": "https://www.ticketmaster.com/parking-los-angeles-rams-vs-las-inglewood-california-08-21-2021/event/0A005AE994F92220",
+                        "type": "Parking",
+                        "classifications": [
+                            {
+                                "primary": true,
+                                "segment": {
+                                    "id": "KZFzniwnSyZfZ7v7nE",
+                                    "name": "Sports"
+                                },
+                                "genre": {
+                                    "id": "KnvZfZ7vA7A",
+                                    "name": "Miscellaneous"
+                                },
+                                "subGenre": {
+                                    "id": "KZazBEonSMnZfZ7vFIt",
+                                    "name": "Miscellaneous"
+                                },
+                                "type": {
+                                    "id": "KZAyXgnZfZ7v7nI",
+                                    "name": "Undefined"
+                                },
+                                "subType": {
+                                    "id": "KZFzBErXgnZfZ7v7lJ",
+                                    "name": "Undefined"
+                                },
+                                "family": false
+                            }
+                        ]
+                    },
+                    {
+                        "name": "PARKWHIZ SOFI STADIUM",
+                        "id": "vvG1IZpmJzMwmi",
+                        "url": "https://www.ticketmaster.com/parkwhiz-sofi-stadium-inglewood-california-08-21-2021/event/0A005AE9B8DF2BAC",
+                        "type": "Upsell",
+                        "classifications": [
+                            {
+                                "primary": true,
+                                "segment": {
+                                    "id": "KZFzniwnSyZfZ7v7n1",
+                                    "name": "Miscellaneous"
+                                },
+                                "genre": {
+                                    "id": "KnvZfZ7v7ll",
+                                    "name": "Undefined"
+                                },
+                                "subGenre": {
+                                    "id": "KZazBEonSMnZfZ7vAv1",
+                                    "name": "Undefined"
+                                },
+                                "type": {
+                                    "id": "KZAyXgnZfZ7vAva",
+                                    "name": "Parking"
+                                },
+                                "subType": {
+                                    "id": "KZFzBErXgnZfZ7vAFe",
+                                    "name": "Parking"
+                                },
+                                "family": false
+                            }
+                        ]
+                    }
+                ],
+                "seatmap": {
+                    "staticUrl": "https://maps.ticketmaster.com/maps/geometry/3/event/0A005A9AA0FC1180/staticImage?type=png&systemId=HOST"
+                },
+                "accessibility": {
+                    "ticketLimit": 8
+                },
+                "ageRestrictions": {
+                    "legalAgeEnforced": false
+                },
+                "_links": {
+                    "self": {
+                        "href": "/discovery/v2/events/vvG1IZptnOTvkZ?locale=en-us"
+                    },
+                    "attractions": [
+                        {
+                            "href": "/discovery/v2/attractions/K8vZ91719t0?locale=en-us"
+                        },
+                        {
+                            "href": "/discovery/v2/attractions/K8vZ9171oVV?locale=en-us"
+                        }
+                    ],
+                    "venues": [
+                        {
+                            "href": "/discovery/v2/venues/KovZ917ACh0?locale=en-us"
+                        }
+                    ]
+                },
+                "_embedded": {
+                    "venues": [
+                        {
+                            "name": "SoFi Stadium",
+                            "type": "venue",
+                            "id": "KovZ917ACh0",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/sofi-stadium-tickets-inglewood/venue/82789",
+                            "locale": "en-us",
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dbimages/21790v.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                }
+                            ],
+                            "postalCode": "90301",
+                            "timezone": "America/Los_Angeles",
+                            "city": {
+                                "name": "Inglewood"
+                            },
+                            "state": {
+                                "name": "California",
+                                "stateCode": "CA"
+                            },
+                            "country": {
+                                "name": "United States Of America",
+                                "countryCode": "US"
+                            },
+                            "address": {
+                                "line1": "1001 S. Stadium Dr"
+                            },
+                            "location": {
+                                "longitude": "-118.343767",
+                                "latitude": "33.950529"
+                            },
+                            "markets": [
+                                {
+                                    "name": "Los Angeles",
+                                    "id": "27"
+                                }
+                            ],
+                            "dmas": [
+                                {
+                                    "id": 223
+                                },
+                                {
+                                    "id": 324
+                                },
+                                {
+                                    "id": 354
+                                },
+                                {
+                                    "id": 383
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "_total": 24,
+                                "ticketmaster": 24
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/venues/KovZ917ACh0?locale=en-us"
+                                }
+                            }
+                        }
+                    ],
+                    "attractions": [
+                        {
+                            "name": "Los Angeles Rams",
+                            "type": "attraction",
+                            "id": "K8vZ91719t0",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/los-angeles-rams-tickets/artist/806024",
+                            "locale": "en-us",
+                            "externalLinks": {
+                                "twitter": [
+                                    {
+                                        "url": "https://twitter.com/ramsnfl"
+                                    }
+                                ],
+                                "facebook": [
+                                    {
+                                        "url": "https://www.facebook.com/Rams/"
+                                    }
+                                ],
+                                "wiki": [
+                                    {
+                                        "url": "https://en.wikipedia.org/wiki/Los_Angeles_Rams"
+                                    }
+                                ],
+                                "instagram": [
+                                    {
+                                        "url": "https://www.instagram.com/rams/"
+                                    }
+                                ],
+                                "homepage": [
+                                    {
+                                        "url": "https://www.therams.com/"
+                                    }
+                                ]
+                            },
+                            "aliases": [
+                                "ram",
+                                "Rams",
+                                "la rams",
+                                "l.a. rams",
+                                "rams football university",
+                                "stl rams football university",
+                                "st louis rams football university",
+                                "st louis rams university"
+                            ],
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/d08/ad826f06-02db-453d-8465-43e05cc1ad08_1325451_EVENT_DETAIL_PAGE_16_9.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/d08/ad826f06-02db-453d-8465-43e05cc1ad08_1325451_RETINA_PORTRAIT_3_2.jpg",
+                                    "width": 640,
+                                    "height": 427,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/d08/ad826f06-02db-453d-8465-43e05cc1ad08_1325451_TABLET_LANDSCAPE_16_9.jpg",
+                                    "width": 1024,
+                                    "height": 576,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/d08/ad826f06-02db-453d-8465-43e05cc1ad08_1325451_RETINA_LANDSCAPE_16_9.jpg",
+                                    "width": 1136,
+                                    "height": 639,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/d08/ad826f06-02db-453d-8465-43e05cc1ad08_1325451_RETINA_PORTRAIT_16_9.jpg",
+                                    "width": 640,
+                                    "height": 360,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "4_3",
+                                    "url": "https://s1.ticketm.net/dam/a/d08/ad826f06-02db-453d-8465-43e05cc1ad08_1325451_CUSTOM.jpg",
+                                    "width": 305,
+                                    "height": 225,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/d08/ad826f06-02db-453d-8465-43e05cc1ad08_1325451_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                                    "width": 2048,
+                                    "height": 1152,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/d08/ad826f06-02db-453d-8465-43e05cc1ad08_1325451_TABLET_LANDSCAPE_3_2.jpg",
+                                    "width": 1024,
+                                    "height": 683,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/d08/ad826f06-02db-453d-8465-43e05cc1ad08_1325451_ARTIST_PAGE_3_2.jpg",
+                                    "width": 305,
+                                    "height": 203,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/d08/ad826f06-02db-453d-8465-43e05cc1ad08_1325451_RECOMENDATION_16_9.jpg",
+                                    "width": 100,
+                                    "height": 56,
+                                    "fallback": false
+                                }
+                            ],
+                            "classifications": [
+                                {
+                                    "primary": true,
+                                    "segment": {
+                                        "id": "KZFzniwnSyZfZ7v7nE",
+                                        "name": "Sports"
+                                    },
+                                    "genre": {
+                                        "id": "KnvZfZ7vAdE",
+                                        "name": "Football"
+                                    },
+                                    "subGenre": {
+                                        "id": "KZazBEonSMnZfZ7vFE1",
+                                        "name": "NFL"
+                                    },
+                                    "type": {
+                                        "id": "KZAyXgnZfZ7v7l1",
+                                        "name": "Group"
+                                    },
+                                    "subType": {
+                                        "id": "KZFzBErXgnZfZ7vA7d",
+                                        "name": "Team"
+                                    },
+                                    "family": false
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "_total": 21,
+                                "ticketmaster": 21
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/attractions/K8vZ91719t0?locale=en-us"
+                                }
+                            }
+                        },
+                        {
+                            "name": "Las Vegas Raiders",
+                            "type": "attraction",
+                            "id": "K8vZ9171oVV",
+                            "test": false,
+                            "url": "https://www.ticketmaster.com/las-vegas-raiders-tickets/artist/805994",
+                            "locale": "en-us",
+                            "externalLinks": {
+                                "twitter": [
+                                    {
+                                        "url": "https://www.twitter.com/raiders"
+                                    }
+                                ],
+                                "facebook": [
+                                    {
+                                        "url": "https://www.facebook.com/raiders"
+                                    }
+                                ],
+                                "wiki": [
+                                    {
+                                        "url": "https://en.wikipedia.org/wiki/Las_Vegas_Raiders"
+                                    }
+                                ],
+                                "instagram": [
+                                    {
+                                        "url": "https://www.instagram.com/raiders"
+                                    }
+                                ],
+                                "homepage": [
+                                    {
+                                        "url": "https://www.raiders.com/"
+                                    }
+                                ]
+                            },
+                            "images": [
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_EVENT_DETAIL_PAGE_16_9.jpg",
+                                    "width": 205,
+                                    "height": 115,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_ARTIST_PAGE_3_2.jpg",
+                                    "width": 305,
+                                    "height": 203,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_RETINA_LANDSCAPE_16_9.jpg",
+                                    "width": 1136,
+                                    "height": 639,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_RETINA_PORTRAIT_3_2.jpg",
+                                    "width": 640,
+                                    "height": 427,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                                    "width": 2048,
+                                    "height": 1152,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_RETINA_PORTRAIT_16_9.jpg",
+                                    "width": 640,
+                                    "height": 360,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_RECOMENDATION_16_9.jpg",
+                                    "width": 100,
+                                    "height": 56,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "3_2",
+                                    "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_TABLET_LANDSCAPE_3_2.jpg",
+                                    "width": 1024,
+                                    "height": 683,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "16_9",
+                                    "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_TABLET_LANDSCAPE_16_9.jpg",
+                                    "width": 1024,
+                                    "height": 576,
+                                    "fallback": false
+                                },
+                                {
+                                    "ratio": "4_3",
+                                    "url": "https://s1.ticketm.net/dam/a/608/ad100b89-b729-4822-8165-5b626c21a608_1325251_CUSTOM.jpg",
+                                    "width": 305,
+                                    "height": 225,
+                                    "fallback": false
+                                }
+                            ],
+                            "classifications": [
+                                {
+                                    "primary": true,
+                                    "segment": {
+                                        "id": "KZFzniwnSyZfZ7v7nE",
+                                        "name": "Sports"
+                                    },
+                                    "genre": {
+                                        "id": "KnvZfZ7vAdE",
+                                        "name": "Football"
+                                    },
+                                    "subGenre": {
+                                        "id": "KZazBEonSMnZfZ7vFE1",
+                                        "name": "NFL"
+                                    },
+                                    "type": {
+                                        "id": "KZAyXgnZfZ7v7l1",
+                                        "name": "Group"
+                                    },
+                                    "subType": {
+                                        "id": "KZFzBErXgnZfZ7vA7d",
+                                        "name": "Team"
+                                    },
+                                    "family": false
+                                }
+                            ],
+                            "upcomingEvents": {
+                                "_total": 20,
+                                "ticketmaster": 20
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "/discovery/v2/attractions/K8vZ9171oVV?locale=en-us"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "_links": {
+        "first": {
+            "href": "/discovery/v2/events?locale=*&page=0&size=5"
+        },
+        "self": {
+            "href": "/discovery/v2/events?size=5&locale=*"
+        },
+        "next": {
+            "href": "/discovery/v2/events?locale=*&page=1&size=5"
+        },
+        "last": {
+            "href": "/discovery/v2/events?locale=*&page=43062&size=5"
+        }
+    },
+    "page": {
+        "size": 5,
+        "totalElements": 215315,
+        "totalPages": 43063,
+        "number": 0
+    }
+}

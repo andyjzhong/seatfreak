@@ -1,9 +1,10 @@
 import React from 'react';
 
-const SearchResult = () => {
+const SearchResult = (props) => {
     return (
         <div className="home-screen">
-            I'm a Search Result!
+            Event: {props.name}
+            ID: {props.id}
         </div>
     )
 }

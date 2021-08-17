@@ -24,7 +24,10 @@ const SearchResults = () => {
 
     let performanceRow = performances.map((performance, index) => {
         return (
-            <SearchResult />
+            <SearchResult
+                name = {performances.name}
+                id = {performances.id}
+            />
         )
     })
 

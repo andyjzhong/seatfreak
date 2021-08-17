@@ -5,8 +5,6 @@ import SearchResult from '../../components/SearchResult/SearchResult';
 const url = `https://app.ticketmaster.com/discovery/v2/events?apikey=${process.env.REACT_APP_API_KEY}&locale=*&size=5`;
 
 const SearchResults = () => {
-    console.log("@@ process.env is:", process.env);
-    console.log("@@ URL is:", url);
 
     const [performances, setPerformances] = useState([]);
 
@@ -23,10 +21,15 @@ const SearchResults = () => {
     }, []);
 
     let performanceRow = performances.map((performance, index) => {
+
+        console.log("performance", performance);
+        console.log("index", index);
+
         return (
             <SearchResult
-                name = {performances.name}
-                id = {performances.id}
+                name = {performance.name}
+                key = {performance.id}
+                performanceId = {performance.id}
             />
         )
     })

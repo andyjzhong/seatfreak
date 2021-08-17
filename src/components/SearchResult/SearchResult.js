@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const SearchResult = (props) => {
+
+    const [performance, setPerformance] = useState();
+
     return (
         <div className="home-screen">
-            Event: {props.name}
-            ID: {props.id}
+            <h4>Event: {props.name}</h4>
+            <p>ID: {props.performanceId}</p>
         </div>
     )
 }

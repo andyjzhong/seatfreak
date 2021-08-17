@@ -12,19 +12,25 @@ const SearchResults = () => {
 
     useEffect(() => {
         fetch(url)
-            .then((res) => res.json())
-            .then((json) => {
-                console.warn("API success!", json)
-                setPerformances(json);
+            .then(res => res.json())
+            .then(json => {
+                console.warn("API success!", json._embedded.events)
+                setPerformances(json._embedded.events);
             })
             .catch(
                 console.warn("Something went wrong with the API request", console.error)
             )
     }, []);
 
+    let performanceRow = performances.map((performance, index) => {
+        return (
+            <SearchResult />
+        )
+    })
+
     return (
         <div className="search-results-screen">
-            <SearchResult />
+            {performanceRow}
         </div>
     )
 }

@@ -26,9 +26,8 @@ const SearchResults = () => {
 
         return (
             <SearchResult
-                name = {performance.name}
+                dataObject = {performance}
                 key = {performance.id}
-                performanceId = {performance.id}
             />
         )
     })

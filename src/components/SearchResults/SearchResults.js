@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import SearchResult from '../../components/SearchResult/SearchResult';
 
-const url = "https://audubon-api.herokuapp.com/api/birds";
+
+const url = `https://app.ticketmaster.com/discovery/v2/events?apikey=${process.env.REACT_APP_API_KEY}&locale=*&size=5`;
 
 const SearchResults = () => {
+    console.log("@@ process.env is:", process.env);
+    console.log("@@ URL is:", url);
 
     const [performances, setPerformances] = useState([]);
 

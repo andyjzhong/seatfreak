@@ -6,22 +6,18 @@ const SearchResult = (props) => {
     console.log("PROPS IS::", props.dataObject);
 
     return (
-        <div className="search-result">
-            <table class="ui single line table">
-                <thead>
-                    <th>Date</th>
-                    <th>Event</th>
-                    <th>Price</th>
-                    <th>ID</th>
-                </thead>
-                <tbody>
-                    <td>{props.dataObject.dates.start.localDate}</td>
-                    <td>{props.dataObject.name}</td>
-                    <td>{props.dataObject.priceRanges[0].min}</td>
-                    <td>{props.dataObject.id}</td>
-                </tbody>
-            </table>
-        </div>
+        <tr className="search-result">
+            <td>
+                <div><strong>{props.dataObject.dates.start.localDate}</strong></div>
+                <div>Fri - 7:10pm</div>
+            </td>
+            <td>
+                <div><strong>{props.dataObject.name}</strong></div>
+                <div>{props.dataObject._embedded.venues[0].name}</div>
+            </td>
+            {props.dataObject.priceRanges ? <td><button className="ui secondary button">From ${props.dataObject.priceRanges[0].min}</button></td> : <td>Sold Out!</td>}
+            <td>{props.dataObject.id}</td>
+        </tr>
     )
 }
 

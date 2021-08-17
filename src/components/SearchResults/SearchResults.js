@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import SearchResult from '../../components/SearchResult/SearchResult';
 
-const url = `https://app.ticketmaster.com/discovery/v2/events?apikey=${process.env.REACT_APP_API_KEY}&locale=*&size=5`;
+const url = `https://app.ticketmaster.com/discovery/v2/events?apikey=${process.env.REACT_APP_API_KEY}&locale=*&size=20`;
 
 const SearchResults = () => {
 
@@ -34,7 +34,17 @@ const SearchResults = () => {
 
     return (
         <div className="search-results-screen">
-            {performanceRow}
+            <table class="ui selectable table">
+                <thead>
+                    <th>Date</th>
+                    <th>Event</th>
+                    <th>Price</th>
+                    <th>ID</th>
+                </thead>
+                <tbody>
+                    {performanceRow}
+                </tbody>
+            </table>
         </div>
     )
 }

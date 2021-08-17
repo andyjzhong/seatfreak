@@ -7,7 +7,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-        <h1>Hello World</h1>
+        <h1>Welcome to SeatFreak!</h1>
         <Route exact path="/" component={Home} />
         <Route exact path="/search" component={SearchResults} />
     </div>

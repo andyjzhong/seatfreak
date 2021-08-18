@@ -1,12 +1,10 @@
-import React, { useState, useContext } from 'react';
+import React, { useContext } from 'react';
 import { DataContext } from '../../components/DataContext/DataContext'
 import { Link } from 'react-router-dom';
 
 const Home = () => {
 
-
-    const [searchString, setSearchString] = useState("");
-    const {events, setEvents} = useContext(DataContext);
+    const {searchString, setSearchString} = useContext(DataContext);
 
     const handleChange = (e) => {
         console.log(e.target.value);

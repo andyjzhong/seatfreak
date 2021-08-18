@@ -8,12 +8,13 @@ import './App.css';
 
 function App() {
 
+    const [searchString, setSearchString] = useState("");
     const [events, setEvents] = useState([]);
 
     return (
         <div className="App">
             <DataContext.Provider
-                value = {{ events, setEvents }}
+                value = {{ events, setEvents, searchString, setSearchString }}
             >
                 <h1>Welcome to SeatFreak!</h1>
                 <Route exact path="/" component={Home} />

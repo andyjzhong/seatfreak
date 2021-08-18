@@ -1,10 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 const SearchResult = (props) => {
-
-    // const [performance, setPerformance] = useState();
-    console.log("PROPS IS::", props.dataObject);
 
     return (
         <tr className="search-result">

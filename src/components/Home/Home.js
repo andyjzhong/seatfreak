@@ -22,16 +22,12 @@ const Home = () => {
                 <div className="ui input">
                     <input className="search-bar" type="text" placeholder="Search" onChange={handleChange} value={searchString}/>
                 </div>
-
+                <Link to={`/search`}>
                     <button className="search-button ui button" type="submit">Search</button>
-
+                </Link>
             </form>
         </div>
     )
 }
 
 export default Home;
-
-<Link to={`/search`}>
-    <button className="search-button ui button" type="submit">Search</button>
-</Link>

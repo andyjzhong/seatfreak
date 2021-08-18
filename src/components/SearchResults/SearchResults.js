@@ -6,8 +6,7 @@ const SearchResults = () => {
 
     let responseArray = [];
 
-    const {events, setEvents} = useContext(DataContext);
-    const {searchString, setSearchString} = useContext(DataContext);
+    const { events, setEvents, searchString, setSearchString } = useContext(DataContext);
 
     useEffect(() => {
         console.log("searchString inside useEffect:", searchString);

@@ -34,6 +34,9 @@ const SearchResults = () => {
 
     return (
         <div className="search-results-screen">
+            <h1>Search String Here</h1>
+            <h3>Tickets</h3>
+
             <table class="ui selectable table">
                 <thead>
                     <th>Date</th>

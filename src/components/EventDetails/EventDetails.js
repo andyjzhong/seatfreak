@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const EventDetails = (props) => {
-    console.log(props);
+    useEffect(() => {
+        getEventDetails();
+    }, []);
+
+    const getEventDetails = () => {
+        console.log("Inside getEventDetails")
+    }
+
+    console.log("ID in event is:", props.match.params);
     return (
         <div className="event-details">
-            Hi
+            { props.match.params.id }
         </div>
     )
 }

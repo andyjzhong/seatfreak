@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useContext } from 'react';
+import { DataContext } from '../../components/DataContext/DataContext'
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -6,7 +7,7 @@ const Home = () => {
     let responseArray = [];
 
     const [searchString, setSearchString] = useState("");
-    const [events, setEvents] = useState([]);
+    const {events, setEvents} = useContext(DataContext);
 
     // useEffect(() => {
     //     getSearchResults(searchString);
@@ -56,7 +57,9 @@ const Home = () => {
                 <div className="ui input">
                     <input className="search-bar" type="text" placeholder="Search" onChange={handleChange} value={searchString}/>
                 </div>
+
                     <button className="search-button ui button" type="submit">Search</button>
+
             </form>
         </div>
     )

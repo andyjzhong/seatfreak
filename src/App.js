@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Route } from 'react-router-dom';
 import { DataContext } from './components/DataContext/DataContext'
 import Home from './components/Home/Home';
@@ -8,9 +8,13 @@ import './App.css';
 
 function App() {
 
+    const [events, setEvents] = useState([]);
+
     return (
         <div className="App">
-            <DataContext.Provider>
+            <DataContext.Provider
+                value = {{ events, setEvents }}
+            >
                 <h1>Welcome to SeatFreak!</h1>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/search" component={SearchResults} />

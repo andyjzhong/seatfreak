@@ -1,11 +1,37 @@
-import React, { useState, useEffect } from 'react';
+import React, { useContext } from 'react';
+import { DataContext } from '../../components/DataContext/DataContext'
 import SearchResult from '../../components/SearchResult/SearchResult';
 
-const url = `https://app.ticketmaster.com/discovery/v2/events?apikey=${process.env.REACT_APP_API_KEY}&locale=*&size=20`;
+// const url = `https://app.ticketmaster.com/discovery/v2/events?apikey=${process.env.REACT_APP_API_KEY}&locale=*&size=20`;
 
-const SearchResults = (props) => {
+const SearchResults = () => {
 
-    const [performances, setPerformances] = useState([]);
+    const {events, setEvents} = useContext(DataContext);
+
+    const getSearchResults = () => {
+        const baseUrl = `https://app.ticketmaster.com/discovery/v2/events?apikey=${process.env.REACT_APP_API_KEY}`
+        const url = `${baseUrl}&keyword=${searchString}&locale=*&size=5`;
+
+        fetch(url)
+            .then(res => res.json())
+            .then(res => {
+                console.warn("API call Success!", res._embedded.events);
+
+                responseArray = res._embedded.events
+                console.log("ARRAY DATA IS THIS:::", responseArray);
+
+                if(res) {
+                    setEvents(responseArray)
+                    console.log("events state is now updated to:", events);
+                }
+
+                setSearchString('');
+            })
+
+            .catch(console.error);
+    }
+
+    console.log("THIS IS THE EVENT FROM THE SEARCH RESULTS COMPONENT", events);
 
     // useEffect(() => {
     //     fetch(url)
@@ -19,36 +45,21 @@ const SearchResults = (props) => {
     //         )
     // }, []);
 
-    let performanceRow = performances.map((performance, index) => {
+    let eventRow = events.map((event, index) => {
 
-        console.log("performance", performance);
+        console.log("event", event);
         console.log("index", index);
 
         return (
             <SearchResult
-                dataObject = {performance}
-                key = {performance.id}
+                dataObject = {event}
+                key = {event.id}
             />
         )
     })
 
     return (
-        <div className="search-results-screen">
-            <h1>Search String Here</h1>
-            <h3>Tickets</h3>
-
-            <table class="ui selectable table">
-                <thead>
-                    <th>Date</th>
-                    <th>Event</th>
-                    <th>Price</th>
-                    <th>ID</th>
-                </thead>
-                <tbody>
-                    {performanceRow}
-                </tbody>
-            </table>
-        </div>
+        <div>Test</div>
     )
 }
 

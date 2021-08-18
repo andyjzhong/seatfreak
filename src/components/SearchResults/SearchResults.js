@@ -31,7 +31,7 @@ const SearchResults = () => {
                     console.warn("events state is now updated to:", events);
                 }
 
-                // setSearchString('');
+                setSearchString('');
             })
 
             .catch(console.error);

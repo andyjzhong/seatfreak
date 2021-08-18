@@ -1,20 +1,46 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const EventDetails = (props) => {
+
+    let eventId = props.match.params.id;
+
+    const [eventDetail, setEventDetail] = useState({});
+
     useEffect(() => {
         getEventDetails();
-    }, []);
+    });
 
     const getEventDetails = () => {
-        console.log("Inside getEventDetails")
+        const url = `https://app.ticketmaster.com/discovery/v2/events/${eventId}?apikey=${process.env.REACT_APP_API_KEY}&locale=*`
+
+        fetch(url)
+            .then(res => res.json())
+            .then(res => {
+                console.log("EVENT DETAIL OBJECT:", res);
+                setEventDetail(res);
+                console.log("eventDetail State is", eventDetail);
+            })
+            .catch(console.error);
     }
 
-    console.log("ID in event is:", props.match.params);
-    return (
-        <div className="event-details">
-            { props.match.params.id }
-        </div>
-    )
+    console.log(eventDetail);
+
+    if(eventDetail.length > 0) {
+        return (
+            <div className="event-details">
+                <p>{ props.match.params.id }</p>
+                <p>{ eventDetail.images[0].url }</p>
+                <img alt="" src={eventDetail.images[0].url}/>
+            </div>
+        )
+    } else {
+        return (
+            <div>Loading.</div>
+        )
+    }
+
 }
 
 export default EventDetails;
+            // <p>{ eventDetail.images[0].url }</p>
+            // <img alt="" src={eventDetail.images[0].url}/>

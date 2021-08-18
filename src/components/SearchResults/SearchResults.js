@@ -46,8 +46,6 @@ const SearchResults = () => {
         )
     })
 
-    console.log("WHAT IS SEARCH PARAM", searchParam);
-
     return (
         <div className="search-results-screen">
             <h1>{searchParam}</h1>

@@ -1,6 +1,7 @@
 import React from 'react';
 
-const EventDetails = () => {
+const EventDetails = (props) => {
+    console.log(props);
     return (
         <div className="event-details">
             Hi

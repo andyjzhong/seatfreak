@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useEffect, useContext } from 'react';
 import { DataContext } from '../../components/DataContext/DataContext'
 import SearchResult from '../../components/SearchResult/SearchResult';
 
@@ -6,7 +6,13 @@ import SearchResult from '../../components/SearchResult/SearchResult';
 
 const SearchResults = () => {
 
-    const {events, setEvents} = useContext(DataContext);
+    let responseArray = [];
+
+    const {events, setEvents, searchString, setSearchString} = useContext(DataContext);
+
+    useEffect(() => {
+        getSearchResults(searchString);
+    }, []);
 
     const getSearchResults = () => {
         const baseUrl = `https://app.ticketmaster.com/discovery/v2/events?apikey=${process.env.REACT_APP_API_KEY}`
@@ -59,7 +65,22 @@ const SearchResults = () => {
     })
 
     return (
-        <div>Test</div>
+        <div className="search-results-screen">
+            <h1>Search String Here</h1>
+            <h3>Tickets</h3>
+
+            <table class="ui selectable table">
+                <thead>
+                    <th>Date</th>
+                    <th>Event</th>
+                    <th>Price</th>
+                    <th>ID</th>
+                </thead>
+                <tbody>
+                    {eventRow}
+                </tbody>
+            </table>
+        </div>
     )
 }
 

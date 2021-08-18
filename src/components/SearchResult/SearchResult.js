@@ -7,6 +7,9 @@ const SearchResult = (props) => {
     return (
         <tr className="search-result">
             <td>
+                <img alt="" src={props.dataObject.images[0].url} style={{width: "60px"}}/>
+            </td>
+            <td>
                 <Link to={`/search/${props.dataObject.id}`} key={props.dataObject.id}>
                     <div><strong>{moment(props.dataObject.dates.start.localDate).format("MMM Do")}</strong></div>
                     <div>{moment(props.dataObject.dates.start.localDate).format("ddd")} {moment(props.dataObject.dates.start.dateTime).format("h:mma")}</div>
@@ -22,7 +25,7 @@ const SearchResult = (props) => {
                 <Link to={`/search/${props.dataObject.id}`} key={props.dataObject.id}>
                     <button className="ui secondary button">From ${props.dataObject.priceRanges[0].min}</button>
                 </Link>
-            </td> : <td>Sold Out!</td>}
+            </td> : <td><button className="ui disabled secondary button">Sold Out!</button></td>}
             <td>{props.dataObject.id}</td>
         </tr>
     )

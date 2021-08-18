@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import moment from 'moment';
 
 const SearchResult = (props) => {
 
@@ -7,8 +8,8 @@ const SearchResult = (props) => {
         <tr className="search-result">
             <td>
                 <Link to={`/search/${props.dataObject.id}`} key={props.dataObject.id}>
-                    <div><strong>{props.dataObject.dates.start.localDate}</strong></div>
-                    <div>Fri - 7:10pm</div>
+                    <div><strong>{moment(props.dataObject.dates.start.localDate).format("MMM Do")}</strong></div>
+                    <div>{moment(props.dataObject.dates.start.localDate).format("ddd")} {moment(props.dataObject.dates.start.dateTime).format("h:mma")}</div>
                 </Link>
             </td>
             <td>

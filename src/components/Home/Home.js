@@ -20,12 +20,14 @@ const Home = () => {
 
     return (
         <div className="home-screen">
+            <h1 className="landing-title">Welcome to SeatFreak!</h1>
             <form className="search-form" onSubmit={handleSubmit}>
-                <div className="ui input">
-                    <input className="search-bar" type="text" placeholder="Search" onChange={handleChange} value={searchString}/>
+                <div className="ui input left icon">
+                    <input className="search-bar" type="text" placeholder="Performer, Event, Venue" onChange={handleChange} value={searchString}/>
+                    <i class="search icon"></i>
                 </div>
                 <Link to={`/search`}>
-                    <button className="search-button ui button" type="submit">Search</button>
+                    <button className="search-button ui button" type="submit" style={{backgroundColor: "#FFE459"}}><i class="search icon"></i></button>
                 </Link>
             </form>
 

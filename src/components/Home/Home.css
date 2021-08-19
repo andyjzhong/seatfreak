@@ -2,3 +2,28 @@
     margin-right: 1em !important;
     width: 20rem;
 }
+
+.home-screen {
+    background-image: url("../../nainoa-shizuru.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}
+
+.landing-title {
+    padding-top: 20%
+}
+
+.search-button {
+    height: 2.5em;
+    width: 3em;
+    padding: 0.5em !important;
+    text-align: center;
+}
+
+.search {
+    margin: 0 !important;
+}

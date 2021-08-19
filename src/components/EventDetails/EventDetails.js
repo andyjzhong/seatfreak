@@ -29,8 +29,6 @@ const EventDetails = (props) => {
         return (
             <div className="event-details">
                 <p>{ props.match.params.id }</p>
-                <p>{ eventDetail.images[0].url }</p>
-                <img alt="" src={eventDetail.images[0].url}/>
             </div>
         )
     } else {

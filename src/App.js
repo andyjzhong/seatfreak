@@ -19,7 +19,7 @@ function App() {
                 value = {{ events, setEvents, searchString, setSearchString }}
             >
                 <Navbar />
-                <h1>Welcome to SeatFreak!</h1>
+                <h1 className="landing-title">Welcome to SeatFreak!</h1>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/search" component={SearchResults} />
                 <Route path="/search/:id" component={EventDetails} />

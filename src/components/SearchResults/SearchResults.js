@@ -1,12 +1,14 @@
 import React, { useEffect, useContext } from 'react';
 import { DataContext } from '../../components/DataContext/DataContext'
 import SearchResult from '../../components/SearchResult/SearchResult';
+import moment from 'moment';
 import './SearchResults.css';
 
 const SearchResults = () => {
 
     let responseArray = [];
     let searchParam = "";
+    let formattedDate = "";
 
     const { events, setEvents, searchString, setSearchString } = useContext(DataContext);
 
@@ -39,6 +41,9 @@ const SearchResults = () => {
     }
 
     let eventRow = events.map((event, index) => {
+        console.log("time",moment(event.dates.start.dateTime).format("YYYYMMDD"));
+        formattedDate = moment(event.dates.start.dateTime).format("YYYYMMDD");
+
         return (
             <SearchResult
                 dataObject = {event}
@@ -46,9 +51,14 @@ const SearchResults = () => {
             />
         )
     })
-    // .sort(function(a, b){
-    //     return new Date(b.dates.start.dateTime) - new Date(a.dates.start.dateTime)
-    // })
+
+    console.log("eventRow", eventRow);
+
+    let sortedEventRow = eventRow.sort(function(a, b){
+        return b.formattedDate - a.formattedDate
+    })
+
+    console.log("sortedEventRow", sortedEventRow);
 
     return (
         <div className="search-results-screen">
@@ -62,9 +72,10 @@ const SearchResults = () => {
                     <th className="thead thead-event">Event</th>
                     <th className="thead thead-price">Price</th>
                     <th className="thead thead-id">ID</th>
+                    <th className="thead thead-id">ID</th>
                 </thead>
                 <tbody>
-                    {eventRow}
+                    {sortedEventRow}
                 </tbody>
             </table>
         </div>

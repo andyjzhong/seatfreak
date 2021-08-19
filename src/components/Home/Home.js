@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { DataContext } from '../../components/DataContext/DataContext'
 import { Link } from 'react-router-dom';
 import Card from '../../components/Card/Card'
+import './Home.css';
 
 const Home = () => {
 

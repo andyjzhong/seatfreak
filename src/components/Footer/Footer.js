@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => {
     return (
         <div className="footer">
-            Andy Zhong
+            © 2021 Andy Zhong. All rights reserved.
         </div>
     )
 }

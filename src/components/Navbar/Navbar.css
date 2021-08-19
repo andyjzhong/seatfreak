@@ -1,0 +1,10 @@
+.navbar {
+    background-color: black;
+    height: 8vh;
+}
+
+.navbar-logo {
+    text-align: left;
+    padding: 1rem;
+    color: hotpink;
+}

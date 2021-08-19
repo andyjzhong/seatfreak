@@ -23,9 +23,9 @@ const SearchResult = (props) => {
             </td>
             {props.dataObject.priceRanges ? <td>
                 <Link to={`/search/${props.dataObject.id}`} key={props.dataObject.id}>
-                    <button className="ui secondary button">From ${props.dataObject.priceRanges[0].min}</button>
+                    <button className="ui secondary button" style={{width: "8rem"}}>From ${Math.ceil(props.dataObject.priceRanges[0].min)}</button>
                 </Link>
-            </td> : <td><button className="ui disabled secondary button">Sold Out!</button></td>}
+            </td> : <td><button className="ui disabled secondary button" style={{width: "8rem"}}>Sold Out!</button></td>}
             <td>{props.dataObject.id}</td>
         </tr>
     )

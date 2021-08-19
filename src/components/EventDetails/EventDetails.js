@@ -25,7 +25,7 @@ const EventDetails = (props) => {
 
     console.log(eventDetail);
 
-    if(eventDetail.length > 0) {
+    if(eventDetail) {
         return (
             <div className="event-details">
                 <p>{ props.match.params.id }</p>

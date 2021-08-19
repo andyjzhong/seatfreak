@@ -1,6 +1,7 @@
 import React, { useEffect, useContext } from 'react';
 import { DataContext } from '../../components/DataContext/DataContext'
 import SearchResult from '../../components/SearchResult/SearchResult';
+import './SearchResults.css';
 
 const SearchResults = () => {
 
@@ -45,6 +46,9 @@ const SearchResults = () => {
             />
         )
     })
+    // .sort(function(a, b){
+    //     return new Date(b.dates.start.dateTime) - new Date(a.dates.start.dateTime)
+    // })
 
     return (
         <div className="search-results-screen">
@@ -53,10 +57,11 @@ const SearchResults = () => {
 
             <table class="ui selectable table">
                 <thead>
-                    <th>Date</th>
-                    <th>Event</th>
-                    <th>Price</th>
-                    <th>ID</th>
+                    <th className="thead thead-pic"></th>
+                    <th className="thead thead-date">Date</th>
+                    <th className="thead thead-event">Event</th>
+                    <th className="thead thead-price">Price</th>
+                    <th className="thead thead-id">ID</th>
                 </thead>
                 <tbody>
                     {eventRow}

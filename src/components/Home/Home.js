@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { DataContext } from '../../components/DataContext/DataContext'
 import { Link } from 'react-router-dom';
+import Card from '../../components/Card/Card'
 
 const Home = () => {
 
@@ -26,6 +27,10 @@ const Home = () => {
                     <button className="search-button ui button" type="submit">Search</button>
                 </Link>
             </form>
+
+            <Card />
+            <Card />
+            <Card />
         </div>
     )
 }

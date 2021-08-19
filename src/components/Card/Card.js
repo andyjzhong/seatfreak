@@ -2,8 +2,6 @@ import React from 'react';
 import './Card.css';
 
 const Card = (props) => {
-    console.log("PREVIEW DATA", props)
-
     return (
         <div className="ui card whole-card">
             <div className="image card-image">

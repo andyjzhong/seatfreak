@@ -23,17 +23,14 @@ const EventDetails = (props) => {
             .catch(console.error);
     }
 
-    console.log(eventDetail);
+    // console.log(eventDetail.seatmap.staticUrl);
 
     if(eventDetail) {
-        let venueUrl = eventDetail.url.toString();
-
         return (
             <div className="event-details">
                 <p>{ props.match.params.id }</p>
                 <p>{ eventDetail.name }</p>
-                <p>{ venueUrl }</p>
-                <img alt="" src={venueUrl} />
+                <img alt="" src="" />
             </div>
         )
     } else {

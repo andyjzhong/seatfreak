@@ -6,9 +6,12 @@ import './SearchResults.css';
 
 const SearchResults = () => {
 
-    let responseArray = [];
-
     const { events, setEvents, searchString, setSearchString, lastSearch } = useContext(DataContext);
+    let responseArray = [];
+    let lastSearchFirstLetter = lastSearch.split("")[0].toUpperCase();
+    let lastSearchDroppedLetter = lastSearch.split("").splice(0, 1, lastSearchFirstLetter);
+    console.log("lastSearchFirstLetter", lastSearchFirstLetter);
+    console.log("lastSearchDroppedLetter", lastSearchDroppedLetter);
 
     useEffect(() => {
         getSearchResults(searchString);
@@ -17,7 +20,7 @@ const SearchResults = () => {
     const getSearchResults = (string) => {
 
         const baseUrl = `https://app.ticketmaster.com/discovery/v2/events?apikey=${process.env.REACT_APP_API_KEY}`
-        const url = `${baseUrl}&keyword=${string}&locale=*&size=4`;
+        const url = `${baseUrl}&keyword=${string}&locale=*&size=20`;
 
         fetch(url)
             .then(res => res.json())
@@ -41,7 +44,6 @@ const SearchResults = () => {
     }
 
     let eventRow = events.map((event, index) => {
-
         return (
             <SearchResult
                 dataObject = {event}

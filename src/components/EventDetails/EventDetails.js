@@ -8,7 +8,7 @@ const EventDetails = (props) => {
 
     useEffect(() => {
         getEventDetails();
-    });
+    },[]);
 
     const getEventDetails = () => {
         const url = `https://app.ticketmaster.com/discovery/v2/events/${eventId}?apikey=${process.env.REACT_APP_API_KEY}&locale=*`
@@ -26,9 +26,14 @@ const EventDetails = (props) => {
     console.log(eventDetail);
 
     if(eventDetail) {
+        let venueUrl = eventDetail.url.toString();
+
         return (
             <div className="event-details">
                 <p>{ props.match.params.id }</p>
+                <p>{ eventDetail.name }</p>
+                <p>{ venueUrl }</p>
+                <img alt="" src={venueUrl} />
             </div>
         )
     } else {
@@ -40,5 +45,6 @@ const EventDetails = (props) => {
 }
 
 export default EventDetails;
+            // <img alt="" src={ eventDetail.url }/>
             // <p>{ eventDetail.images[0].url }</p>
             // <img alt="" src={eventDetail.images[0].url}/>

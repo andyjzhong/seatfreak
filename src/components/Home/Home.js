@@ -32,9 +32,14 @@ const Home = () => {
                 </Link>
             </form>
 
-            <Card />
-            <Card />
-            <Card />
+            <div class="ui four column grid preview-events">
+                <div class="four column row preview-row">
+                    <div class="column"><Card /></div>
+                    <div class="column"><Card /></div>
+                    <div class="column"><Card /></div>
+                    <div class="column"><Card /></div>
+                </div>
+            </div>
         </div>
     )
 }

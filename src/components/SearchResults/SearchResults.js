@@ -10,10 +10,7 @@ const SearchResults = () => {
 
     const { events, setEvents, searchString, setSearchString, lastSearch } = useContext(DataContext);
 
-    console.log("WHAT IS lastSearch", lastSearch);
-
     useEffect(() => {
-        console.log("searchString inside useEffect:", searchString);
         getSearchResults(searchString);
     }, []);
 

@@ -1,3 +1,18 @@
 .card {
-    margin: 2rem auto !important;    
+    margin: 2rem auto !important;
+    color: #FFF !important;
+    min-height: 24rem !important;
+    background-color: #1F1F1F !important;
+}
+
+.card-image {
+    min-height: 12rem !important;
+}
+
+.card-header {
+    color: #FFF !important;
+}
+
+.meta, .description {
+    color: #8A8A8A !important;
 }

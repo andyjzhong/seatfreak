@@ -1,19 +1,22 @@
 import React from 'react';
 import './Card.css';
 
-const Card = () => {
+const Card = (props) => {
+    console.log("PREVIEW DATA", props)
+
     return (
-        <div className="ui card">
-            <div className="image">
-                <img alt="" src=""/>
+        <div className="ui card whole-card">
+            <div className="image card-image">
+                <img alt="" src={props.image}/>
             </div>
             <div className="content card-content">
-                <a className="header" href="/">Event Name</a>
+                <a className="header card-header" href="/">{props.name}</a>
                 <div className="meta">
-                    <span className="date">Event Date</span>
+                    <span className="date">{props.day}, {props.date}, {props.time}</span>
+                    <p>{props.venue}</p>
                 </div>
                 <div className="description">
-                    Event Description
+                    From ${props.price}
                 </div>
             </div>
         </div>

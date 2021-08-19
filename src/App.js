@@ -13,11 +13,12 @@ function App() {
     const [searchString, setSearchString] = useState("");
     const [lastSearch, setLastSearch] = useState("");
     const [events, setEvents] = useState([]);
+    const [previewState, setPreviewState] = useState([]);
 
     return (
         <div className="App">
             <DataContext.Provider
-                value = {{ events, setEvents, searchString, setSearchString, lastSearch, setLastSearch }}
+                value = {{ events, setEvents, searchString, setSearchString, lastSearch, setLastSearch, previewState, setPreviewState }}
             >
                 <Navbar />
                 <Route exact path="/" component={Home} />

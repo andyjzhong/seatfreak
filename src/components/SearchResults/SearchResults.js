@@ -7,10 +7,10 @@ import './SearchResults.css';
 const SearchResults = () => {
 
     let responseArray = [];
-    let searchParam = "";
-    let formattedDate = "";
 
-    const { events, setEvents, searchString, setSearchString } = useContext(DataContext);
+    const { events, setEvents, searchString, setSearchString, lastSearch } = useContext(DataContext);
+
+    console.log("WHAT IS lastSearch", lastSearch);
 
     useEffect(() => {
         console.log("searchString inside useEffect:", searchString);
@@ -20,7 +20,7 @@ const SearchResults = () => {
     const getSearchResults = (string) => {
 
         const baseUrl = `https://app.ticketmaster.com/discovery/v2/events?apikey=${process.env.REACT_APP_API_KEY}`
-        const url = `${baseUrl}&keyword=${string}&locale=*&size=20`;
+        const url = `${baseUrl}&keyword=${string}&locale=*&size=4`;
 
         fetch(url)
             .then(res => res.json())
@@ -29,9 +29,12 @@ const SearchResults = () => {
 
                 responseArray = res._embedded.events
 
+                responseArray.sort(function(a, b){
+                    return moment(a.dates.start.localDate).format("YYYYMMDD") - moment(b.dates.start.localDate).format("YYYYMMDD")
+                })
+
                 if(res) {
                     setEvents(responseArray)
-                    console.warn("events state is now updated to:", events);
                 }
 
                 setSearchString('');
@@ -41,8 +44,6 @@ const SearchResults = () => {
     }
 
     let eventRow = events.map((event, index) => {
-        console.log("time",moment(event.dates.start.dateTime).format("YYYYMMDD"));
-        formattedDate = moment(event.dates.start.dateTime).format("YYYYMMDD");
 
         return (
             <SearchResult
@@ -52,17 +53,9 @@ const SearchResults = () => {
         )
     })
 
-    console.log("eventRow", eventRow);
-
-    let sortedEventRow = eventRow.sort(function(a, b){
-        return b.formattedDate - a.formattedDate
-    })
-
-    console.log("sortedEventRow", sortedEventRow);
-
     return (
         <div className="search-results-screen">
-            <h1>{searchParam}</h1>
+            <h1>{lastSearch}</h1>
             <h3>Tickets</h3>
 
             <table class="ui selectable table">
@@ -72,10 +65,10 @@ const SearchResults = () => {
                     <th className="thead thead-event">Event</th>
                     <th className="thead thead-price">Price</th>
                     <th className="thead thead-id">ID</th>
-                    <th className="thead thead-id">ID</th>
+                    <th className="thead thead-id">Timestamp</th>
                 </thead>
                 <tbody>
-                    {sortedEventRow}
+                    {eventRow}
                 </tbody>
             </table>
         </div>

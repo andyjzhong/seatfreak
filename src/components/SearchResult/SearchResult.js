@@ -27,6 +27,7 @@ const SearchResult = (props) => {
                 </Link>
             </td> : <td><button className="ui disabled secondary button" style={{width: "8rem"}}>Sold Out!</button></td>}
             <td>{props.dataObject.id}</td>
+            <td>{moment(props.dataObject.dates.start.dateTime).format("YYYYMMDD").toString()}</td>
         </tr>
     )
 }

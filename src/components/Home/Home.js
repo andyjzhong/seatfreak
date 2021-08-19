@@ -6,11 +6,12 @@ import './Home.css';
 
 const Home = () => {
 
-    const {searchString, setSearchString} = useContext(DataContext);
+    const {searchString, setSearchString, lastSearch, setLastSearch} = useContext(DataContext);
 
     const handleChange = (e) => {
         console.log(e.target.value);
         setSearchString(e.target.value)
+        setLastSearch(e.target.value)
     }
 
     const handleSubmit = (e) => {

@@ -11,12 +11,13 @@ import './App.css';
 function App() {
 
     const [searchString, setSearchString] = useState("");
+    const [lastSearch, setLastSearch] = useState("");
     const [events, setEvents] = useState([]);
 
     return (
         <div className="App">
             <DataContext.Provider
-                value = {{ events, setEvents, searchString, setSearchString }}
+                value = {{ events, setEvents, searchString, setSearchString, lastSearch, setLastSearch }}
             >
                 <Navbar />
                 <Route exact path="/" component={Home} />

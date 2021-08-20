@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import moment from 'moment';
 
 const EventDetails = (props) => {
 
@@ -30,7 +31,10 @@ const EventDetails = (props) => {
             <div className="event-details">
                 <p>{ props.match.params.id }</p>
                 <p>{ eventDetail.name }</p>
-                <img alt="" src="" />
+                <p>{ moment(eventDetail.dates.start.localDate).format("ddd") }</p>
+                <p>{ moment(eventDetail.dates.start.localDate).format("MMM D") }</p>
+                <p>{ moment(eventDetail.dates.start.dateTime).format("h:mma") }</p>
+                <img alt="" src={eventDetail.seatmap.staticUrl} />
             </div>
         )
     } else {

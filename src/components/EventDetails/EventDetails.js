@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import TicketTable from '../../components/TicketTable/TicketTable';
 import moment from 'moment';
+import './EventDetails.css';
 
 const EventDetails = (props) => {
 
@@ -27,13 +28,15 @@ const EventDetails = (props) => {
     if(eventDetail) {
         return (
             <div className="event-details">
-                <p>{ props.match.params.id }</p>
-                <p>{ eventDetail.name }</p>
+                <h1>{ eventDetail.name }</h1>
                 <p>{ moment(eventDetail.dates.start.localDate).format("ddd") }</p>
                 <p>{ moment(eventDetail.dates.start.localDate).format("MMM D") }</p>
                 <p>{ moment(eventDetail.dates.start.dateTime).format("h:mma") }</p>
-                <TicketTable />
-                <img alt="" src={eventDetail.seatmap.staticUrl} />
+                <img alt="" className="seatmap" src={eventDetail.seatmap.staticUrl} />
+                <div>
+                    <TicketTable />
+                </div>
+
             </div>
         )
     } else {

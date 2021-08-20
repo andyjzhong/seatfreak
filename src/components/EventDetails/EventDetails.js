@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import TicketTable from '../../components/TicketTable/TicketTable';
 import moment from 'moment';
 
 const EventDetails = (props) => {
@@ -9,7 +10,7 @@ const EventDetails = (props) => {
 
     useEffect(() => {
         getEventDetails();
-    },[]);
+    });
 
     const getEventDetails = () => {
         const url = `https://app.ticketmaster.com/discovery/v2/events/${eventId}?apikey=${process.env.REACT_APP_API_KEY}&locale=*`
@@ -17,14 +18,11 @@ const EventDetails = (props) => {
         fetch(url)
             .then(res => res.json())
             .then(res => {
-                console.log("EVENT DETAIL OBJECT:", res);
                 setEventDetail(res);
                 console.log("eventDetail State is", eventDetail);
             })
             .catch(console.error);
     }
-
-    // console.log(eventDetail.seatmap.staticUrl);
 
     if(eventDetail) {
         return (
@@ -34,18 +32,13 @@ const EventDetails = (props) => {
                 <p>{ moment(eventDetail.dates.start.localDate).format("ddd") }</p>
                 <p>{ moment(eventDetail.dates.start.localDate).format("MMM D") }</p>
                 <p>{ moment(eventDetail.dates.start.dateTime).format("h:mma") }</p>
+                <TicketTable />
                 <img alt="" src={eventDetail.seatmap.staticUrl} />
             </div>
         )
     } else {
-        return (
-            <div>Loading.</div>
-        )
+        return <h2>Please wait.</h2>
     }
-
 }
 
 export default EventDetails;
-            // <img alt="" src={ eventDetail.url }/>
-            // <p>{ eventDetail.images[0].url }</p>
-            // <img alt="" src={eventDetail.images[0].url}/>

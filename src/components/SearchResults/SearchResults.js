@@ -10,8 +10,8 @@ const SearchResults = () => {
     let responseArray = [];
     let lastSearchFirstLetter = lastSearch.split("")[0].toUpperCase();
     let lastSearchDroppedLetter = lastSearch.split("").splice(0, 1, lastSearchFirstLetter);
-    console.log("lastSearchFirstLetter", lastSearchFirstLetter);
-    console.log("lastSearchDroppedLetter", lastSearchDroppedLetter);
+    // console.log("lastSearchFirstLetter", lastSearchFirstLetter);
+    // console.log("lastSearchDroppedLetter", lastSearchDroppedLetter);
 
     useEffect(() => {
         getSearchResults(searchString);

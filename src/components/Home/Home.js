@@ -36,7 +36,6 @@ const Home = () => {
     }
 
     const handleChange = (e) => {
-        console.log(e.target.value);
         setSearchString(e.target.value)
         setLastSearch(e.target.value)
     }

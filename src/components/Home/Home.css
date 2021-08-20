@@ -8,13 +8,19 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 120vh;
-    color: white;
+    height: 130vh;
+    color: #FFF;
 }
 
 .landing-title {
     padding-top: 15%;
     font-size: 3.5em;
+}
+
+.landing-remark {
+    font-family: 'Helvetica';
+    font-size: 1.5em;
+    color: darkgray;
 }
 
 .search-form {

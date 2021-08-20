@@ -45,14 +45,18 @@ const Home = () => {
         console.log("Clicked a button!");
     }
 
-    const handleHover = (e) => {
-        e.target.style.backgroundColor = "#292929";
+    const handleMouseEnter = (e) => {
+        e.currentTarget.style.transform = "scale(1.1)";
+    }
+
+    const handleMouseLeave = (e) => {
+        e.currentTarget.style.transform = "scale(1.0)";
     }
 
     return (
         <div className="home-screen">
             <h1 className="landing-title">Welcome to SeatFreak!</h1>
-            <h4 className="landing-remark">Some witty remark about tickets</h4>
+            <h4 className="landing-remark">Remember concerts? Yeah we've gotchu.</h4>
             <form className="search-form" onSubmit={handleSubmit}>
                 <div className="ui input left icon">
                     <input className="search-bar" type="text" placeholder="Performer, Event, Venue" onChange={handleChange} value={searchString}/>
@@ -64,9 +68,9 @@ const Home = () => {
             </form>
 
             <h2>Trending Events</h2>
-            <div className={(width <= 375) ? `ui preview-events` : `ui four column grid preview-events`}>
+            <div className={(width <= 400) ? `ui preview-events` : `ui four column grid preview-events`}>
                 <div className="four column row preview-row">
-                    {(previewState.length > 0) ? <div className="column" onMouseOver={handleHover}><Card
+                    {(previewState.length > 0) ? <div className="column" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}><Card
                         name={previewState[0].name}
                         day={moment(previewState[0].dates.start.localDate).format("ddd")}
                         date={moment(previewState[0].dates.start.localDate).format("MMM D")}
@@ -75,7 +79,7 @@ const Home = () => {
                         image={previewState[0].images[0].url}
                         price={previewState[0].priceRanges[0].min}
                     /></div> : <Card />}
-                    {(previewState.length > 0) ? <div className="column"><Card
+                    {(previewState.length > 0) ? <div className="column" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}><Card
                         name={previewState[1].name}
                         day={moment(previewState[1].dates.start.localDate).format("ddd")}
                         date={moment(previewState[1].dates.start.localDate).format("MMM D")}
@@ -84,7 +88,7 @@ const Home = () => {
                         image={previewState[1].images[0].url}
                         price={previewState[1].priceRanges[0].min}
                     /></div> : <Card />}
-                    {(previewState.length > 0) ? <div className="column"><Card
+                    {(previewState.length > 0) ? <div className="column" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}><Card
                         name={previewState[2].name}
                         day={moment(previewState[2].dates.start.localDate).format("ddd")}
                         date={moment(previewState[2].dates.start.localDate).format("MMM D")}
@@ -93,7 +97,7 @@ const Home = () => {
                         image={previewState[2].images[0].url}
                         price={(false) ? previewState[2].priceRanges[0].min : 0}
                     /></div> : <Card />}
-                    {(previewState.length > 0) ? <div className="column"><Card
+                    {(previewState.length > 0) ? <div className="column" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}><Card
                         name={previewState[3].name}
                         day={moment(previewState[3].dates.start.localDate).format("ddd")}
                         date={moment(previewState[3].dates.start.localDate).format("MMM D")}

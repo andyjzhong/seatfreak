@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Route } from 'react-router-dom';
 import { DataContext } from './components/DataContext/DataContext'
 import Navbar from './components/Navbar/Navbar';
@@ -8,12 +8,36 @@ import EventDetails from './components/EventDetails/EventDetails';
 import Footer from './components/Footer/Footer';
 import './App.css';
 
+function getWindowDimensions() {
+    const { innerWidth: width, innerHeight: height } = window;
+    return {
+        width,
+        height
+    };
+}
+
+function useWindowDimensions() {
+    const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
+
+    useEffect(() => {
+        function handleResize() {
+        setWindowDimensions(getWindowDimensions());
+    }
+
+    window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
+    return windowDimensions;
+}
+
 function App() {
 
     const [searchString, setSearchString] = useState("");
     const [lastSearch, setLastSearch] = useState("");
     const [events, setEvents] = useState([]);
     const [previewState, setPreviewState] = useState([]);
+    const { height, width } = useWindowDimensions();
 
     return (
         <div className="App">
@@ -24,6 +48,7 @@ function App() {
                 <Route exact path="/" component={Home} />
                 <Route exact path="/search" component={SearchResults} />
                 <Route path="/search/:id" component={EventDetails} />
+                <p style={{color: "red"}}>Height = {height}, Width = {width}</p>
                 <Footer />
             </DataContext.Provider>
         </div>

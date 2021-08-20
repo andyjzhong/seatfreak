@@ -35,7 +35,6 @@ const SearchResults = () => {
 
                 if(res) {
                     setEvents(responseArray)
-                    console.log("BUTTS", responseArray[0]._embedded.venues[0].images[0].url)
                     setCurrentPic(responseArray[0]._embedded.venues[0].images[0].url)
                 }
 
@@ -60,7 +59,7 @@ const SearchResults = () => {
             <h3>Tickets</h3>
 
             <p>{currentPic}</p>
-            <img alt="" src={currentPic} />
+            <img alt="" src={currentPic} style={{width: "100px"}}/>
 
             <table class="ui selectable table">
                 <thead>

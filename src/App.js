@@ -8,7 +8,7 @@ import EventDetails from './components/EventDetails/EventDetails';
 import Footer from './components/Footer/Footer';
 import './App.css';
 
-function getWindowDimensions() {
+const getWindowDimensions = () => {
     const { innerWidth: width, innerHeight: height } = window;
     return {
         width,
@@ -16,7 +16,7 @@ function getWindowDimensions() {
     };
 }
 
-function useWindowDimensions() {
+const useWindowDimensions = () => {
     const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
 
     useEffect(() => {
@@ -31,6 +31,20 @@ function useWindowDimensions() {
     return windowDimensions;
 }
 
+const getLocation = () => {
+    console.log("ran");
+    window.navigator.geolocation.getCurrentPosition(onGeoSuccess, onGeoError);
+}
+
+const onGeoSuccess = (position) => {
+    const { latitude, longitude } = position.coords;
+    console.log("SUCCESS!", `${latitude},${longitude}`);
+}
+
+const onGeoError = () => {
+    console.log("FAILED TO GET LOCATION");
+}
+
 function App() {
 
     const [searchString, setSearchString] = useState("");
@@ -39,6 +53,10 @@ function App() {
     const [previewState, setPreviewState] = useState([]);
     const [currentPic, setCurrentPic] = useState()
     const { height, width } = useWindowDimensions();
+
+    useEffect(() => {
+        getLocation(searchString);
+    },[]);
 
     return (
         <div className="App">

@@ -37,12 +37,13 @@ function App() {
     const [lastSearch, setLastSearch] = useState("");
     const [events, setEvents] = useState([]);
     const [previewState, setPreviewState] = useState([]);
+    const [currentPic, setCurrentPic] = useState()
     const { height, width } = useWindowDimensions();
 
     return (
         <div className="App">
             <DataContext.Provider
-                value = {{ events, setEvents, searchString, setSearchString, lastSearch, setLastSearch, previewState, setPreviewState, width, height }}
+                value = {{ events, setEvents, searchString, setSearchString, lastSearch, setLastSearch, previewState, setPreviewState, currentPic, setCurrentPic, width, height }}
             >
                 <Navbar />
                 <Route exact path="/" component={Home} />

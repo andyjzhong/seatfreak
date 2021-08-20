@@ -1,11 +1,18 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { DataContext } from '../../components/DataContext/DataContext'
 import { Link } from 'react-router-dom';
 import moment from 'moment';
 
 const SearchResult = (props) => {
 
+    const { currentPic, setCurrentPic } = useContext(DataContext);
+
+    const handleHover = (e) => {
+        setCurrentPic(props.dataObject.images[0].url)
+    }
+
     return (
-        <tr className="search-result">
+        <tr className="search-result" onMouseOver={handleHover}>
             <td>
                 <img alt="" src={props.dataObject.images[0].url} style={{width: "60px"}}/>
             </td>

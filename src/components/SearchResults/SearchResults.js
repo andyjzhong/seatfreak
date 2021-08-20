@@ -6,7 +6,7 @@ import './SearchResults.css';
 
 const SearchResults = () => {
 
-    const { events, setEvents, searchString, setSearchString, lastSearch } = useContext(DataContext);
+    const { events, setEvents, searchString, setSearchString, lastSearch, currentPic, setCurrentPic } = useContext(DataContext);
     let responseArray = [];
     let lastSearchFirstLetter = lastSearch.split("")[0].toUpperCase();
     let lastSearchDroppedLetter = lastSearch.split("").splice(0, 1, lastSearchFirstLetter);
@@ -35,6 +35,8 @@ const SearchResults = () => {
 
                 if(res) {
                     setEvents(responseArray)
+                    console.log("BUTTS", responseArray[0]._embedded.venues[0].images[0].url)
+                    setCurrentPic(responseArray[0]._embedded.venues[0].images[0].url)
                 }
 
                 setSearchString('');
@@ -56,6 +58,9 @@ const SearchResults = () => {
         <div className="search-results-screen">
             <h1>{lastSearch}</h1>
             <h3>Tickets</h3>
+
+            <p>{currentPic}</p>
+            <img alt="" src={currentPic} />
 
             <table class="ui selectable table">
                 <thead>

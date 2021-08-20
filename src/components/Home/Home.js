@@ -45,6 +45,10 @@ const Home = () => {
         console.log("Clicked a button!");
     }
 
+    const handleHover = (e) => {
+        e.target.style.backgroundColor = "#292929";
+    }
+
     return (
         <div className="home-screen">
             <h1 className="landing-title">Welcome to SeatFreak!</h1>
@@ -62,7 +66,7 @@ const Home = () => {
             <h2>Trending Events</h2>
             <div className={(width <= 375) ? `ui preview-events` : `ui four column grid preview-events`}>
                 <div className="four column row preview-row">
-                    {(previewState.length > 0) ? <div className="column"><Card
+                    {(previewState.length > 0) ? <div className="column" onMouseOver={handleHover}><Card
                         name={previewState[0].name}
                         day={moment(previewState[0].dates.start.localDate).format("ddd")}
                         date={moment(previewState[0].dates.start.localDate).format("MMM D")}

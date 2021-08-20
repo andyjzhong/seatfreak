@@ -1,3 +1,7 @@
 .seatmap {
     width: 50vw;
 }
+
+.event-details-title {
+    margin-top: 1.5em !important;
+}

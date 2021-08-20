@@ -13,7 +13,13 @@
 }
 
 .landing-title {
-    padding-top: 15%
+    padding-top: 15%;
+    font-size: 3.5em;
+}
+
+.search-form {
+    margin-top: 5em;
+    margin-bottom: 8em;
 }
 
 .search-button {

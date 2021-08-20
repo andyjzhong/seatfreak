@@ -48,6 +48,7 @@ const Home = () => {
     return (
         <div className="home-screen">
             <h1 className="landing-title">Welcome to SeatFreak!</h1>
+            <h4 className="landing-remark">Some witty remark about tickets</h4>
             <form className="search-form" onSubmit={handleSubmit}>
                 <div className="ui input left icon">
                     <input className="search-bar" type="text" placeholder="Performer, Event, Venue" onChange={handleChange} value={searchString}/>

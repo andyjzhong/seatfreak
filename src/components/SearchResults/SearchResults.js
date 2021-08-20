@@ -15,7 +15,7 @@ const SearchResults = () => {
 
     useEffect(() => {
         getSearchResults(searchString);
-    }, []);
+    },[]);
 
     const getSearchResults = (string) => {
 

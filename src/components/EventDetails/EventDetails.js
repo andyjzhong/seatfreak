@@ -6,11 +6,11 @@ const EventDetails = (props) => {
 
     let eventId = props.match.params.id;
 
-    const [eventDetail, setEventDetail] = useState({});
+    const [eventDetail, setEventDetail] = useState();
 
     useEffect(() => {
         getEventDetails();
-    });
+    }, []);
 
     const getEventDetails = () => {
         const url = `https://app.ticketmaster.com/discovery/v2/events/${eventId}?apikey=${process.env.REACT_APP_API_KEY}&locale=*`

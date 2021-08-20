@@ -42,14 +42,14 @@ function App() {
     return (
         <div className="App">
             <DataContext.Provider
-                value = {{ events, setEvents, searchString, setSearchString, lastSearch, setLastSearch, previewState, setPreviewState }}
+                value = {{ events, setEvents, searchString, setSearchString, lastSearch, setLastSearch, previewState, setPreviewState, width, height }}
             >
                 <Navbar />
                 <Route exact path="/" component={Home} />
                 <Route exact path="/search" component={SearchResults} />
                 <Route path="/search/:id" component={EventDetails} />
-                <p style={{color: "red"}}>Height = {height}, Width = {width}</p>
                 <Footer />
+                <p style={{color: "red"}}>Height = {height}, Width = {width}</p>
             </DataContext.Provider>
         </div>
     );

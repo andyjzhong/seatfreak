@@ -7,7 +7,7 @@ import './Home.css';
 
 const Home = () => {
 
-    const {searchString, setSearchString, lastSearch, setLastSearch, previewState, setPreviewState} = useContext(DataContext);
+    const {searchString, setSearchString, lastSearch, setLastSearch, previewState, setPreviewState, width} = useContext(DataContext);
     let responseArray = [];
 
     useEffect(() => {
@@ -60,7 +60,7 @@ const Home = () => {
             </form>
 
             <h2>Trending Events</h2>
-            <div className="ui four column grid preview-events">
+            <div className={(width <= 375) ? `ui preview-events` : `ui four column grid preview-events`}>
                 <div className="four column row preview-row">
                     {(previewState.length > 0) ? <div className="column"><Card
                         name={previewState[0].name}

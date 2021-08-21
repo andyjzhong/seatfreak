@@ -14,7 +14,7 @@ const Card = (props) => {
                     <p>{props.venue}</p>
                 </div>
                 <div className="description">
-                    From ${props.price}
+                    {props.price}
                 </div>
             </div>
         </div>

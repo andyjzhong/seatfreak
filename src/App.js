@@ -51,24 +51,22 @@ function App() {
     const [events, setEvents] = useState([]);
     const [previewState, setPreviewState] = useState([]);
     const [currentPic, setCurrentPic] = useState()
-    const [location, setLocation] = useState()
-    const [latLon, setLatLon] = useState()
+    const [location, setLocation] = useState("Chicago, Illinois")
+    const [latLon, setLatLon] = useState("41.739685,-87.554420")
     const { height, width } = useWindowDimensions();
 
     useEffect(() => {
         getLocation(searchString);
-    },[]);
 
-    fetch(`https://ipinfo.io/json?token=${process.env.REACT_APP_IP_KEY}`)
-        .then(res => res.json())
-        .then(res => {
-            console.log(res.loc);
-            setLocation(`${res.city}, ${res.region}`);
-            setLatLon(res.loc);
-            console.log("Current Location is: ", location);
-            console.log("Current LatLon is: ", latLon);
-        })
-        .catch(console.error);
+        fetch(`https://ipinfo.io/json?token=${process.env.REACT_APP_IP_KEY}`)
+            .then(res => res.json())
+            .then(res => {
+                setLocation(`${res.city}, ${res.region}`);
+                setLatLon(res.loc);
+                console.log("Current LatLon is: ", latLon);
+            })
+            .catch(console.error);
+    },[]);
 
     return (
         <div className="App">

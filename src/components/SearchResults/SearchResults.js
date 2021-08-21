@@ -67,8 +67,6 @@ const SearchResults = () => {
                     <th className="thead thead-date">Date</th>
                     <th className="thead thead-event">Event</th>
                     <th className="thead thead-price">Price</th>
-                    <th className="thead thead-id">ID</th>
-                    <th className="thead thead-id">Timestamp</th>
                 </thead>
                 <tbody>
                     {eventRow}

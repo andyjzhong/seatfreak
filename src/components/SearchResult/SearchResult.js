@@ -33,8 +33,6 @@ const SearchResult = (props) => {
                     <button className="ui secondary button" style={{width: "8rem"}}>From ${Math.ceil(props.dataObject.priceRanges[0].min)}</button>
                 </Link>
             </td> : <td><button className="ui disabled secondary button" style={{width: "8rem"}}>Unavailable</button></td>}
-            <td>{props.dataObject.id}</td>
-            <td>{moment(props.dataObject.dates.start.dateTime).format("YYYYMMDD").toString()}</td>
         </tr>
     )
 }

@@ -7,17 +7,17 @@ import './Home.css';
 
 const Home = () => {
 
-    const {searchString, setSearchString, lastSearch, setLastSearch, previewState, setPreviewState, location, width} = useContext(DataContext);
+    const {searchString, setSearchString, lastSearch, setLastSearch, previewState, setPreviewState, location, setLocation, latLon, setLatLon, width} = useContext(DataContext);
     let responseArray = [];
 
     useEffect(() => {
         getPreviewData();
-    },[]);
+    });
 
     const getPreviewData = (string) => {
 
         const baseUrl = `https://app.ticketmaster.com/discovery/v2/events?apikey=${process.env.REACT_APP_API_KEY}`
-        const url = `${baseUrl}&latlong=42.42345,-71.63085&locale=*&size=4`;
+        const url = `${baseUrl}&latlong=${latLon}&locale=*&size=4`;
 
         fetch(url)
             .then(res => res.json())
@@ -67,7 +67,7 @@ const Home = () => {
                 </Link>
             </form>
 
-            <h2>Trending Events near {location}</h2>
+            <h2 className="trending-locale">Trending Events near {location}</h2>
             <div className={(width <= 400) ? `ui preview-events` : `ui four column grid preview-events`}>
                 <div className="four column row preview-row">
                     {(previewState.length > 0) ?

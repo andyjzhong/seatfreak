@@ -23,6 +23,10 @@
     color: #F9F9F9;
 }
 
+.trending-locale {
+    padding: 1rem;
+}
+
 .search-form {
     margin-top: 5em;
     margin-bottom: 8em;

@@ -8,7 +8,7 @@ const SearchResult = (props) => {
     const { currentPic, setCurrentPic } = useContext(DataContext);
 
     const handleHover = (e) => {
-        setCurrentPic((props.dataObject._embedded.venues[0].images[0].url) ? props.dataObject._embedded.venues[0].images[0].url : "")
+        (props.dataObject._embedded.venues[0].images[0].url) ? setCurrentPic(props.dataObject._embedded.venues[0].images[0].url) : console.log("No pic");
     }
 
     return (

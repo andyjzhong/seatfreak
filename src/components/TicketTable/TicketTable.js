@@ -13,10 +13,10 @@ const TicketTable = (props) => {
             </thead>
             <tbody>
                 <tr>
-                    <td>Right Field Grandstand 7</td>
-                    <td>Row 9</td>
+                    <td>Standing Room Only (SRO)</td>
+                    <td>SRO</td>
                     <td>1-8 tickets</td>
-                    <td>Amazing!</td>
+                    <td>Average</td>
                     <td><button className="ui secondary button" style={{width: "8rem"}}>$84/ea</button></td>
                 </tr>
                 <tr>

@@ -1,8 +1,9 @@
 .card {
     margin: 2rem auto !important;
     color: #FFF !important;
-    min-height: 24rem !important;
+    min-height: 28rem !important;
     background-color: #1F1F1F !important;
+    width: 80% !important;
 }
 
 .card-image {

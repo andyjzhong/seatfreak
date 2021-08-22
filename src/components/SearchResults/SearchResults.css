@@ -1,3 +1,13 @@
 .thead {
     width: 20vw;
 }
+
+.preview-image {
+    width: 30em;
+    height: 20em;
+}
+
+.search-table {
+    width: 80vw !important;
+    margin: 1em auto !important;
+}

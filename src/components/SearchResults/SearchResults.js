@@ -8,8 +8,8 @@ const SearchResults = () => {
 
     const { events, setEvents, searchString, setSearchString, lastSearch, currentPic, setCurrentPic } = useContext(DataContext);
     let responseArray = [];
-    let lastSearchFirstLetter = lastSearch.split("")[0].toUpperCase();
-    let lastSearchDroppedLetter = lastSearch.split("").splice(0, 1, lastSearchFirstLetter);
+    // let lastSearchFirstLetter = lastSearch.split("")[0].toUpperCase();
+    // let lastSearchDroppedLetter = lastSearch.split("").splice(0, 1, lastSearchFirstLetter);
     // console.log("lastSearchFirstLetter", lastSearchFirstLetter);
     // console.log("lastSearchDroppedLetter", lastSearchDroppedLetter);
 
@@ -59,9 +59,9 @@ const SearchResults = () => {
             <h3>Tickets</h3>
 
             <p>{currentPic}</p>
-            <img alt="" src={currentPic} style={{width: "100px"}}/>
+            <img className="preview-image" alt="" src={currentPic} style={{width: "30%"}}/>
 
-            <table class="ui selectable table">
+            <table class="ui selectable table search-table">
                 <thead>
                     <th className="thead thead-pic"></th>
                     <th className="thead thead-date">Date</th>

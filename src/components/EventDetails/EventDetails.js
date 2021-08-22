@@ -29,8 +29,8 @@ const EventDetails = (props) => {
         return (
             <div className="event-details">
                 <h1 className="event-details-title">{ eventDetail.name }</h1>
-                <p> { moment(eventDetail.dates.start.localDate).format("ddd")}, { moment(eventDetail.dates.start.localDate).format("MMM D") }, { moment(eventDetail.dates.start.dateTime).format("h:mma") }</p>
-                <p>{ eventDetail._embedded.venues[0].name }</p>
+                <h3> { moment(eventDetail.dates.start.localDate).format("ddd")}, { moment(eventDetail.dates.start.localDate).format("MMM D") }, { moment(eventDetail.dates.start.dateTime).format("h:mma") }</h3>
+                <h3>{ eventDetail._embedded.venues[0].name }</h3>
                 <img alt="" className="seatmap" src={eventDetail.seatmap.staticUrl} />
                 <div>
                     <TicketTable />

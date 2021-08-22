@@ -68,7 +68,7 @@ const Home = () => {
             </form>
 
             <h2 className="trending-locale">Trending Events near {location}</h2>
-            <div className={(width <= 400) ? `ui preview-events` : `ui four column grid preview-events`}>
+            <div className={(width <= 415) ? `ui preview-events` : `ui four column grid preview-events`}>
                 <div className="four column row preview-row">
                     {(previewState.length > 0) ?
                     <div className="column" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
@@ -80,7 +80,7 @@ const Home = () => {
                                 time={moment(previewState[0].dates.start.dateTime).format("h:mma")}
                                 venue={previewState[0]._embedded.venues[0].name}
                                 image={previewState[0].images[0].url}
-                                price={(true) ? `From $${previewState[0].priceRanges[0].min}` : `Unavailable`}
+                                price={(false) ? `From $${previewState[0].priceRanges[0].min}` : `Unavailable`}
                             />
                         </Link>
                     </div> : <Card />}
@@ -94,7 +94,7 @@ const Home = () => {
                                 time={moment(previewState[1].dates.start.dateTime).format("h:mma")}
                                 venue={previewState[1]._embedded.venues[0].name}
                                 image={previewState[1].images[0].url}
-                                price={(true) ? `From $${previewState[1].priceRanges[0].min}` : `Unavailable`}
+                                price={(false) ? `From $${previewState[1].priceRanges[0].min}` : `Unavailable`}
                             />
                         </Link>
                     </div> : <Card />}
@@ -108,7 +108,7 @@ const Home = () => {
                                 time={moment(previewState[2].dates.start.dateTime).format("h:mma")}
                                 venue={previewState[2]._embedded.venues[0].name}
                                 image={previewState[2].images[0].url}
-                                price={(true) ? `From $${previewState[1].priceRanges[0].min}` : `Unavailable`}
+                                price={(false) ? `From $${previewState[1].priceRanges[0].min}` : `Unavailable`}
                             />
                         </Link>
                     </div> : <Card />}
@@ -122,7 +122,7 @@ const Home = () => {
                                 time={moment(previewState[3].dates.start.dateTime).format("h:mma")}
                                 venue={previewState[3]._embedded.venues[0].name}
                                 image={previewState[3].images[0].url}
-                                price={(true) ? `From $${previewState[1].priceRanges[0].min}` : `Unavailable`}
+                                price={(false) ? `From $${previewState[1].priceRanges[0].min}` : `Unavailable`}
                             />
                         </Link>
                     </div> : <Card />}

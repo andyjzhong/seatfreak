@@ -1,13 +1,30 @@
-.thead {
-    width: 20vw;
+.all-events-text {
+    text-align: left;
+    padding-left: 0.5em;
+}
+
+.thead-pic {
+    width: 5vw;
+}
+
+.thead-price, .thead-date {
+    text-align: center;
 }
 
 .preview-image {
     width: 30em;
-    height: 20em;
+    height: 18em;
+    border: 1px solid #1F1F1F;
 }
 
 .search-table {
-    width: 80vw !important;
+    width: 50vw !important;
     margin: 1em auto !important;
+    overflow-y:scroll;
+    height: 80vh;
+    display:block;
+}
+
+.search-results-screen {
+    margin: 10vh !important;
 }

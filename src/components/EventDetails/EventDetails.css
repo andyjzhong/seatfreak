@@ -5,3 +5,7 @@
 .event-details-title {
     margin: 3em 1em 1em 1em !important;
 }
+
+.event-details-venue {
+    margin-bottom: 3rem;
+}

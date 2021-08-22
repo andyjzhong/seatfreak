@@ -12,7 +12,7 @@ const Home = () => {
 
     useEffect(() => {
         getPreviewData();
-    });
+    },[]);
 
     const getPreviewData = (string) => {
 
@@ -73,57 +73,105 @@ const Home = () => {
                     {(previewState.length > 0) ?
                     <div className="column" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                         <Link to={`/search/${previewState[0].id}`} key={previewState[0].id}>
-                            <Card
-                                name={previewState[0].name}
-                                day={moment(previewState[0].dates.start.localDate).format("ddd")}
-                                date={moment(previewState[0].dates.start.localDate).format("MMM D")}
-                                time={moment(previewState[0].dates.start.dateTime).format("h:mma")}
-                                venue={previewState[0]._embedded.venues[0].name}
-                                image={previewState[0].images[0].url}
-                                price={(false) ? `From $${previewState[0].priceRanges[0].min}` : `Unavailable`}
-                            />
+
+                            {(previewState[0].priceRanges) ?
+                                <Card
+                                    name={previewState[0].name}
+                                    day={moment(previewState[0].dates.start.localDate).format("ddd")}
+                                    date={moment(previewState[0].dates.start.localDate).format("MMM D")}
+                                    time={moment(previewState[0].dates.start.dateTime).format("h:mma")}
+                                    venue={previewState[0]._embedded.venues[0].name}
+                                    image={previewState[0].images[0].url}
+                                    price={`Price Range: $${previewState[0].priceRanges[0].min} - ${previewState[0].priceRanges[0].max}`}
+                                /> :
+                                <Card
+                                    name={previewState[0].name}
+                                    day={moment(previewState[0].dates.start.localDate).format("ddd")}
+                                    date={moment(previewState[0].dates.start.localDate).format("MMM D")}
+                                    time={moment(previewState[0].dates.start.dateTime).format("h:mma")}
+                                    venue={previewState[0]._embedded.venues[0].name}
+                                    image={previewState[0].images[0].url}
+                                    price={`Unavailable`}
+                                />
+                            }
+
                         </Link>
                     </div> : <Card />}
                     {(previewState.length > 0) ?
                     <div className="column" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                         <Link to={`/search/${previewState[1].id}`} key={previewState[1].id}>
-                            <Card
-                                name={previewState[1].name}
-                                day={moment(previewState[1].dates.start.localDate).format("ddd")}
-                                date={moment(previewState[1].dates.start.localDate).format("MMM D")}
-                                time={moment(previewState[1].dates.start.dateTime).format("h:mma")}
-                                venue={previewState[1]._embedded.venues[0].name}
-                                image={previewState[1].images[0].url}
-                                price={(false) ? `From $${previewState[1].priceRanges[0].min}` : `Unavailable`}
-                            />
+
+                            {(previewState[1].priceRanges) ?
+                                <Card
+                                    name={previewState[1].name}
+                                    day={moment(previewState[1].dates.start.localDate).format("ddd")}
+                                    date={moment(previewState[1].dates.start.localDate).format("MMM D")}
+                                    time={moment(previewState[1].dates.start.dateTime).format("h:mma")}
+                                    venue={previewState[1]._embedded.venues[0].name}
+                                    image={previewState[1].images[0].url}
+                                    price={`Price Range: $${previewState[1].priceRanges[0].min} - ${previewState[1].priceRanges[0].max}`}
+                                /> :
+                                <Card
+                                    name={previewState[1].name}
+                                    day={moment(previewState[1].dates.start.localDate).format("ddd")}
+                                    date={moment(previewState[1].dates.start.localDate).format("MMM D")}
+                                    time={moment(previewState[1].dates.start.dateTime).format("h:mma")}
+                                    venue={previewState[1]._embedded.venues[0].name}
+                                    image={previewState[1].images[0].url}
+                                    price={`Unavailable`}
+                                />
+                            }
+
                         </Link>
                     </div> : <Card />}
                     {(previewState.length > 0) ?
                     <div className="column" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                         <Link to={`/search/${previewState[2].id}`} key={previewState[2].id}>
-                            <Card
-                                name={previewState[2].name}
-                                day={moment(previewState[2].dates.start.localDate).format("ddd")}
-                                date={moment(previewState[2].dates.start.localDate).format("MMM D")}
-                                time={moment(previewState[2].dates.start.dateTime).format("h:mma")}
-                                venue={previewState[2]._embedded.venues[0].name}
-                                image={previewState[2].images[0].url}
-                                price={(false) ? `From $${previewState[1].priceRanges[0].min}` : `Unavailable`}
-                            />
+                            {(previewState[2].priceRanges) ?
+                                <Card
+                                    name={previewState[2].name}
+                                    day={moment(previewState[2].dates.start.localDate).format("ddd")}
+                                    date={moment(previewState[2].dates.start.localDate).format("MMM D")}
+                                    time={moment(previewState[2].dates.start.dateTime).format("h:mma")}
+                                    venue={previewState[2]._embedded.venues[0].name}
+                                    image={previewState[2].images[0].url}
+                                    price={`Price Range: $${previewState[2].priceRanges[0].min} - ${previewState[2].priceRanges[0].max}`}
+                                /> :
+                                <Card
+                                    name={previewState[2].name}
+                                    day={moment(previewState[2].dates.start.localDate).format("ddd")}
+                                    date={moment(previewState[2].dates.start.localDate).format("MMM D")}
+                                    time={moment(previewState[2].dates.start.dateTime).format("h:mma")}
+                                    venue={previewState[2]._embedded.venues[0].name}
+                                    image={previewState[2].images[0].url}
+                                    price={`Unavailable`}
+                                />
+                            }
                         </Link>
                     </div> : <Card />}
                     {(previewState.length > 0) ?
                     <div className="column" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                         <Link to={`/search/${previewState[3].id}`} key={previewState[3].id}>
-                            <Card
-                                name={previewState[3].name}
-                                day={moment(previewState[3].dates.start.localDate).format("ddd")}
-                                date={moment(previewState[3].dates.start.localDate).format("MMM D")}
-                                time={moment(previewState[3].dates.start.dateTime).format("h:mma")}
-                                venue={previewState[3]._embedded.venues[0].name}
-                                image={previewState[3].images[0].url}
-                                price={(false) ? `From $${previewState[1].priceRanges[0].min}` : `Unavailable`}
-                            />
+                            {(previewState[3].priceRanges) ?
+                                <Card
+                                    name={previewState[3].name}
+                                    day={moment(previewState[3].dates.start.localDate).format("ddd")}
+                                    date={moment(previewState[3].dates.start.localDate).format("MMM D")}
+                                    time={moment(previewState[3].dates.start.dateTime).format("h:mma")}
+                                    venue={previewState[3]._embedded.venues[0].name}
+                                    image={previewState[3].images[0].url}
+                                    price={`Price Range: $${previewState[3].priceRanges[0].min} - ${previewState[0].priceRanges[0].max}`}
+                                /> :
+                                <Card
+                                    name={previewState[3].name}
+                                    day={moment(previewState[3].dates.start.localDate).format("ddd")}
+                                    date={moment(previewState[3].dates.start.localDate).format("MMM D")}
+                                    time={moment(previewState[3].dates.start.dateTime).format("h:mma")}
+                                    venue={previewState[3]._embedded.venues[0].name}
+                                    image={previewState[3].images[0].url}
+                                    price={`Unavailable`}
+                                />
+                            }
                         </Link>
                     </div> : <Card />}
                 </div>

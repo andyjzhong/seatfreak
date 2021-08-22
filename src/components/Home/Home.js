@@ -46,10 +46,12 @@ const Home = () => {
     }
 
     const handleMouseEnter = (e) => {
+        e.currentTarget.style.transition = "transform 0.25s ease-in-out";
         e.currentTarget.style.transform = "scale(1.1)";
     }
 
     const handleMouseLeave = (e) => {
+        e.currentTarget.style.transition = "transform 0.25s ease-in-out";
         e.currentTarget.style.transform = "scale(1.0)";
     }
 

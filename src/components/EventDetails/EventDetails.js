@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { DataContext } from '../../components/DataContext/DataContext'
 import TicketTable from '../../components/TicketTable/TicketTable';
+import Modal from '../../components/Modal/Modal';
 import moment from 'moment';
 import './EventDetails.css';
 
@@ -27,6 +28,14 @@ const EventDetails = (props) => {
             .catch(console.error);
     }
 
+    const [displayModal, setDisplayModal] = useState("false");
+
+    const showModal = () => {
+        console.log("BANANAS");
+        setDisplayModal("true");
+    }
+
+
     if(eventDetail) {
         return (
             <div className="event-details">
@@ -34,14 +43,19 @@ const EventDetails = (props) => {
                 <h3> { moment(eventDetail.dates.start.localDate).format("ddd")}, { moment(eventDetail.dates.start.localDate).format("MMM D") }, { moment(eventDetail.dates.start.dateTime).format("h:mma") }</h3>
                 <h3 className="event-details-venue">{ eventDetail._embedded.venues[0].name }</h3>
 
+                {(displayModal === "true") ? <Modal /> : null }
+
                 <div className={(width <= 415) ? `ui event-details-content` : `ui two column grid event-details-content`}>
                     <div className="ui eight wide column event-details-col">
-                        <img alt="" className="seatmap" src={eventDetail.seatmap.staticUrl} />
+                        <img alt="" className="seatmap" src={eventDetail.seatmap.staticUrl} style={{width: "100%"}}/>
                     </div>
                     <div className="ui eight wide column event-details-col">
                         <div>
                             <TicketTable
                                 eventInfo={eventDetail}
+                                showModal={showModal}
+                                setDisplayModal={setDisplayModal}
+                                displayModal={displayModal}
                             />
                         </div>
                     </div>

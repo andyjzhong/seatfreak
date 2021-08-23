@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './TicketTable.css';
 
-const TicketTable = ({ eventDetail }) => {
+const TicketTable = ({ eventDetail, showModal, setDisplayModal }) => {
     return (
         <table className="ui selectable table">
             <thead>
@@ -21,7 +21,7 @@ const TicketTable = ({ eventDetail }) => {
                             Average
                         </button>
                     </td>
-                    <td><button className="ui secondary button" style={{width: "8rem"}}>$84/ea</button></td>
+                    <td><button className="ui secondary button" style={{width: "8rem"}} onClick={showModal}>$84/ea</button></td>
                 </tr>
                 <tr>
                     <td>General Admission (GA)</td>

@@ -9,3 +9,11 @@
 .event-details-venue {
     margin-bottom: 3rem;
 }
+
+.event-details-col {
+    padding: 3em !important;
+}
+
+.thead-row {
+    width: 3vw;
+}

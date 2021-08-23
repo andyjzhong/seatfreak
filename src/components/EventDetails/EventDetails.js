@@ -35,12 +35,14 @@ const EventDetails = (props) => {
                 <h3 className="event-details-venue">{ eventDetail._embedded.venues[0].name }</h3>
 
                 <div className={(width <= 415) ? `ui event-details-content` : `ui two column grid event-details-content`}>
-                    <div className="ui eight wide column">
+                    <div className="ui eight wide column event-details-col">
                         <img alt="" className="seatmap" src={eventDetail.seatmap.staticUrl} />
                     </div>
-                    <div className="ui eight wide column">
+                    <div className="ui eight wide column event-details-col">
                         <div>
-                            <TicketTable />
+                            <TicketTable
+                                eventInfo={eventDetail}
+                            />
                         </div>
                     </div>
                 </div>

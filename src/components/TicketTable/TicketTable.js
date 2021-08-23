@@ -1,15 +1,15 @@
 import React from 'react';
 import './TicketTable.css';
 
-const TicketTable = (props) => {
+const TicketTable = ({ eventDetail }) => {
     return (
-        <table class="ui selectable table">
+        <table className="ui selectable table">
             <thead>
-                <th className="thead thead-pic">Section</th>
-                <th className="thead thead-date">Row</th>
-                <th className="thead thead-event"># Tickets</th>
-                <th className="thead thead-id">Deal Score</th>
-                <th className="thead thead-price">Price</th>
+                <th className="thead thead-section">Section</th>
+                <th className="thead thead-row">Row</th>
+                <th className="thead thead-count"># Tickets</th>
+                <th className="thead thead-score">Deal Score</th>
+                <th className="thead thead-price"></th>
             </thead>
             <tbody>
                 <tr>
@@ -17,25 +17,32 @@ const TicketTable = (props) => {
                     <td>SRO</td>
                     <td>1-8 tickets</td>
                     <td>
-                        <button className="ui blue image label">
-                             $
-                            <div className="detail">Average</div>
+                        <button className="ui orange image label deal-score">
+                            Average
                         </button>
                     </td>
                     <td><button className="ui secondary button" style={{width: "8rem"}}>$84/ea</button></td>
                 </tr>
                 <tr>
-                    <td>Right Field Grandstand 7</td>
-                    <td>Row 9</td>
+                    <td>General Admission (GA)</td>
+                    <td>GA</td>
                     <td>1-8 tickets</td>
-                    <td>Amazing!</td>
+                    <td className="deal-score-col">
+                        <button className="ui green image label deal-score">
+                            Amazing!
+                        </button>
+                    </td>
                     <td><button className="ui secondary button" style={{width: "8rem"}}>$84/ea</button></td>
                 </tr>
                 <tr>
-                    <td>Right Field Grandstand 7</td>
-                    <td>Row 9</td>
+                    <td>Premier Section</td>
+                    <td>1</td>
                     <td>1-8 tickets</td>
-                    <td>Amazing!</td>
+                    <td className="deal-score-col">
+                        <button className="ui blue image label deal-score">
+                            Good
+                        </button>
+                    </td>
                     <td><button className="ui secondary button" style={{width: "8rem"}}>$84/ea</button></td>
                 </tr>
             </tbody>

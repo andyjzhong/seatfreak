@@ -56,7 +56,7 @@ const Home = () => {
     }
 
     return (
-        <div className="home-screen">
+        <div className="home-screen" style={(width <= 415) ? {height: "320vh"} : {height: "150vh"}}>
             <h1 className="landing-title tracking-in-contract">Welcome to SeatFreak!</h1>
             <h4 className="landing-remark">Remember concerts? Yeah we've gotchu.</h4>
             <form className="search-form" onSubmit={handleSubmit}>

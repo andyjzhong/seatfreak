@@ -16,9 +16,7 @@
 }
 
 .preview-image {
-    width: 30em;
     height: 18em;
-    border: 1px solid #1F1F1F;
 }
 
 .search-table {
@@ -27,10 +25,6 @@
     overflow-y:scroll;
     height: 80vh;
     display:block;
-}
-
-.search-results-screen {
-    margin: 10vh !important;
 }
 
 .no-results {

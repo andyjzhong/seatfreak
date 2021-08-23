@@ -52,7 +52,7 @@ const SearchResults = () => {
 
     if (events.length < 1) {
         return (
-            <div className="no-results">
+            <div className="no-results" style={(width <= 800) ? {padding: "20rem 0"} : {padding: "20rem"}}>
                 <h3>Displaying Results for:</h3>
                 <h1 className="search-screen-header">{lastSearch}</h1>
                 <div className="ui divider"></div>
@@ -65,12 +65,15 @@ const SearchResults = () => {
     }
 
     return (
-        <div className={(width <= 800) ? `ui search-results-screen` : `ui two column grid search-results-screen`}>
+        <div
+            className={(width <= 800) ? `ui search-results-screen` : `ui two column grid search-results-screen`}
+            style={(width <= 800) ? {margin: "0 auto"} : {margin: "10vh"}}
+        >
 
-            <div className="ui seven wide column" style={(width < 800) ? {display: ""} : {display: "none"}}>
+            <div className="ui seven wide column" style={(width < 800) ? {display: "", paddingTop: "100px", paddingBottom: "20px"} : {display: "none"}}>
                 <h3>Displaying Results for:</h3>
                 <h1 className="search-screen-header">{lastSearch}</h1>
-                <img className="preview-image" alt="" src={currentPic}/>
+                <img className="preview-image" alt="" src={currentPic} style={(width <= 800) ? {width: "80%", height: "12em"} : {width: "30em", height: "18em"}}/>
             </div>
 
             <div className="ui nine wide column">
@@ -92,7 +95,7 @@ const SearchResults = () => {
             <div className="ui seven wide column" style={(width <= 800) ? {display: "none"} : {display: ""}}>
                 <h3>Displaying Results for:</h3>
                 <h1 className="search-screen-header">{lastSearch}</h1>
-                <img className="preview-image" alt="" src={currentPic}/>
+                <img className="preview-image" alt="" src={currentPic} style={{border: "1px solid #1F1F1F"}}/>
             </div>
         </div>
     )

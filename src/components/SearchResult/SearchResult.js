@@ -5,7 +5,7 @@ import moment from 'moment';
 
 const SearchResult = (props) => {
 
-    const { setCurrentPic } = useContext(DataContext);
+    const { setCurrentPic, width } = useContext(DataContext);
 
     const handleHover = (e) => {
         setCurrentPic(props.dataObject._embedded.venues[0].images[0].url);
@@ -37,9 +37,9 @@ const SearchResult = (props) => {
                 </td>
                 {props.dataObject.priceRanges ? <td>
                     <Link to={`/search/${props.dataObject.id}`} key={props.dataObject.id}>
-                        <button className="ui secondary button" style={{width: "8rem"}}>From ${Math.ceil(props.dataObject.priceRanges[0].min)}</button>
+                        <button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>From ${Math.ceil(props.dataObject.priceRanges[0].min)}</button>
                     </Link>
-                </td> : <td><button className="ui disabled secondary button" style={{width: "8rem"}}>Unavailable</button></td>}
+                </td> : <td><button className="ui disabled secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>Unavailable</button></td>}
             </tr>
         )
     } else {
@@ -62,9 +62,9 @@ const SearchResult = (props) => {
                 </td>
                 {props.dataObject.priceRanges ? <td>
                     <Link to={`/search/${props.dataObject.id}`} key={props.dataObject.id}>
-                        <button className="ui secondary button" style={{width: "8rem"}}>From ${Math.ceil(props.dataObject.priceRanges[0].min)}</button>
+                        <button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>From ${Math.ceil(props.dataObject.priceRanges[0].min)}</button>
                     </Link>
-                </td> : <td><button className="ui disabled secondary button" style={{width: "8rem"}}>Unavailable</button></td>}
+                </td> : <td><button className="ui disabled secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>Unavailable</button></td>}
             </tr>
         )
     }

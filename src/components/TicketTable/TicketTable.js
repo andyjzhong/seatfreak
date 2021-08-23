@@ -31,11 +31,11 @@ const TicketTable = ({ eventDetail, showModal, setDisplayModal }) => {
                 </tr>
                 <tr>
                     <td>Premier Seating</td>
-                    <td>Row 1</td>
-                    <td>1-8 tickets</td>
+                    <td>Row {Math.floor(Math.random() * 10) + 1}</td>
+                    <td>1-6 tickets</td>
                     <td className="deal-score-col">
-                        <button className="ui blue image label deal-score">
-                            Good
+                        <button className="ui green image label deal-score">
+                            Amazing!
                         </button>
                     </td>
                     <td style={(width <= 800) ? {textAlign: "right"} : {textAlign: "center"}}>
@@ -44,8 +44,8 @@ const TicketTable = ({ eventDetail, showModal, setDisplayModal }) => {
                 </tr>
                 <tr>
                     <td>Gold Premier Seating</td>
-                    <td>Row 1</td>
-                    <td>1-8 tickets</td>
+                    <td>Row {Math.floor(Math.random() * 10) + 1}</td>
+                    <td>1-4 tickets</td>
                     <td className="deal-score-col">
                         <button className="ui blue image label deal-score">
                             Good
@@ -57,8 +57,8 @@ const TicketTable = ({ eventDetail, showModal, setDisplayModal }) => {
                 </tr>
                 <tr>
                     <td>Platinum Premier Seating</td>
-                    <td>Row 3</td>
-                    <td>1-8 tickets</td>
+                    <td>Row {Math.floor(Math.random() * 10) + 1}</td>
+                    <td>1-4 tickets</td>
                     <td className="deal-score-col">
                         <button className="ui blue image label deal-score">
                             Good
@@ -70,7 +70,7 @@ const TicketTable = ({ eventDetail, showModal, setDisplayModal }) => {
                 </tr>
                 <tr>
                     <td>Lower Level</td>
-                    <td>Row 2</td>
+                    <td>Row {Math.floor(Math.random() * 10) + 10}</td>
                     <td>1-8 tickets</td>
                     <td className="deal-score-col">
                         <button className="ui blue image label deal-score">
@@ -83,7 +83,7 @@ const TicketTable = ({ eventDetail, showModal, setDisplayModal }) => {
                 </tr>
                 <tr>
                     <td>Upper Level</td>
-                    <td>Row 3</td>
+                    <td>Row {Math.floor(Math.random() * 20) + 10}</td>
                     <td>1-8 tickets</td>
                     <td className="deal-score-col">
                         <button className="ui blue image label deal-score">
@@ -104,7 +104,7 @@ const TicketTable = ({ eventDetail, showModal, setDisplayModal }) => {
                         </button>
                     </td>
                     <td style={(width <= 800) ? {textAlign: "right"} : {textAlign: "center"}}>
-                        <button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>$84/ea</button>
+                        <button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>$12/ea</button>
                     </td>
                 </tr>
             </tbody>

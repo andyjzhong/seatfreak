@@ -5,7 +5,7 @@ import moment from 'moment';
 
 const SearchResult = (props) => {
 
-    const { currentPic, setCurrentPic } = useContext(DataContext);
+    const { setCurrentPic } = useContext(DataContext);
 
     const handleHover = (e) => {
         setCurrentPic(props.dataObject._embedded.venues[0].images[0].url);

@@ -55,7 +55,7 @@ function App() {
     const [latLon, setLatLon] = useState("41.739685,-87.554420")
     const { height, width } = useWindowDimensions();
 
-    useEffect(() => {
+    useEffect((searchString, latLon) => {
         getLocation(searchString);
 
         fetch(`https://ipinfo.io/json?token=${process.env.REACT_APP_IP_KEY}`)

@@ -7,7 +7,7 @@ import './Home.css';
 
 const Home = () => {
 
-    const {searchString, setSearchString, lastSearch, setLastSearch, previewState, setPreviewState, location, setLocation, latLon, setLatLon, width} = useContext(DataContext);
+    const {searchString, setSearchString, setLastSearch, previewState, setPreviewState, location, latLon, width} = useContext(DataContext);
     let responseArray = [];
 
     useEffect(() => {

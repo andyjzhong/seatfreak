@@ -1,10 +1,14 @@
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
+import { DataContext } from '../../components/DataContext/DataContext'
 import './TicketTable.css';
 
 const TicketTable = ({ eventDetail, showModal, setDisplayModal }) => {
+
+    const { width } = useContext(DataContext);
+
     return (
         <table className="ui selectable table">
-            <thead>
+            <thead style={(width <= 800) ? {display: "none"} : {display: ""}}>
                 <th className="thead thead-section">Section</th>
                 <th className="thead thead-row">Row</th>
                 <th className="thead thead-count"># Tickets</th>

@@ -56,7 +56,7 @@ const Home = () => {
     }
 
     return (
-        <div className="home-screen" style={(width <= 415) ? {height: "350vh"} : {height: "150vh"}}>
+        <div className="home-screen" style={(width <= 800) ? {height: "330vh"} : {height: "150vh"}}>
             <h1 className="landing-title tracking-in-contract" style={(width <= 415) ? {paddingTop: "50%"} : {paddingTop: "20%"}}>Welcome to SeatFreak!</h1>
             <h4 className="landing-remark">Remember concerts? Yeah we've gotchu.</h4>
             <form className="search-form" onSubmit={handleSubmit}>
@@ -70,7 +70,7 @@ const Home = () => {
             </form>
 
             <h2 className="trending-locale">Trending Events near {location}</h2>
-            <div className={(width <= 415) ? `ui preview-events` : `ui four column grid preview-events`}>
+            <div className={(width <= 800) ? `ui preview-events` : `ui four column grid preview-events`}>
                 <div className="four column row preview-row">
                     {(previewState.length > 0) ?
                     <div className="column" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>

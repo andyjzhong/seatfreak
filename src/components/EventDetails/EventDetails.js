@@ -45,11 +45,11 @@ const EventDetails = (props) => {
 
                 {(displayModal === "true") ? <Modal /> : null }
 
-                <div className={(width <= 415) ? `ui event-details-content` : `ui two column grid event-details-content`}>
-                    <div className="ui eight wide column event-details-col">
+                <div className={(width <= 800) ? `ui event-details-content` : `ui two column grid event-details-content`}>
+                    <div className={(width <= 800) ? `ui event-details-col` : `ui eight wide column event-details-col`}>
                         <img alt="" className="seatmap" src={eventDetail.seatmap.staticUrl} style={{width: "100%"}}/>
                     </div>
-                    <div className="ui eight wide column event-details-col">
+                    <div className={(width <= 800) ? `ui event-details-col` : `ui eight wide column event-details-col`} style={(width <= 800) ? {padding: "1em"} : {padding: "3rem"}}>
                         <div>
                             <TicketTable
                                 eventInfo={eventDetail}

@@ -71,7 +71,7 @@ const SearchResults = () => {
                 <h3 className="all-events-text">All Events</h3>
                 <div className="ui divider"></div>
                 <table className="ui selectable table search-table">
-                    <thead>
+                    <thead style={(width <= 800) ? {display: "none"} : {display: ""}}>
                         <th className="thead thead-pic"></th>
                         <th className="thead thead-date">Date</th>
                         <th className="thead thead-event">Event</th>

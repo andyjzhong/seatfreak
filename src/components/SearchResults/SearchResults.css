@@ -22,7 +22,7 @@
 }
 
 .search-table {
-    width: 50vw !important;
+    width: 100% !important;
     margin: 1em auto !important;
     overflow-y:scroll;
     height: 80vh;

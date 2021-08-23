@@ -16,7 +16,12 @@ const TicketTable = (props) => {
                     <td>Standing Room Only (SRO)</td>
                     <td>SRO</td>
                     <td>1-8 tickets</td>
-                    <td>Average</td>
+                    <td>
+                        <button className="ui blue image label">
+                             $
+                            <div className="detail">Average</div>
+                        </button>
+                    </td>
                     <td><button className="ui secondary button" style={{width: "8rem"}}>$84/ea</button></td>
                 </tr>
                 <tr>

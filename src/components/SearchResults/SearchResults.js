@@ -58,6 +58,7 @@ const SearchResults = () => {
 
             <div className="ui nine wide column">
                 <h3 className="all-events-text">All Events</h3>
+                <div class="ui divider"></div>
                 <table class="ui selectable table search-table">
                     <thead>
                         <th className="thead thead-pic"></th>

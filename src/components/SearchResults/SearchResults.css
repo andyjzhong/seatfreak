@@ -17,6 +17,7 @@
 
 .preview-image {
     height: 18em;
+    max-width: 100%;
 }
 
 .search-table {

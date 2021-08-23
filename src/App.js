@@ -37,11 +37,11 @@ const getLocation = () => {
 
 const onGeoSuccess = (position) => {
     const { latitude, longitude } = position.coords;
-    console.log("SUCCESS!", `${latitude},${longitude}`);
+    console.warn("Successfully retrieved coordinates!", `${latitude},${longitude}`);
 }
 
 const onGeoError = () => {
-    console.log("FAILED TO GET LOCATION");
+    console.warn("Failed to retrieve coordinates.");
 }
 
 function App() {

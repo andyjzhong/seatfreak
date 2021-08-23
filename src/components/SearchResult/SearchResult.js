@@ -13,7 +13,6 @@ const SearchResult = (props) => {
     }
 
     const showNoPicture = () => {
-        console.log("No picture.");
         setCurrentPic("https://i.imgur.com/jzBpkyi.jpg");
     }
 

@@ -42,7 +42,6 @@ const Home = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log("Clicked a button!");
     }
 
     const handleMouseEnter = (e) => {

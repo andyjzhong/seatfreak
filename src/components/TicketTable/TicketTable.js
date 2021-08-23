@@ -45,6 +45,28 @@ const TicketTable = ({ eventDetail }) => {
                     </td>
                     <td><button className="ui secondary button" style={{width: "8rem"}}>$84/ea</button></td>
                 </tr>
+                <tr>
+                    <td>Lower Level</td>
+                    <td>2</td>
+                    <td>1-8 tickets</td>
+                    <td className="deal-score-col">
+                        <button className="ui blue image label deal-score">
+                            Good
+                        </button>
+                    </td>
+                    <td><button className="ui secondary button" style={{width: "8rem"}}>$84/ea</button></td>
+                </tr>
+                <tr>
+                    <td>Upper Level</td>
+                    <td>3</td>
+                    <td>1-8 tickets</td>
+                    <td className="deal-score-col">
+                        <button className="ui blue image label deal-score">
+                            Good
+                        </button>
+                    </td>
+                    <td><button className="ui secondary button" style={{width: "8rem"}}>$84/ea</button></td>
+                </tr>
             </tbody>
         </table>
     )

@@ -78,7 +78,7 @@ function App() {
                 <Route exact path="/search" component={SearchResults} />
                 <Route path="/search/:id" component={EventDetails} />
                 <Footer />
-                <p style={{color: "red"}}>Height = {height}, Width = {width}</p>
+                <p className="windowInfo">Height = {height}, Width = {width}</p>
             </DataContext.Provider>
         </div>
     );

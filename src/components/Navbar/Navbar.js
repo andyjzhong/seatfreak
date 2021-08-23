@@ -6,10 +6,6 @@ import './Navbar.css';
 
 const Navbar = (props) => {
 
-    if (window.location.href.indexOf("search") != -1) {
-        console.log("POW");
-    }
-
     const {width} = useContext(DataContext);
 
     return (

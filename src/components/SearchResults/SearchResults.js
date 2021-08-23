@@ -65,7 +65,13 @@ const SearchResults = () => {
     }
 
     return (
-        <div className={(width <= 415) ? `ui search-results-screen` : `ui two column grid search-results-screen`}>
+        <div className={(width <= 800) ? `ui search-results-screen` : `ui two column grid search-results-screen`}>
+
+            <div className="ui seven wide column" style={(width < 800) ? {display: ""} : {display: "none"}}>
+                <h3>Displaying Results for:</h3>
+                <h1 className="search-screen-header">{lastSearch}</h1>
+                <img className="preview-image" alt="" src={currentPic}/>
+            </div>
 
             <div className="ui nine wide column">
                 <h3 className="all-events-text">All Events</h3>
@@ -83,7 +89,7 @@ const SearchResults = () => {
                 </table>
             </div>
 
-            <div className="ui seven wide column">
+            <div className="ui seven wide column" style={(width <= 800) ? {display: "none"} : {display: ""}}>
                 <h3>Displaying Results for:</h3>
                 <h1 className="search-screen-header">{lastSearch}</h1>
                 <img className="preview-image" alt="" src={currentPic}/>

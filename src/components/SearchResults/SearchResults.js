@@ -1,4 +1,5 @@
 import React, { useEffect, useContext } from 'react';
+import { Link } from 'react-router-dom';
 import { DataContext } from '../../components/DataContext/DataContext'
 import SearchResult from '../../components/SearchResult/SearchResult';
 import moment from 'moment';
@@ -8,10 +9,6 @@ const SearchResults = () => {
 
     const { events, setEvents, searchString, setSearchString, lastSearch, currentPic, setCurrentPic, width } = useContext(DataContext);
     let responseArray = [];
-    // let lastSearchFirstLetter = lastSearch.split("")[0].toUpperCase();
-    // let lastSearchDroppedLetter = lastSearch.split("").splice(0, 1, lastSearchFirstLetter);
-    // console.log("lastSearchFirstLetter", lastSearchFirstLetter);
-    // console.log("lastSearchDroppedLetter", lastSearchDroppedLetter);
 
     useEffect(() => {
         getSearchResults(searchString);
@@ -53,13 +50,27 @@ const SearchResults = () => {
         )
     })
 
+    if (events.length < 1) {
+        return (
+            <div className="no-results">
+                <h3>Displaying Results for:</h3>
+                <h1 className="search-screen-header">{lastSearch}</h1>
+                <div className="ui divider"></div>
+                <h4>No results found. You sure you typed that correctly?</h4>
+                <Link to={`/`}>
+                    <h5 className="back-to-home">Back to SeatFreak</h5>
+                </Link>
+            </div>
+        )
+    }
+
     return (
         <div className={(width <= 415) ? `ui search-results-screen` : `ui two column grid search-results-screen`}>
 
             <div className="ui nine wide column">
                 <h3 className="all-events-text">All Events</h3>
-                <div class="ui divider"></div>
-                <table class="ui selectable table search-table">
+                <div className="ui divider"></div>
+                <table className="ui selectable table search-table">
                     <thead>
                         <th className="thead thead-pic"></th>
                         <th className="thead thead-date">Date</th>

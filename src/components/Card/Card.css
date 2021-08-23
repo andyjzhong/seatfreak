@@ -17,3 +17,7 @@
 .meta, .description {
     color: #8A8A8A !important;
 }
+
+.card-content {
+    margin-top: 15px !important;
+}

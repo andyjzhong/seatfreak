@@ -17,7 +17,7 @@ const Home = () => {
     const getPreviewData = (string) => {
 
         const baseUrl = `https://app.ticketmaster.com/discovery/v2/events?apikey=${process.env.REACT_APP_API_KEY}`
-        const url = `${baseUrl}&latlong=${latLon}&locale=*&size=4`;
+        const url = `${baseUrl}&latlong=${latLon}&radius=50&locale=*&size=4`;
 
         fetch(url)
             .then(res => res.json())
@@ -57,7 +57,7 @@ const Home = () => {
 
     return (
         <div className="home-screen">
-            <h1 className="landing-title">Welcome to SeatFreak!</h1>
+            <h1 className="landing-title tracking-in-contract">Welcome to SeatFreak!</h1>
             <h4 className="landing-remark">Remember concerts? Yeah we've gotchu.</h4>
             <form className="search-form" onSubmit={handleSubmit}>
                 <div className="ui input left icon">

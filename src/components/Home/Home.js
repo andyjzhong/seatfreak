@@ -10,10 +10,6 @@ const Home = () => {
     const {searchString, setSearchString, setLastSearch, previewState, setPreviewState, location, latLon, width} = useContext(DataContext);
     let responseArray = [];
 
-    useEffect(() => {
-        getPreviewData();
-    },[]);
-
     const getPreviewData = (string) => {
 
         const baseUrl = `https://app.ticketmaster.com/discovery/v2/events?apikey=${process.env.REACT_APP_API_KEY}`
@@ -34,6 +30,8 @@ const Home = () => {
 
             .catch(console.error);
     }
+
+    getPreviewData();
 
     const handleChange = (e) => {
         setSearchString(e.target.value)

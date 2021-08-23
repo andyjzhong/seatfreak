@@ -1,3 +1,11 @@
 .deal-score {
-    min-width: 90px !important;
+    min-width: 100% !important;
+}
+
+.thead-row {
+    width: 5rem !important;
+}
+
+.thead-score {
+    text-align: center !important;
 }

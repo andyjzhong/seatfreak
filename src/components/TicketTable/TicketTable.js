@@ -25,62 +25,74 @@ const TicketTable = ({ eventDetail, showModal, setDisplayModal }) => {
                             Amazing!
                         </button>
                     </td>
-                    <td><button className="ui secondary button" style={{width: "8rem"}}>$84/ea</button></td>
+                    <td style={(width <= 800) ? {textAlign: "right"} : {textAlign: "center"}}>
+                        <button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>$84/ea</button>
+                    </td>
                 </tr>
                 <tr>
                     <td>Premier Seating</td>
-                    <td>1</td>
+                    <td>Row 1</td>
                     <td>1-8 tickets</td>
                     <td className="deal-score-col">
                         <button className="ui blue image label deal-score">
                             Good
                         </button>
                     </td>
-                    <td><button className="ui secondary button" style={{width: "8rem"}}>$84/ea</button></td>
+                    <td style={(width <= 800) ? {textAlign: "right"} : {textAlign: "center"}}>
+                        <button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>$84/ea</button>
+                    </td>
                 </tr>
                 <tr>
                     <td>Gold Premier Seating</td>
-                    <td>1</td>
+                    <td>Row 1</td>
                     <td>1-8 tickets</td>
                     <td className="deal-score-col">
                         <button className="ui blue image label deal-score">
                             Good
                         </button>
                     </td>
-                    <td><button className="ui secondary button" style={{width: "8rem"}}>$84/ea</button></td>
+                    <td style={(width <= 800) ? {textAlign: "right"} : {textAlign: "center"}}>
+                        <button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>$84/ea</button>
+                    </td>
                 </tr>
                 <tr>
                     <td>Platinum Premier Seating</td>
-                    <td>1</td>
+                    <td>Row 3</td>
                     <td>1-8 tickets</td>
                     <td className="deal-score-col">
                         <button className="ui blue image label deal-score">
                             Good
                         </button>
                     </td>
-                    <td><button className="ui secondary button" style={{width: "8rem"}}>$84/ea</button></td>
+                    <td style={(width <= 800) ? {textAlign: "right"} : {textAlign: "center"}}>
+                        <button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>$84/ea</button>
+                    </td>
                 </tr>
                 <tr>
                     <td>Lower Level</td>
-                    <td>2</td>
+                    <td>Row 2</td>
                     <td>1-8 tickets</td>
                     <td className="deal-score-col">
                         <button className="ui blue image label deal-score">
                             Good
                         </button>
                     </td>
-                    <td><button className="ui secondary button" style={{width: "8rem"}}>$84/ea</button></td>
+                    <td style={(width <= 800) ? {textAlign: "right"} : {textAlign: "center"}}>
+                        <button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>$84/ea</button>
+                    </td>
                 </tr>
                 <tr>
                     <td>Upper Level</td>
-                    <td>3</td>
+                    <td>Row 3</td>
                     <td>1-8 tickets</td>
                     <td className="deal-score-col">
                         <button className="ui blue image label deal-score">
                             Good
                         </button>
                     </td>
-                    <td><button className="ui secondary button" style={{width: "8rem"}}>$84/ea</button></td>
+                    <td style={(width <= 800) ? {textAlign: "right"} : {textAlign: "center"}}>
+                        <button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>$84/ea</button>
+                    </td>
                 </tr>
                 <tr>
                     <td>Standing Room Only (SRO)</td>
@@ -91,7 +103,9 @@ const TicketTable = ({ eventDetail, showModal, setDisplayModal }) => {
                             Average
                         </button>
                     </td>
-                    <td><button className="ui secondary button" style={{width: "8rem"}} onClick={showModal}>$84/ea</button></td>
+                    <td style={(width <= 800) ? {textAlign: "right"} : {textAlign: "center"}}>
+                        <button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>$84/ea</button>
+                    </td>
                 </tr>
             </tbody>
         </table>

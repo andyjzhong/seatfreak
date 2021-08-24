@@ -63,7 +63,6 @@ function App() {
             .then(res => {
                 setLocation(`${res.city}, ${res.region}`);
                 setLatLon(res.loc);
-                console.log("Current LatLon is: ", latLon);
             })
             .catch(console.error);
     },[]);

@@ -22,7 +22,6 @@ const EventDetails = (props) => {
             .then(res => res.json())
             .then(res => {
                 setEventDetail(res);
-                console.log("eventDetail State is", eventDetail);
             })
             .catch(console.error);
     }
@@ -30,7 +29,6 @@ const EventDetails = (props) => {
     const [displayModal, setDisplayModal] = useState("false");
 
     const showModal = () => {
-        console.log("BANANAS");
         setDisplayModal("true");
     }
 

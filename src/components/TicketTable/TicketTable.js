@@ -8,8 +8,6 @@ const TicketTable = ({ eventDetail, showModal, setDisplayModal }) => {
     const { width } = useContext(DataContext);
     const [open, setOpen] = React.useState(false)
 
-    console.log("eventDetail from TICKETTABLE", eventDetail);
-
     const ticketOptions = [
         { key: '1', value: '1', text: '1' },
         { key: '2', value: '2', text: '2' },

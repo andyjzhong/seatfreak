@@ -53,11 +53,6 @@
     animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
-/**
- * ----------------------------------------
- * animation tracking-in-contract
- * ----------------------------------------
- */
 @-webkit-keyframes tracking-in-contract {
   0% {
     letter-spacing: 1em;

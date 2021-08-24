@@ -10,9 +10,9 @@ const Home = () => {
     const {searchString, setSearchString, setLastSearch, previewState, setPreviewState, location, latLon, width} = useContext(DataContext);
     let responseArray = [];
 
-    useEffect(() => {
-        getPreviewData();
-    }, []);
+    useEffect((latLon) => {
+        getPreviewData(latLon);
+    }, [latLon]);
 
     const getPreviewData = (string) => {
 

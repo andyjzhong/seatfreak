@@ -1,10 +1,25 @@
 import React, { useContext } from 'react';
 import { DataContext } from '../../components/DataContext/DataContext'
+import { Button, Image, Modal, Select } from 'semantic-ui-react'
 import './TicketTable.css';
 
 const TicketTable = ({ eventDetail, showModal, setDisplayModal }) => {
 
     const { width } = useContext(DataContext);
+    const [open, setOpen] = React.useState(false)
+
+    console.log("eventDetail from TICKETTABLE", eventDetail);
+
+    const ticketOptions = [
+        { key: '1', value: '1', text: '1' },
+        { key: '2', value: '2', text: '2' },
+        { key: '3', value: '3', text: '3' },
+        { key: '4', value: '4', text: '4' },
+        { key: '5', value: '5', text: '5' },
+        { key: '6', value: '6', text: '6' },
+        { key: '7', value: '7', text: '7' },
+        { key: '8', value: '8', text: '8' }
+    ]
 
     return (
         <table className="ui selectable table">
@@ -26,7 +41,25 @@ const TicketTable = ({ eventDetail, showModal, setDisplayModal }) => {
                         </button>
                     </td>
                     <td style={(width <= 800) ? {textAlign: "right"} : {textAlign: "center"}}>
-                        <button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>$84/ea</button>
+                    <Modal
+                        onClose={() => setOpen(false)}
+                        onOpen={() => setOpen(true)}
+                        open={open}
+                        trigger={<button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>$84/ea</button>}
+                    >
+                        <Modal.Header>Purchase Tickets</Modal.Header>
+                        <Modal.Content image>
+                            <Image size='medium' src='https://i.imgur.com/xiAA7q0.png' wrapped />
+                            <Modal.Description>
+                                <p>How many tickets would you like to purchase?</p>
+                                <Select placeholder='Select number' options={ticketOptions} />
+                            </Modal.Description>
+                        </Modal.Content>
+                        <Modal.Actions>
+                            <Button onClick={() => setOpen(false)}>Cancel</Button>
+                            <Button onClick={() => setOpen(false)} positive>Confirm</Button>
+                        </Modal.Actions>
+                    </Modal>
                     </td>
                 </tr>
                 <tr>
@@ -39,7 +72,25 @@ const TicketTable = ({ eventDetail, showModal, setDisplayModal }) => {
                         </button>
                     </td>
                     <td style={(width <= 800) ? {textAlign: "right"} : {textAlign: "center"}}>
-                        <button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>$84/ea</button>
+                    <Modal
+                        onClose={() => setOpen(false)}
+                        onOpen={() => setOpen(true)}
+                        open={open}
+                        trigger={<button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>$84/ea</button>}
+                    >
+                        <Modal.Header>Purchase Tickets</Modal.Header>
+                        <Modal.Content image>
+                            <Image size='medium' src='https://i.imgur.com/xiAA7q0.png' wrapped />
+                            <Modal.Description>
+                                <p>How many tickets would you like to purchase?</p>
+                                <Select placeholder='Select number' options={ticketOptions} />
+                            </Modal.Description>
+                        </Modal.Content>
+                        <Modal.Actions>
+                            <Button onClick={() => setOpen(false)}>Cancel</Button>
+                            <Button onClick={() => setOpen(false)} positive>Confirm</Button>
+                        </Modal.Actions>
+                    </Modal>
                     </td>
                 </tr>
                 <tr>
@@ -52,7 +103,25 @@ const TicketTable = ({ eventDetail, showModal, setDisplayModal }) => {
                         </button>
                     </td>
                     <td style={(width <= 800) ? {textAlign: "right"} : {textAlign: "center"}}>
-                        <button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>$84/ea</button>
+                    <Modal
+                        onClose={() => setOpen(false)}
+                        onOpen={() => setOpen(true)}
+                        open={open}
+                        trigger={<button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>$84/ea</button>}
+                    >
+                        <Modal.Header>Purchase Tickets</Modal.Header>
+                        <Modal.Content image>
+                            <Image size='medium' src='https://i.imgur.com/xiAA7q0.png' wrapped />
+                            <Modal.Description>
+                                <p>How many tickets would you like to purchase?</p>
+                                <Select placeholder='Select number' options={ticketOptions} />
+                            </Modal.Description>
+                        </Modal.Content>
+                        <Modal.Actions>
+                            <Button onClick={() => setOpen(false)}>Cancel</Button>
+                            <Button onClick={() => setOpen(false)} positive>Confirm</Button>
+                        </Modal.Actions>
+                    </Modal>
                     </td>
                 </tr>
                 <tr>
@@ -78,7 +147,25 @@ const TicketTable = ({ eventDetail, showModal, setDisplayModal }) => {
                         </button>
                     </td>
                     <td style={(width <= 800) ? {textAlign: "right"} : {textAlign: "center"}}>
-                        <button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>$84/ea</button>
+                    <Modal
+                        onClose={() => setOpen(false)}
+                        onOpen={() => setOpen(true)}
+                        open={open}
+                        trigger={<button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>$84/ea</button>}
+                    >
+                        <Modal.Header>Purchase Tickets</Modal.Header>
+                        <Modal.Content image>
+                            <Image size='medium' src='https://i.imgur.com/xiAA7q0.png' wrapped />
+                            <Modal.Description>
+                                <p>How many tickets would you like to purchase?</p>
+                                <Select placeholder='Select number' options={ticketOptions} />
+                            </Modal.Description>
+                        </Modal.Content>
+                        <Modal.Actions>
+                            <Button onClick={() => setOpen(false)}>Cancel</Button>
+                            <Button onClick={() => setOpen(false)} positive>Confirm</Button>
+                        </Modal.Actions>
+                    </Modal>
                     </td>
                 </tr>
                 <tr>
@@ -91,7 +178,25 @@ const TicketTable = ({ eventDetail, showModal, setDisplayModal }) => {
                         </button>
                     </td>
                     <td style={(width <= 800) ? {textAlign: "right"} : {textAlign: "center"}}>
-                        <button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>$84/ea</button>
+                    <Modal
+                        onClose={() => setOpen(false)}
+                        onOpen={() => setOpen(true)}
+                        open={open}
+                        trigger={<button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>$84/ea</button>}
+                    >
+                        <Modal.Header>Purchase Tickets</Modal.Header>
+                        <Modal.Content image>
+                            <Image size='medium' src='https://i.imgur.com/xiAA7q0.png' wrapped />
+                            <Modal.Description>
+                                <p>How many tickets would you like to purchase?</p>
+                                <Select placeholder='Select number' options={ticketOptions} />
+                            </Modal.Description>
+                        </Modal.Content>
+                        <Modal.Actions>
+                            <Button onClick={() => setOpen(false)}>Cancel</Button>
+                            <Button onClick={() => setOpen(false)} positive>Confirm</Button>
+                        </Modal.Actions>
+                    </Modal>
                     </td>
                 </tr>
                 <tr>
@@ -104,7 +209,25 @@ const TicketTable = ({ eventDetail, showModal, setDisplayModal }) => {
                         </button>
                     </td>
                     <td style={(width <= 800) ? {textAlign: "right"} : {textAlign: "center"}}>
-                        <button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>$12/ea</button>
+                    <Modal
+                        onClose={() => setOpen(false)}
+                        onOpen={() => setOpen(true)}
+                        open={open}
+                        trigger={<button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>$15/ea</button>}
+                    >
+                        <Modal.Header>Purchase Tickets</Modal.Header>
+                        <Modal.Content image>
+                            <Image size='medium' src='https://i.imgur.com/xiAA7q0.png' wrapped />
+                            <Modal.Description>
+                                <p>How many tickets would you like to purchase?</p>
+                                <Select placeholder='Select number' options={ticketOptions} />
+                            </Modal.Description>
+                        </Modal.Content>
+                        <Modal.Actions>
+                            <Button onClick={() => setOpen(false)}>Cancel</Button>
+                            <Button onClick={() => setOpen(false)} positive>Confirm</Button>
+                        </Modal.Actions>
+                    </Modal>
                     </td>
                 </tr>
             </tbody>

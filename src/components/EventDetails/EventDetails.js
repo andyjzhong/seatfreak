@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { DataContext } from '../../components/DataContext/DataContext'
 import TicketTable from '../../components/TicketTable/TicketTable';
-import Modal from '../../components/Modal/Modal';
 import moment from 'moment';
 import './EventDetails.css';
 
@@ -42,9 +41,6 @@ const EventDetails = (props) => {
                 <h1 className="event-details-title">{ eventDetail.name }</h1>
                 <h3> { moment(eventDetail.dates.start.localDate).format("ddd")}, { moment(eventDetail.dates.start.localDate).format("MMM D") }, { moment(eventDetail.dates.start.dateTime).format("h:mma") }</h3>
                 <h3 className="event-details-venue">{ eventDetail._embedded.venues[0].name }</h3>
-
-                {(displayModal === "true") ? <Modal /> : null }
-
                 <div className={(width <= 800) ? `ui event-details-content` : `ui two column grid event-details-content`}>
                     <div className={(width <= 800) ? `ui event-details-col` : `ui eight wide column event-details-col`}>
                         <img alt="" className="seatmap" src={eventDetail.seatmap.staticUrl} style={{width: "100%"}}/>

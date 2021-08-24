@@ -49,7 +49,7 @@ const TicketTable = ({ eventDetail, showModal, setDisplayModal }) => {
                     >
                         <Modal.Header>Purchase Tickets</Modal.Header>
                         <Modal.Content image>
-                            <Image size='medium' src='https://i.imgur.com/xiAA7q0.png' wrapped />
+                            <Image size='medium' src='https://www.iglobalweb.com/content/uploads/Generic-concert-tickets-small-Small.jpg' wrapped />
                             <Modal.Description>
                                 <p>How many tickets would you like to purchase?</p>
                                 <Select placeholder='Select number' options={ticketOptions} />
@@ -80,7 +80,7 @@ const TicketTable = ({ eventDetail, showModal, setDisplayModal }) => {
                     >
                         <Modal.Header>Purchase Tickets</Modal.Header>
                         <Modal.Content image>
-                            <Image size='medium' src='https://i.imgur.com/xiAA7q0.png' wrapped />
+                            <Image size='medium' src='https://www.iglobalweb.com/content/uploads/Generic-concert-tickets-small-Small.jpg' wrapped />
                             <Modal.Description>
                                 <p>How many tickets would you like to purchase?</p>
                                 <Select placeholder='Select number' options={ticketOptions} />
@@ -111,7 +111,7 @@ const TicketTable = ({ eventDetail, showModal, setDisplayModal }) => {
                     >
                         <Modal.Header>Purchase Tickets</Modal.Header>
                         <Modal.Content image>
-                            <Image size='medium' src='https://i.imgur.com/xiAA7q0.png' wrapped />
+                            <Image size='medium' src='https://www.iglobalweb.com/content/uploads/Generic-concert-tickets-small-Small.jpg' wrapped />
                             <Modal.Description>
                                 <p>How many tickets would you like to purchase?</p>
                                 <Select placeholder='Select number' options={ticketOptions} />
@@ -134,7 +134,25 @@ const TicketTable = ({ eventDetail, showModal, setDisplayModal }) => {
                         </button>
                     </td>
                     <td style={(width <= 800) ? {textAlign: "right"} : {textAlign: "center"}}>
-                        <button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>${Math.floor(Math.random() * 30) + 80}/ea</button>
+                    <Modal
+                        onClose={() => setOpen(false)}
+                        onOpen={() => setOpen(true)}
+                        open={open}
+                        trigger={<button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>${Math.floor(Math.random() * 30) + 80}/ea</button>}
+                    >
+                        <Modal.Header>Purchase Tickets</Modal.Header>
+                        <Modal.Content image>
+                            <Image size='medium' src='https://www.iglobalweb.com/content/uploads/Generic-concert-tickets-small-Small.jpg' wrapped />
+                            <Modal.Description>
+                                <p>How many tickets would you like to purchase?</p>
+                                <Select placeholder='Select number' options={ticketOptions} />
+                            </Modal.Description>
+                        </Modal.Content>
+                        <Modal.Actions>
+                            <Button onClick={() => setOpen(false)}>Cancel</Button>
+                            <Button onClick={() => setOpen(false)} positive>Confirm</Button>
+                        </Modal.Actions>
+                    </Modal>
                     </td>
                 </tr>
                 <tr>
@@ -155,7 +173,7 @@ const TicketTable = ({ eventDetail, showModal, setDisplayModal }) => {
                     >
                         <Modal.Header>Purchase Tickets</Modal.Header>
                         <Modal.Content image>
-                            <Image size='medium' src='https://i.imgur.com/xiAA7q0.png' wrapped />
+                            <Image size='medium' src='https://www.iglobalweb.com/content/uploads/Generic-concert-tickets-small-Small.jpg' wrapped />
                             <Modal.Description>
                                 <p>How many tickets would you like to purchase?</p>
                                 <Select placeholder='Select number' options={ticketOptions} />
@@ -186,7 +204,7 @@ const TicketTable = ({ eventDetail, showModal, setDisplayModal }) => {
                     >
                         <Modal.Header>Purchase Tickets</Modal.Header>
                         <Modal.Content image>
-                            <Image size='medium' src='https://i.imgur.com/xiAA7q0.png' wrapped />
+                            <Image size='medium' src='https://www.iglobalweb.com/content/uploads/Generic-concert-tickets-small-Small.jpg' wrapped />
                             <Modal.Description>
                                 <p>How many tickets would you like to purchase?</p>
                                 <Select placeholder='Select number' options={ticketOptions} />
@@ -217,7 +235,7 @@ const TicketTable = ({ eventDetail, showModal, setDisplayModal }) => {
                     >
                         <Modal.Header>Purchase Tickets</Modal.Header>
                         <Modal.Content image>
-                            <Image size='medium' src='https://i.imgur.com/xiAA7q0.png' wrapped />
+                            <Image size='medium' src='https://www.iglobalweb.com/content/uploads/Generic-concert-tickets-small-Small.jpg' wrapped />
                             <Modal.Description>
                                 <p>How many tickets would you like to purchase?</p>
                                 <Select placeholder='Select number' options={ticketOptions} />

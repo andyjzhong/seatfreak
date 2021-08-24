@@ -17,6 +17,7 @@ API Keys for the following APIs are required to run locally.
 -   [IpInfo](https://ipinfo.io)
 
 In the project directory, you can run:
+#### `npm install`
 #### `npm start`
 
 ## Tech Stack

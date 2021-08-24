@@ -46,4 +46,4 @@ In the project directory, you can run:
 ## Challenges
 -   The most difficult part of the project was determining the right API. Given the short timeframe, I knew it was integral for me to find an API I felt comfortable working with. I had a number of Project 2 ideas that would have been difficult to implement because I couldn't find a quality API to retrieve data from.
 -   Responsive design is extremely important to me so as with Project 1, I felt it was important to focus on making it look professional and mobile ready. Once I got going with responsive styling, it wasn't too bad, but I realized afterwards that there could have been better and easier ways to do it.
--   One part that was tricky was sorting the event data by date.
+-   Because the event data that was returned from the response was not in chronological order, it took a little bit of time to sort the data by date. Once I learned how to do it though, it didn't seem quite as scary.

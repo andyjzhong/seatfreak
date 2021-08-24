@@ -45,7 +45,7 @@ const TicketTable = ({ eventDetail, showModal, setDisplayModal }) => {
                         onClose={() => setOpen(false)}
                         onOpen={() => setOpen(true)}
                         open={open}
-                        trigger={<button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>$84/ea</button>}
+                        trigger={<button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>$25/ea</button>}
                     >
                         <Modal.Header>Purchase Tickets</Modal.Header>
                         <Modal.Content image>
@@ -76,7 +76,7 @@ const TicketTable = ({ eventDetail, showModal, setDisplayModal }) => {
                         onClose={() => setOpen(false)}
                         onOpen={() => setOpen(true)}
                         open={open}
-                        trigger={<button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>$84/ea</button>}
+                        trigger={<button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>${Math.floor(Math.random() * 30) + 30}/ea</button>}
                     >
                         <Modal.Header>Purchase Tickets</Modal.Header>
                         <Modal.Content image>
@@ -107,7 +107,7 @@ const TicketTable = ({ eventDetail, showModal, setDisplayModal }) => {
                         onClose={() => setOpen(false)}
                         onOpen={() => setOpen(true)}
                         open={open}
-                        trigger={<button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>$84/ea</button>}
+                        trigger={<button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>${Math.floor(Math.random() * 50) + 30}/ea</button>}
                     >
                         <Modal.Header>Purchase Tickets</Modal.Header>
                         <Modal.Content image>
@@ -134,7 +134,7 @@ const TicketTable = ({ eventDetail, showModal, setDisplayModal }) => {
                         </button>
                     </td>
                     <td style={(width <= 800) ? {textAlign: "right"} : {textAlign: "center"}}>
-                        <button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>$84/ea</button>
+                        <button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>${Math.floor(Math.random() * 30) + 80}/ea</button>
                     </td>
                 </tr>
                 <tr>
@@ -151,7 +151,7 @@ const TicketTable = ({ eventDetail, showModal, setDisplayModal }) => {
                         onClose={() => setOpen(false)}
                         onOpen={() => setOpen(true)}
                         open={open}
-                        trigger={<button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>$84/ea</button>}
+                        trigger={<button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>${Math.floor(Math.random() * 30) + 20}/ea</button>}
                     >
                         <Modal.Header>Purchase Tickets</Modal.Header>
                         <Modal.Content image>
@@ -182,7 +182,7 @@ const TicketTable = ({ eventDetail, showModal, setDisplayModal }) => {
                         onClose={() => setOpen(false)}
                         onOpen={() => setOpen(true)}
                         open={open}
-                        trigger={<button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>$84/ea</button>}
+                        trigger={<button className="ui secondary button" style={(width <= 800) ? {width: "100%"} : {width: "8rem"}}>${Math.floor(Math.random() * 30) + 10}/ea</button>}
                     >
                         <Modal.Header>Purchase Tickets</Modal.Header>
                         <Modal.Content image>

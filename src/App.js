@@ -51,8 +51,8 @@ function App() {
     const [events, setEvents] = useState([]);
     const [previewState, setPreviewState] = useState([]);
     const [currentPic, setCurrentPic] = useState()
-    const [location, setLocation] = useState("Chicago, Illinois")
-    const [latLon, setLatLon] = useState("41.739685,-87.554420")
+    const [location, setLocation] = useState("Boston, Massachusetts")
+    const [latLon, setLatLon] = useState("42.361145,-71.057083")
     const { height, width } = useWindowDimensions();
 
     useEffect((searchString, latLon) => {

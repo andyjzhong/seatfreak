@@ -51,7 +51,7 @@ function App() {
     const [events, setEvents] = useState([]);
     const [previewState, setPreviewState] = useState([]);
     const [currentPic, setCurrentPic] = useState()
-    const [location, setLocation] = useState("Boston, Massachusetts")
+    const [location, setLocation] = useState("Chicago, Illinois")
     const [latLon, setLatLon] = useState("41.739685,-87.554420")
     const { height, width } = useWindowDimensions();
 
